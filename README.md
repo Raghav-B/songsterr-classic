@@ -39,24 +39,26 @@ replace its files and click **Reload** on its card in `chrome://extensions`.
 
 ### Firefox
 
-The release target is a **Mozilla-signed XPI**, hosted here on GitHub rather
-than listed in Mozilla's add-on directory. Once signed:
+**The current Firefox XPI is unsigned and supports temporary installation only.**
+Regular Firefox rejects it through **Install Add-on From File…**, or when
+opening the XPI directly, with: “This add-on could not be installed because it
+has not been verified.” Downloading from GitHub does not skip that signature check.
 
-1. Download `songsterr-classic-0.3.1-firefox.xpi` from Releases. Keep it as an
-   XPI; don't extract it.
-2. Open `about:addons`, click the gear menu and choose **Install Add-on From File…**.
-3. Select the XPI and approve Firefox's installation prompt.
+1. Download `songsterr-classic-0.3.1-firefox.xpi` from Releases. If Firefox tries
+   to install it immediately, use **Save Link As…**. Don't extract it.
+2. Open `about:debugging#/runtime/this-firefox`.
+3. Choose **Load Temporary Add-on** and select the downloaded XPI.
 4. Open a Songsterr song, then use **Extensions → Songsterr Classic**.
 
-A signed installation stays installed after Firefox restarts. No Developer
-Edition or changed security settings are needed. To update, download the newer
-signed XPI and install it the same way. Automatic updates aren't configured.
+**Firefox removes the temporary add-on when it closes.** Load it again using
+the same steps after restarting. To update, remove the temporary add-on and
+load the newer XPI.
 
-**Signing is pending for the current draft.** Its XPI is still unsigned and
-cannot use the persistent installation steps above. For testing, save the XPI
-with **Save Link As…**, open `about:debugging#/runtime/this-firefox`, and choose
-**Load Temporary Add-on**. This temporary installation is removed when Firefox
-closes. Check the release notes for the signing status before downloading.
+Persistent installation in regular Firefox needs a Mozilla-signed package.
+Signing is on hold; this download is not signed. If a signed build becomes
+available, its release notes will say so, and it can be installed through
+`about:addons` → gear menu → **Install Add-on From File…**. Automatic updates
+aren't configured.
 
 ### Remove
 

@@ -1,8 +1,10 @@
 # Release preparation
 
-Chrome ships as an unpacked-extension ZIP. Firefox ships as a Mozilla-signed,
-unlisted XPI hosted on GitHub Releases. Unlisted describes distribution, not a
-review exemption. Do not label an unsigned build as persistently installable.
+Chrome ships as an unpacked-extension ZIP. The current Firefox XPI is unsigned
+and supports temporary loading only. Signing is on hold: do not submit to
+Mozilla without the repository owner's request. Keep this limitation explicit
+in the README and release notes. Do not label an unsigned build as persistently
+installable.
 
 ## Prepare
 
@@ -18,7 +20,10 @@ Keep the complete lint output for reviewers. Warnings are not approval and
 must not be silently filtered out. Select desktop platforms for this release;
 Android has not been tested.
 
-## Sign Firefox
+## Optional future Firefox signing
+
+If signing is requested, use Mozilla's unlisted distribution route. Unlisted
+describes distribution, not a review exemption.
 
 1. Sign in to the [Mozilla developer hub](https://addons.mozilla.org/developers/).
 2. Submit a new add-on, choosing **On your own** (unlisted distribution).
@@ -36,7 +41,7 @@ Keep signing credentials out of the repository, release assets and chat. Never
 modify or re-zip the XPI after Mozilla signs it. Every updated Firefox package
 needs its own signature; uploading an XPI to GitHub does not sign it.
 
-## Verify and stage
+## Verify a signed build
 
 - Install the signed XPI through **Install Add-on From File** in a fresh standard
   Firefox profile with default signature enforcement. Restart that test browser
@@ -47,6 +52,13 @@ needs its own signature; uploading an XPI to GitHub does not sign it.
 - Keep Chrome ZIP, Firefox XPI and source ZIP at the same extension version.
 - Update README and release notes from signing-pending to signed only after
   verification. Keep unsigned temporary-loading instructions in development docs.
+
+## Stage either package type
+
+- For an unsigned Firefox build, retain the README's temporary-loading steps
+  and state that **Install Add-on From File** does not work in regular Firefox.
+- Generate SHA256SUMS from the exact downloadable Chrome ZIP, Firefox XPI and
+  source ZIP, and verify the uploaded assets against those hashes.
 - Confirm the release is still a draft and repository visibility is unchanged.
   Public publication remains the repository owner's final action/approval.
 
