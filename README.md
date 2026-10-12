@@ -3,6 +3,16 @@
 A personal, opt-in Chrome extension that renders the archived July 15, 2026
 Songsterr interface on today's Songsterr song pages. Task: T604.
 
+## Compatibility audit
+
+The [12 October API and local-packaging guide](docs/compatibility-guide-2026-10-12.md)
+compares 124 July and 138 current JavaScript modules and inventories 190 HTTP
+route patterns. It separates static compatibility candidates from actual
+browser evidence and records a successful extension-owned asset-loading
+prototype. This does **not** enable writes or alter the installed preview.
+The [endpoint-by-endpoint appendix](docs/api-endpoint-inventory-2026-10-12.md)
+includes source offsets, field differences and unresolved dynamic calls.
+
 ## Install and use
 
 1. Extract the delivered ZIP into a permanent folder (do not leave it in a ZIP).

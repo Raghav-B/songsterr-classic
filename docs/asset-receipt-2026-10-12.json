@@ -1,0 +1,2249 @@
+{
+  "page": "https://www.songsterr.com/a/wsa/red-hot-chili-peppers-californication-tab-s439?sw=off",
+  "scope": "Recursive hashed JS/CSS/WASM filenames referenced from the two entry graphs; not the server API specification.",
+  "july": {
+    "entries": [
+      "appClient-CQbxiWv10TmWc-Ge.js",
+      "appClient-442d1888c9.css",
+      "common-7b4ff45b27.css"
+    ],
+    "assets": {
+      "appClient-442d1888c9.css": {
+        "bytes": 233158,
+        "sha256": "a393ae3a9c5fae2d45f7878043498c7d7546e6fb07b5a3cdaf6d16cba25f7db5",
+        "source": "retained-local"
+      },
+      "appClient-CQbxiWv10TmWc-Ge.js": {
+        "bytes": 959128,
+        "sha256": "b4ca761f3337a126a5e9d2cbc74e9178b2a63c30aad85400fbc3c4ba20fbc064",
+        "source": "retained-local"
+      },
+      "common-7b4ff45b27.css": {
+        "bytes": 252788,
+        "sha256": "817e37d114f59af0d5979f10651a8509eb0922293846e588a31f4227bfac0b6e",
+        "source": "retained-local"
+      },
+      "AIAssistant-044d0c38cb.css": {
+        "bytes": 14057,
+        "sha256": "ec8191aa619d418c0573405bffb894b45bf2df28b82053774105602824876e43",
+        "source": "retained-local"
+      },
+      "AIAssistant-C8L-58PoLRPSKVq_.js": {
+        "bytes": 168464,
+        "sha256": "a803fb313a96db6920dc5dc40639a5cfdb188be46693c3482c5a68fb088738da",
+        "source": "retained-local"
+      },
+      "AIChatCloseOnboarding-60d7fcbe13.css": {
+        "bytes": 111,
+        "sha256": "ee7a9ae43c20c41ac2393b75ab022de1890f4838734cac23d5370d5e23beed97",
+        "source": "retained-local"
+      },
+      "AIChatCloseOnboarding-BUISAsQFx3A1Hjn_.js": {
+        "bytes": 2752,
+        "sha256": "269f66ffec0a7cae104f67cdde28231fda6a485e02bfc9b7fc16aa473b474b6c",
+        "source": "retained-local"
+      },
+      "AIFullTabPlusOverlay-1370c195d3.css": {
+        "bytes": 824,
+        "sha256": "7ab84849cb149b48947233572e516a5c3fb8133e1f999ace8232d3a7e1dec7a9",
+        "source": "retained-local"
+      },
+      "AIFullTabPlusOverlay-fJ8MqDcYp1qZwydy.js": {
+        "bytes": 5164,
+        "sha256": "12663aa96be13737a8a65949d516c4f30dd7bd510fa6912a72b72768a109b236",
+        "source": "retained-local"
+      },
+      "AboutPanel-B25Z10O8SEFr_Dfp.js": {
+        "bytes": 32736,
+        "sha256": "57a72a4ed7eecff1f4c608c3b360ccd88941c0483bd3bbcd8f5f5105a4751d1e",
+        "source": "retained-local"
+      },
+      "AboutPanel-b5625d121f.css": {
+        "bytes": 1207,
+        "sha256": "d9559aaccfb4ee758cfe54effed5692926230dc7c16619eccb7e25bff7c7f62a",
+        "source": "retained-local"
+      },
+      "AccountPanel-BqlVmVHuDmUsoKdc.js": {
+        "bytes": 77505,
+        "sha256": "0d1f2ee787972bb6340a6941fa529be69f6814711b7a52ba445c6e4e056c07c2",
+        "source": "retained-local"
+      },
+      "AccountPanel-b1a219f826.css": {
+        "bytes": 11090,
+        "sha256": "d56fc28ccebb4cbccfef9d609eba8606900ad01f7e0abd89d1f26fa849af9b9e",
+        "source": "retained-local"
+      },
+      "ActionResolvingModal-0ab5acce82.css": {
+        "bytes": 656,
+        "sha256": "36f8498d168f77a446af7bd45825bc2ee232a1493fa1dede57108516e16f461a",
+        "source": "retained-local"
+      },
+      "ActionResolvingModal-DV0SNk47xOxt7R8S.js": {
+        "bytes": 15430,
+        "sha256": "ab09acc45cc4ce922f252ca5e416ee54c349e8f62f30037501f122a508f15fe2",
+        "source": "retained-local"
+      },
+      "AddTrack-18b855e113.css": {
+        "bytes": 5587,
+        "sha256": "3321bd6c0ad055840a327e0484f4799f625848a7d08789e1d99c030bcce741bd",
+        "source": "retained-local"
+      },
+      "AddTrack-DHNTx5d8lw2f0RrM.js": {
+        "bytes": 36854,
+        "sha256": "0667cae3df71f63abfd6d18e24af51eea56c7d33d757fa56bfe4a29a8fcd37b0",
+        "source": "retained-local"
+      },
+      "AnacrusisEditor-CwHw8s7dy8A0uacH.js": {
+        "bytes": 5244,
+        "sha256": "013830f04478f9c96add5deca22a646e834b14d8b3703c40ccf26acbf6e7e210",
+        "source": "retained-local"
+      },
+      "AnacrusisEditor-edc84ebbcf.css": {
+        "bytes": 567,
+        "sha256": "ee82b5b972d4064e2209d199df9f84c77fe7876ead35096ede0ad0b15dd34269",
+        "source": "retained-local"
+      },
+      "AppChords-BBB_Lto8SdBgCEtg.js": {
+        "bytes": 31385,
+        "sha256": "30caacc287e03cb35b421ae31077307d291aa28ab69b7604fb5a537cbea7bf74",
+        "source": "retained-local"
+      },
+      "AppChords-f46bb6bd9d.css": {
+        "bytes": 9886,
+        "sha256": "7e3c48ccacf586a52d20883ad39e3cf04ffd9d97c84bb56238af02441b3a29a5",
+        "source": "retained-local"
+      },
+      "AppDiff-8dbc3d58a9.css": {
+        "bytes": 18836,
+        "sha256": "5d24673358745c19e9caa3763a1663e1771993267f395844e9e2931b060977a1",
+        "source": "retained-local"
+      },
+      "AppDiff-Bb18u-08xfL48Uru.js": {
+        "bytes": 75033,
+        "sha256": "5b7192fe508a7821e6c300c5a10141b2b135ceaf275db57b5253da66cbf7fa37",
+        "source": "retained-local"
+      },
+      "AppPlus-D0s0ysMg7kAkgJ3V.js": {
+        "bytes": 98140,
+        "sha256": "ba19e70f2179c81a5a28953ba7ac7a6577e035e68089fd03079706dc74ddc61d",
+        "source": "retained-local"
+      },
+      "AppPlus-e29e8adf65.css": {
+        "bytes": 21716,
+        "sha256": "7314cc1a3e39919d6348da4573698b1910584cd21f05927a9547d3b02760b77b",
+        "source": "retained-local"
+      },
+      "AppTags-BVEUkSs9-QMF7p3R.js": {
+        "bytes": 5921,
+        "sha256": "186ec6f7d4107aa631969ededecbbdca90d0d2402d0aad54dd3155326038b986",
+        "source": "retained-local"
+      },
+      "AppTags-ced9219a7b.css": {
+        "bytes": 1911,
+        "sha256": "992c46e4dff1301f8ba3dfe3c46037506a84ceb462798b1a01b3499207a73d8b",
+        "source": "retained-local"
+      },
+      "ArpeggioEditor-T7mdf3S8GIZLHYeT.js": {
+        "bytes": 2675,
+        "sha256": "17405beb91b991c86da6d2d6b43dfaebf7b3821da945676b1498014ccc4b8f3d",
+        "source": "retained-local"
+      },
+      "ArtificialHarmonicEditor-CWvYh7Ic_HNTFnHY.js": {
+        "bytes": 11312,
+        "sha256": "b76c99ba729bb68e682bc73c0a83fc2ab0e88f484ad6ed3287658ee2d3e44e6c",
+        "source": "retained-local"
+      },
+      "ArtificialHarmonicEditor-cc2edd9327.css": {
+        "bytes": 1389,
+        "sha256": "da213fb5946672179ea7ed0eae4c1f80e434f5074b9e21669504078e6aca72a6",
+        "source": "retained-local"
+      },
+      "ArtistPanel-1c5fc7fbf1.css": {
+        "bytes": 1630,
+        "sha256": "95d2821e66083817ddf8a88db1a2455fc606f78233f36b97c223c45446fae48f",
+        "source": "retained-local"
+      },
+      "ArtistPanel-DF8Iklr0bzJsMGqM.js": {
+        "bytes": 8068,
+        "sha256": "200a575a7350f4f7fdf7364e3c7e80e7a6422e01f4035428d13109c510a865b3",
+        "source": "retained-local"
+      },
+      "AudioUploadModal-8fc0f1b49a.css": {
+        "bytes": 3321,
+        "sha256": "4f1e685b20b1f015cb2987038e68c033b32e8e14720b440b1e3f788c03dcf022",
+        "source": "retained-local"
+      },
+      "AudioUploadModal-DsWXTsH9UfhuHgUB.js": {
+        "bytes": 22128,
+        "sha256": "4db2c502d2e9a1482e85e9b724d53c81f90f68ddb240eca35adf78803ba07880",
+        "source": "retained-local"
+      },
+      "AutocompletePlusPopup-59bf911607.css": {
+        "bytes": 331,
+        "sha256": "798fa4d803f238afe67b28afbd1916979b64bda952fde3f2d9a41cecc1314f7d",
+        "source": "retained-local"
+      },
+      "AutocompletePlusPopup-CJoL3cJjL6dsvVmw.js": {
+        "bytes": 8737,
+        "sha256": "728d313a10944fc16d6c40ecbb41492891c45d3c68b4842fd4be64555d780a1a",
+        "source": "retained-local"
+      },
+      "BarMenu-CwRUhzJp_GIuPhC5.js": {
+        "bytes": 4332,
+        "sha256": "111a66c049c17b010076042ae05fdc038e8f5be6c5bde5bd71e51b6d626afecf",
+        "source": "retained-local"
+      },
+      "BarMenu-d061d6a1f5.css": {
+        "bytes": 2798,
+        "sha256": "5b08d12b95117934060fdeae8c10d23dc75b5f565ba4e765e2b9d2f95795d825",
+        "source": "retained-local"
+      },
+      "BendEditor-4eb88ad827.css": {
+        "bytes": 2227,
+        "sha256": "5a48f04a70484d75939bce7c9b50fdab86315f8cbae9a5249c274435d822a2ec",
+        "source": "retained-local"
+      },
+      "BendEditor-qUyigQzw21YJZR2Q.js": {
+        "bytes": 26158,
+        "sha256": "5abdb2e970fc7a927fbd2f73478c593f0e44db3ccd5719bbfb33ed557c015f61",
+        "source": "retained-local"
+      },
+      "BrushStrokeEditor-W0LxKY1EGh6hs5Nb.js": {
+        "bytes": 3010,
+        "sha256": "1b9a86f8442363c42af8c3a9d18554f6d5b5c0c0764683a2c954a184fae485e6",
+        "source": "retained-local"
+      },
+      "CancelPlusPanel-B-AwWVx_ZYNl_YQZ.js": {
+        "bytes": 18176,
+        "sha256": "4749dd131d5a5cd0ed202befac09e9b3c71531a6b1f188cebc096b33a017b74d",
+        "source": "retained-local"
+      },
+      "ChangeEmailPanel-D-LC7o352AtfYFQj.js": {
+        "bytes": 13438,
+        "sha256": "029be00de753d4c0b35818f4df44c892abf353a4f30ede680cd14580869e48fb",
+        "source": "retained-local"
+      },
+      "ChangeNamePanel-SPPgT6uyXdi_TxNc.js": {
+        "bytes": 3690,
+        "sha256": "24f575c68528ab70ded5b843eea6ba4b649012988f77532b4c920e0777813122",
+        "source": "retained-local"
+      },
+      "ChangePasswordPanel-BDfNjkXhUGowpmf4.js": {
+        "bytes": 6163,
+        "sha256": "725981335a7a1840f83c2d3e34eec014c7c280c5eda2436356925f0c88de72b1",
+        "source": "retained-local"
+      },
+      "ChangesPreview-Dq-JhWKTPvvORJ_y.js": {
+        "bytes": 12006,
+        "sha256": "c628f5b16208007e273611e17b535f41befe92e33c661e15b5a656fcf728d383",
+        "source": "retained-local"
+      },
+      "ChangesPreview-ae1eae1c34.css": {
+        "bytes": 4231,
+        "sha256": "db4b559fb86cbf77ebc13932c4a0d5548cb27990f35f081a2e0c59bdc8bdb202",
+        "source": "retained-local"
+      },
+      "ConsentManager-1fc314c7dc.css": {
+        "bytes": 8440,
+        "sha256": "73cd7c75ed80f62fe8a77466b7d25a53eca559b798da2c44d3b6c7af23bc129f",
+        "source": "retained-local"
+      },
+      "ConsentManager-BBSxRKUaS17FE52N.js": {
+        "bytes": 119335,
+        "sha256": "0c8b84078f56edcf7efc648fd8ecd8293cfcd4b6e69123b2ca75a6ec1dac8b77",
+        "source": "retained-local"
+      },
+      "ConstraintsModal-06a2d9a7b1.css": {
+        "bytes": 1544,
+        "sha256": "834eb046aa97d638be1cc27f311e5c798af130817bff75e95433e152cc453b9f",
+        "source": "retained-local"
+      },
+      "ConstraintsModal-wfkE_5lrsuC8bCvp.js": {
+        "bytes": 10213,
+        "sha256": "4a7091cbf6777b6cd01b2d4cbf580aba872d5ccbefaf5db6336de41dca7c297f",
+        "source": "retained-local"
+      },
+      "ContextHintPopup-bc35257f36.css": {
+        "bytes": 3029,
+        "sha256": "4976a4182dba563b4d0a4db60cad043fe949dae536b295c628de7e3a6760320b",
+        "source": "retained-local"
+      },
+      "ContextHintPopup-q9r5QDjeWKLYcwid.js": {
+        "bytes": 76833,
+        "sha256": "ea60e4752b49607aaa91891798289129977922e47efacf4211ce17faa308edb5",
+        "source": "retained-local"
+      },
+      "ContextToolbar-IsSclNJVnSqI5d94.js": {
+        "bytes": 19603,
+        "sha256": "14e46cfee21c2323273293c7503541d35b8cbdc9f3bcf48a371ddb1ebd68e82b",
+        "source": "retained-local"
+      },
+      "ContextToolbarEffect-B37QmGeQX8H0bh97.js": {
+        "bytes": 7081,
+        "sha256": "29d418b6881a460bb9ed9c6dc5f983c75a97ca8c9b858e7805586050f2c29c94",
+        "source": "retained-local"
+      },
+      "CouponPanel-B7HAZr7fpOAU2J1u.js": {
+        "bytes": 4692,
+        "sha256": "f232977661824832e3018ecf7179462894f5938ddba9a099b9409683e75fd6df",
+        "source": "retained-local"
+      },
+      "DeactivatePanel-BYTWkaRdzdDHIFww.js": {
+        "bytes": 6001,
+        "sha256": "fb1e407ba738857fb5e3fc8c305c8a716847b61800e265d6311ed3c89d785db4",
+        "source": "retained-local"
+      },
+      "DisableExtensionsModal-D-xysGCD39p3UFGa.js": {
+        "bytes": 5554,
+        "sha256": "6ddf3f66b200446f36c5fcdd68ba86b295cca0c8fffc59280b5540d1a4e99cd1",
+        "source": "retained-local"
+      },
+      "DisableExtensionsModal-f13725c29d.css": {
+        "bytes": 600,
+        "sha256": "78ff788912bcfd1049f62c66bad3125c9ecfe5f48ca536b0a4018bf0159149c9",
+        "source": "retained-local"
+      },
+      "DownloadEditsConfirmModal-4d5ec3c0b4.css": {
+        "bytes": 715,
+        "sha256": "bbc349da6bff74b55288f6c42a436d9442b5ef4c4cb37d4fb3f0fffcee7a72f6",
+        "source": "retained-local"
+      },
+      "DownloadEditsConfirmModal-BGDb7pAeiwZ8CcSC.js": {
+        "bytes": 7085,
+        "sha256": "414bf56ac8bb77b5a24a1da0d8ac6264a4c8701dbcd9267c8a5706c3ede4d22b",
+        "source": "retained-local"
+      },
+      "DownloadPopup-59771d97a1.css": {
+        "bytes": 958,
+        "sha256": "d72c6222dfca7f147f77e471fe8da776fbd6dbea3c60bcc4b7595f7a2c93ec17",
+        "source": "retained-local"
+      },
+      "DownloadPopup-DSr0SMn8BOjth3dc.js": {
+        "bytes": 28900,
+        "sha256": "6954ddd9e10124d874049c2964f2dc8ca3cf9d616606a932d15c5eb2c443fdc8",
+        "source": "retained-local"
+      },
+      "DraggableDrumBlock-BKSkpbLxOaXo5Wc4.js": {
+        "bytes": 323,
+        "sha256": "ac0f5e47da0ae9e303611d5e27594f5fa424bc25022b9ce440a7532c7400b3e0",
+        "source": "retained-local"
+      },
+      "DrumLegend-5732ab59d6.css": {
+        "bytes": 4515,
+        "sha256": "b84113412a0157452d49646f1fd64881ccb190098dcc2b7e4451160178e74c1b",
+        "source": "retained-local"
+      },
+      "DrumLegend-D7GKgUj8qux4_cZu.js": {
+        "bytes": 24326,
+        "sha256": "3a195a71a89001170e00e4e2f1ffd5593da9fe1f5643ed17d3b56bf7b8c29352",
+        "source": "retained-local"
+      },
+      "EditAnalysisPanel-ChHVbZ_MmGOoHG6C.js": {
+        "bytes": 27996,
+        "sha256": "605f3bd98d02c243b587c81efa493d64ca64897e98c24bc4dc3ea60492742b90",
+        "source": "retained-local"
+      },
+      "EditAnalysisPanel-d18653d26d.css": {
+        "bytes": 6469,
+        "sha256": "9e30823d836f6b246d9a2213dd3ffdb9e2be0839e87c4bac1ffcb14bf3555579",
+        "source": "retained-local"
+      },
+      "EditRepeatEnd-6e4b68df44.css": {
+        "bytes": 1013,
+        "sha256": "29746586ab4ae73cf1fc94f79abc932d73fac59382c6d6656ba9e02f500fd3e1",
+        "source": "retained-local"
+      },
+      "EditRepeatEnd-tbNwZLxhN9QA9feA.js": {
+        "bytes": 10596,
+        "sha256": "9a27e608faeb6b66e8fd44289e755966a5a83087c2b4fe4925157336997920e9",
+        "source": "retained-local"
+      },
+      "EditorBarWarningButtons-0fcf23523f.css": {
+        "bytes": 2143,
+        "sha256": "aee10b8f789a51efa9cc4bd4b37f9979c6c070b73428835ba37045a5ef98f826",
+        "source": "retained-local"
+      },
+      "EditorBarWarningButtons-DksHieAGFtqY7XjN.js": {
+        "bytes": 22076,
+        "sha256": "1ff6bf0a8644a1280518d42d342c7a63364660c4bd5f603ef6c730930ae5faf5",
+        "source": "retained-local"
+      },
+      "EditorBeatChord-BkmRsHEhH1uqGnNs.js": {
+        "bytes": 24694,
+        "sha256": "caf25e0e8438d29a00dabcb062c0532d857f6f26249162538bc919cdd65b3746",
+        "source": "retained-local"
+      },
+      "EditorBeatChord-fde546e543.css": {
+        "bytes": 2957,
+        "sha256": "363c7fa9b5a3619be88b5cef13a0d53d7b6bdff7c35022a0efcbafb8d893833a",
+        "source": "retained-local"
+      },
+      "EditorBeatTextAnnotation-CPbQ1bncFlaVhXeg.js": {
+        "bytes": 5188,
+        "sha256": "2a48e78681709413f3f4369f6a93bb233dfccfd513d982342cfd525a5cd332fe",
+        "source": "retained-local"
+      },
+      "EditorBeatTextAnnotation-b804be6a59.css": {
+        "bytes": 477,
+        "sha256": "5435678a6b01c3f76c68703bec10ea482476cc416f667ed084a7e788736f54cf",
+        "source": "retained-local"
+      },
+      "EditorMultiPropagateButton-BsDo5Bdmy0gTyAJP.js": {
+        "bytes": 654,
+        "sha256": "d3ed23502b027bcb6a816620beb655daea33564bbe0d73b205911a07dc6c76b7",
+        "source": "retained-local"
+      },
+      "EditorMultiSurface-1c4815955f.css": {
+        "bytes": 2158,
+        "sha256": "0bfdb2222f50c71ce7d8d4ec0367e56c7daa79b9e3b0d02d4e461c50ba595603",
+        "source": "retained-local"
+      },
+      "EditorMultiSurface-DCsm1w64vSHK4K6U.js": {
+        "bytes": 2663,
+        "sha256": "3d3ab044f6a3af6880a772f72ea0a8bdfc9461a432403cf3f1fed107a75b27f5",
+        "source": "retained-local"
+      },
+      "EditorPropagateWithHighlightButton-D9AyZNURiYMEzs5O.js": {
+        "bytes": 475,
+        "sha256": "cb72d770b69348240e8711e5438d91319de66ce9279acdd54ef54e1f6428dffa",
+        "source": "retained-local"
+      },
+      "EditorSignupOverlay-50d6767d63.css": {
+        "bytes": 377,
+        "sha256": "f10191c91debc8ec7a71a100ac276f8b0cc14bc45748ad8bd90c373f8f212798",
+        "source": "retained-local"
+      },
+      "EditorSignupOverlay-C1-VIjzmBaD3MMhu.js": {
+        "bytes": 943,
+        "sha256": "f48dc519b53db08e57c3c6577a008b3186e5e4213bbdb166051bf68eb1ea046c",
+        "source": "retained-local"
+      },
+      "FastRecorder-DzAO8rH16nMw1Fhg.js": {
+        "bytes": 4929,
+        "sha256": "5d283fc133991026e3f1df76c72617465bfcb2c7e60fe4c4cdf6950c640abde1",
+        "source": "retained-local"
+      },
+      "FermataSettings-BR9Ltyb4KgnGqCDK.js": {
+        "bytes": 8999,
+        "sha256": "d67bf0ebffa141de8ff7368f2bb1120f88e3c9deda5ec6cc39ce8c332e958af9",
+        "source": "retained-local"
+      },
+      "FermataSettings-abeca47cb3.css": {
+        "bytes": 2673,
+        "sha256": "9a5290ebf9b27ee0931de0a6dabe92856ee928104ff4771755db86cd4601790e",
+        "source": "retained-local"
+      },
+      "FixBarsConfirmModal-7dc1360f89.css": {
+        "bytes": 575,
+        "sha256": "d4f8a4acffb0ab74fc20f5bedb42abbdadcb111b91413203d0037333204fe32a",
+        "source": "retained-local"
+      },
+      "FixBarsConfirmModal-DWeAtfDIUrS1TsJH.js": {
+        "bytes": 5912,
+        "sha256": "fc9e5fe6a4de084f88b61cbfe979d81debc86ca77de88159ad9ca5099ff71503",
+        "source": "retained-local"
+      },
+      "ForgotPasswordPanel-C0qQ4idz-TPFSW3g.js": {
+        "bytes": 10336,
+        "sha256": "c61710358d9d2b69139fe494364ae6bb195a6442c86866da298ba957857eceed",
+        "source": "retained-local"
+      },
+      "HelpMenu-2c0b09f72e.css": {
+        "bytes": 3445,
+        "sha256": "e116f200e84dfeba97bc57b8054378e99ab6f65d5720cd72d4524f2dfe34ee5a",
+        "source": "retained-local"
+      },
+      "HelpMenu-D7K7z4uSVNDFoVR2.js": {
+        "bytes": 36991,
+        "sha256": "afe098ead882b51ad7fc7a92667bc7c910578f978e2f743c13b111122dc3aeb2",
+        "source": "retained-local"
+      },
+      "HelpPanel-60440951b9.css": {
+        "bytes": 7814,
+        "sha256": "b52bdee2a13b87fbc59551e468937abb8e4731dfbef10c1d2dd7c8b520d3e5f2",
+        "source": "retained-local"
+      },
+      "HelpPanel-BjyGpNuwVD5TOyE7.js": {
+        "bytes": 21084,
+        "sha256": "89ff0b31eb52ed72e82a3e3c9dab1d73b124e56b9d6bb5350e1062698176299a",
+        "source": "retained-local"
+      },
+      "HideBannerModal-481dc3fdc7.css": {
+        "bytes": 676,
+        "sha256": "6c227d656145bec511eae49bfe9504253d650efb8d81084508cee2ccf3f098b4",
+        "source": "retained-local"
+      },
+      "HideBannerModal-Cb0RkTJBGpCoiQMT.js": {
+        "bytes": 4910,
+        "sha256": "e4447d3d772c79f7e7a02891e1fc314929b6b90fbdb1b869ccef9fb80c024e3e",
+        "source": "retained-local"
+      },
+      "HighlightToolbar-C1QqmmucGtJYcsyZ.js": {
+        "bytes": 34418,
+        "sha256": "3ebce324679900a38c292eea91b250db8f635b46f670a211d580c1d853740652",
+        "source": "retained-local"
+      },
+      "HighlightToolbar-ddf030c0b9.css": {
+        "bytes": 6790,
+        "sha256": "01c78f4694403b247c57b41b32904123397759b31dd13e7ace171cd9080f4560",
+        "source": "retained-local"
+      },
+      "HowToReadTabPanel-5887f49bd9.css": {
+        "bytes": 8326,
+        "sha256": "5e1fd3e59061522dff3a0719236d0516129182748d888fe77cb093d6a09d8770",
+        "source": "retained-local"
+      },
+      "HowToReadTabPanel-BJ5H_b-UyyKklRsQ.js": {
+        "bytes": 391586,
+        "sha256": "4c1c12eaeb79c09dfaa227b6437749261b32edfdc268439fd1399bc06a104bb3",
+        "source": "retained-local"
+      },
+      "JobsPanel-09e9e164c9.css": {
+        "bytes": 1777,
+        "sha256": "57350f984e3e9bcca1471e50a4a99775ed392fc041bb773d2928a67d1290be89",
+        "source": "retained-local"
+      },
+      "JobsPanel-CivrwWLtbs4knu7e.js": {
+        "bytes": 3480,
+        "sha256": "7997b90a7d82e34c2b54a8562e1d4d2cd13a48141061d63354d259e839d82297",
+        "source": "retained-local"
+      },
+      "LineSurfaces-5d584ca69d.css": {
+        "bytes": 773,
+        "sha256": "b2901122767acbbe72b47f9f5f3ae721cf53166555ebf77c36d540448f148f49",
+        "source": "retained-local"
+      },
+      "LineSurfaces-BSOb-dDS-oxBshjc.js": {
+        "bytes": 10936,
+        "sha256": "502a9602dff7b4048248e5d38e19a47f2c6a1b87870430e695be9974e9953e30",
+        "source": "retained-local"
+      },
+      "LyricsModalEditor-Cx2-c4bssf5cC5fS.js": {
+        "bytes": 27633,
+        "sha256": "c43495f276d705fb3294931aaf92c2b537bffb8d4805784085382014d0ae625a",
+        "source": "retained-local"
+      },
+      "LyricsModalEditor-fd968e0720.css": {
+        "bytes": 4293,
+        "sha256": "67d0c01d306578bffc7e77cb7d97e056c4130f9b7c1f95099ed9a6925784a54a",
+        "source": "retained-local"
+      },
+      "MeasureAutoswitchPopup-BPWnLYGqIuuDKFk2.js": {
+        "bytes": 11612,
+        "sha256": "9c325562f193618c14f2b474aac9d743888f0418a9c377f1aebe8e1371704697",
+        "source": "retained-local"
+      },
+      "MeasureAutoswitchPopup-fc6f06f973.css": {
+        "bytes": 2483,
+        "sha256": "03f4912deac6a56c3d9f30b1832c3ca9a28dd616ba13f5df966372d9a7ef7d5f",
+        "source": "retained-local"
+      },
+      "MigrationPopup-3f645b6e5f.css": {
+        "bytes": 1405,
+        "sha256": "7e89e109f06b144dafed5919c3b70bfc080cf1347b196f391cccef1477fce4ba",
+        "source": "retained-local"
+      },
+      "MigrationPopup-BedbevIEdLiNdZCv.js": {
+        "bytes": 3274,
+        "sha256": "118b347519dbe48ba591c17024f37430954d53e80ddfd586e61143b48675040e",
+        "source": "retained-local"
+      },
+      "Mixer-5b3590eb3b.css": {
+        "bytes": 9573,
+        "sha256": "838dbfbdfe4024d01fad7bc64d85343d8b4ffa42a9a45fbce26379321661544c",
+        "source": "retained-local"
+      },
+      "Mixer-RyQjTRjjCj4z12w9.js": {
+        "bytes": 86550,
+        "sha256": "e16d41dd03a76291defc210839f1fac41c7a80b5bc979847cd04d8ab3fd54900",
+        "source": "retained-local"
+      },
+      "MixerOnboarding-DbascAPlXV6Yr2IQ.js": {
+        "bytes": 5589,
+        "sha256": "361ae631e1d0db597686f732953880871cffb7abdec94cd6399cf8c4c0b51f24",
+        "source": "retained-local"
+      },
+      "MixerOnboarding-d55e2b674d.css": {
+        "bytes": 238,
+        "sha256": "78bb75fddad883cd7582e361e829d895750869573506790d21c8cea0c60ff608",
+        "source": "retained-local"
+      },
+      "MobileControlsInPopup-3038580033.css": {
+        "bytes": 5216,
+        "sha256": "9ea2d4f7f90fe4aa984b4deabd372331e4f73aaa0bab71a93fd24dec36273895",
+        "source": "retained-local"
+      },
+      "MobileControlsInPopup-Dg3mkROQjXus_lpL.js": {
+        "bytes": 21770,
+        "sha256": "e0f4ff49223451fe67b7fb0664e413d5d788e1b05dfeab27b5b800b27fa30e7c",
+        "source": "retained-local"
+      },
+      "MobileMainSettings-709235273b.css": {
+        "bytes": 530,
+        "sha256": "c72bcb586ceb36d54f5c0cd6bbb0bad63dc135c989c5116615b8db8cd41573f2",
+        "source": "retained-local"
+      },
+      "MobileMainSettings-CY0_b4_K_yfpQoLu.js": {
+        "bytes": 425,
+        "sha256": "a0ebe131577cf682594207b0533ef8c94c4cc0758ec33298d09baba116ccaaac",
+        "source": "retained-local"
+      },
+      "MyTabsPanel-DqHIDsNF8wnc1in5.js": {
+        "bytes": 106701,
+        "sha256": "5c626231924a3d1d6e10b51402857b3a28a7274bfb5c2bb64c8fadf03779d2a4",
+        "source": "retained-local"
+      },
+      "MyTabsPanel-de46b82f39.css": {
+        "bytes": 18195,
+        "sha256": "6413a0a99560d84d07e29fd76d0cd776b838b4b56bd8012180f360c6895e6112",
+        "source": "retained-local"
+      },
+      "NaturalHarmonicEditor-4d1cc971ce.css": {
+        "bytes": 702,
+        "sha256": "d91107cd30f112268223f4b1a73e082e7483db454e79a5593e1bcd5a08f33f67",
+        "source": "retained-local"
+      },
+      "NaturalHarmonicEditor-CpSsW4ZcPyRFUD3I.js": {
+        "bytes": 6694,
+        "sha256": "d52c0ffacb830f7c7e75598e29fa88f3c907d9d30af16222e7e661eae61f5ce9",
+        "source": "retained-local"
+      },
+      "NewTabPanel-41d617806b.css": {
+        "bytes": 6117,
+        "sha256": "c5a84a35417522baa619e8ea319e5aa8e26bbae7e73735dc8868995ad198ea6a",
+        "source": "retained-local"
+      },
+      "NewTabPanel-D_M_MPBfK3URAxlS.js": {
+        "bytes": 36344,
+        "sha256": "e09549f2bd1ef907a940e90c484132427f66d9c7a106b1f875c0a3fb00f6f735",
+        "source": "retained-local"
+      },
+      "PartTuningEditor-e4vOarKMQO1B1A-3.js": {
+        "bytes": 12942,
+        "sha256": "fbd70e9b6911cbe820ae04cdcb3e0b3ce8a16e7c6bf2812eb0e34d2cab8c3c12",
+        "source": "retained-local"
+      },
+      "PartTuningEditor-fdbb85cfc4.css": {
+        "bytes": 1954,
+        "sha256": "0e9b52f4dfb48f75e4738f0e50e3b48be25da5ec93495830b3788e845edfbce0",
+        "source": "retained-local"
+      },
+      "PaymentPanel-D90S930Lp2KyyPM8.js": {
+        "bytes": 77852,
+        "sha256": "6d64914bce9fd557acf7400e059d6f2b2842753b91beb3b390799d0d5c0be1c3",
+        "source": "retained-local"
+      },
+      "PaymentPanel-c6164ce0eb.css": {
+        "bytes": 2693,
+        "sha256": "15dc142ad26dc2b13269fc754d0d36ac5e49eef0d0317ee9008295e1153d92e8",
+        "source": "retained-local"
+      },
+      "PitchShift-a02ae79172.css": {
+        "bytes": 1268,
+        "sha256": "c3e332827f9297d464dcf9bd05e7c43f753d327aad2cbd16416fa66fc12d6372",
+        "source": "retained-local"
+      },
+      "PitchShift-bLPgT-uFIx7Y1SY0.js": {
+        "bytes": 5641,
+        "sha256": "305ef53bdacf92dd2e113f0f4f0484d9515b04b9bc172cb2b2916725046e65d2",
+        "source": "retained-local"
+      },
+      "Print-2253673546.css": {
+        "bytes": 3203,
+        "sha256": "c7b51af2f4b9e6fd738876603bb8e51e58c5934dc69c37df7a14f696f4fac06a",
+        "source": "retained-local"
+      },
+      "Print-C7qboUv_KzLvWlGW.js": {
+        "bytes": 2882,
+        "sha256": "a8ef66e6d8637c7029fdd3b19f669798c4cad66b25baa5ad767e6aefea9bfca2",
+        "source": "retained-local"
+      },
+      "ProfilePanel-629ec8ca48.css": {
+        "bytes": 3472,
+        "sha256": "510d962b54e83218ddf38f65f71e965e4183aba73cdf18bfe4a2848210eda513",
+        "source": "retained-local"
+      },
+      "ProfilePanel-BzRo-uCio4pl0Ekp.js": {
+        "bytes": 9902,
+        "sha256": "6568b2cde174d060ce33397bdbff000126cd8fb2681fd66c851ba8897458ea38",
+        "source": "retained-local"
+      },
+      "PropagateHoverButton-4fda41c08b.css": {
+        "bytes": 1385,
+        "sha256": "c433be1eab32aea7ebdbf45924c72b6708941419151aa0cc40310f16a97f0e74",
+        "source": "retained-local"
+      },
+      "PropagateHoverButton-DpjS5I-AQ98qS0py.js": {
+        "bytes": 4796,
+        "sha256": "9a3fed8678edc08d15f9e8297da8965aa0b3091897f166040be20d3461bad5ae",
+        "source": "retained-local"
+      },
+      "PublishSongDuplicateModal-BEZsEJ8p1p7CeDX4.js": {
+        "bytes": 6935,
+        "sha256": "fa01e0773ac53cfbe3b8b645e520017be015219841e524f00de0e59f46c7a419",
+        "source": "retained-local"
+      },
+      "PublishSongDuplicateModal-eee075168c.css": {
+        "bytes": 924,
+        "sha256": "8c5affd030a367102deb22d5b3e12366c8bc7a255cde2a51d3eb5dbb34436f2f",
+        "source": "retained-local"
+      },
+      "PublishSongModal-9deb7b967d.css": {
+        "bytes": 506,
+        "sha256": "a35dbae3c39cf8b72e3aaa3d7e7cbf7e4b1b1cf9f24cc7d368098c7e8efadaaa",
+        "source": "retained-local"
+      },
+      "PublishSongModal-BPE5zDWLm6x3NPPs.js": {
+        "bytes": 14919,
+        "sha256": "ed9ef8a88bdc05a7c0fb5b97b9bfa0b817f58e6616863226b795964cdc282ccc",
+        "source": "retained-local"
+      },
+      "RegenerateConfirmModal-197f49749b.css": {
+        "bytes": 4825,
+        "sha256": "9ee668e3cdec6ca8c0d16ff48d3735d8fb2061d150efa1ad1cd25b972c1beb1e",
+        "source": "retained-local"
+      },
+      "RegenerateConfirmModal-C9GIfc5VG1OAendO.js": {
+        "bytes": 17005,
+        "sha256": "befadc38d39fc432fec652d6688b6f7a3cc9f704f8ddcef1b385d9042ce5a3d1",
+        "source": "retained-local"
+      },
+      "RequestAddVideoModal-4dff0d3235.css": {
+        "bytes": 354,
+        "sha256": "e5054930ef1b18842eb8bdf2972516303cfcd8af9450fa659233d44f7e072270",
+        "source": "retained-local"
+      },
+      "RequestAddVideoModal-CyW2XW6h76jwNLtM.js": {
+        "bytes": 2692,
+        "sha256": "a0e0fe87195d95c8172c0d3be2ec1037ecb203239e2cbaac38640c2e793a8d7c",
+        "source": "retained-local"
+      },
+      "ResetConfirmModal-3f3478e4e2.css": {
+        "bytes": 686,
+        "sha256": "da564287216fea08755b8ee3496b9593519cee8774fc047936312ab2085cec4a",
+        "source": "retained-local"
+      },
+      "ResetConfirmModal-ruPLAYFt1tKeR12-.js": {
+        "bytes": 7213,
+        "sha256": "35fea29c8a821a2af2a31874680a0df1e1ec41e95445adee7b6fba6cb51b8cc7",
+        "source": "retained-local"
+      },
+      "SectionEditor-2bdb720040.css": {
+        "bytes": 692,
+        "sha256": "f89bf46d84436a3fe377874ef7cc59234a9594ff4037c4c8065f647c0074c21a",
+        "source": "retained-local"
+      },
+      "SectionEditor-CtXwHVqx5BnspoJZ.js": {
+        "bytes": 8909,
+        "sha256": "be4aa61c890322f19b12039daec5a5be2ebad299a010cbe1d01fde1f843f65ba",
+        "source": "retained-local"
+      },
+      "ShowroomBottom-7cbff641d6.css": {
+        "bytes": 396,
+        "sha256": "281a7fd81e4c7bbd60a1d215e0497a08d3735c73169d6303f60001b64f854c13",
+        "source": "retained-local"
+      },
+      "ShowroomBottom-DSwZ5diBEgsgSbSF.js": {
+        "bytes": 743,
+        "sha256": "4ff44006dd4b26388524bc4a55763880bc8c4ebf4c03235cfbb20ed508efd7f8",
+        "source": "retained-local"
+      },
+      "SigninPanel-0f1a8bc646.css": {
+        "bytes": 3676,
+        "sha256": "e9425d0c351ca3509130b88d075208d78bb8702fd67337f30cfbeaccc1379c1f",
+        "source": "retained-local"
+      },
+      "SigninPanel-DFOPN-lfiwrvAuUZ.js": {
+        "bytes": 31671,
+        "sha256": "dc0346796bbb859a484fd374d4953bd53c41e5d4782e6e821d033a418d70f02b",
+        "source": "retained-local"
+      },
+      "SignupPanel-DBiuANXjtXiJYhtt.js": {
+        "bytes": 7095,
+        "sha256": "bf3dad07d1feaf4445c473f0bc0e27e38778b4bae94b45049b4d37dfe1f6876c",
+        "source": "retained-local"
+      },
+      "SignupPanel-ccd1f1b397.css": {
+        "bytes": 952,
+        "sha256": "b420e8f32b13660f998e69f47e957b2e277427688fdcc96fa43c37016906d357",
+        "source": "retained-local"
+      },
+      "SongsPanel-839f2aec51.css": {
+        "bytes": 1773,
+        "sha256": "9d709e6d6d66a185fd3e4973884cb6033b194602580a41c0eed806fc6f2be68e",
+        "source": "retained-local"
+      },
+      "SongsPanel-CPpC3qV0GTDIRrND.js": {
+        "bytes": 10958,
+        "sha256": "0f67fb6878471c235559683a44dcee754bb9e9e5514c8607a9d2ad3a4ca4674d",
+        "source": "retained-local"
+      },
+      "SoundsTrackInstrument-9955d1590b.css": {
+        "bytes": 793,
+        "sha256": "f99d4a4b014b94ac8c64540b2c3977a9d55834e443ec23dd3473a033ce271bdc",
+        "source": "retained-local"
+      },
+      "SoundsTrackInstrument-ndMFGnUC9s4lCHVK.js": {
+        "bytes": 19056,
+        "sha256": "9984a825ee7bff42ca94ed70ebcc0bd079ec4e7336de6fc7389a44ca20f11093",
+        "source": "retained-local"
+      },
+      "StoreWorker-DAj6qVcM_zrkZ0K4.js": {
+        "bytes": 994818,
+        "sha256": "bdfdc92772b9a43cdf958b6195b5ca85a90f3f90b6d58ff26569eea6c1387fac",
+        "source": "retained-local"
+      },
+      "SubmitRevisionOnboarding-CGXgYDCNtM0jHckG.js": {
+        "bytes": 6262,
+        "sha256": "b0bd16f4d87a1326b10a07adf1fba4b7be9659aaf311905a99e8615b25117c26",
+        "source": "retained-local"
+      },
+      "SubscribeDialogPopup-597e79e380.css": {
+        "bytes": 653,
+        "sha256": "d2c1424e08d101421ad657d2b080368e2f12fd57f1125a3fc53e6ba25bdcc690",
+        "source": "retained-local"
+      },
+      "SubscribeDialogPopup-B_2iYxK2HaRfIpSd.js": {
+        "bytes": 5643,
+        "sha256": "38dabaaa381b2ea5f3f867eba106464781ca2b0ef228a714d5f0be2dd7678e98",
+        "source": "retained-local"
+      },
+      "TabCopyPopup-BxXccTypWp9dvwbz.js": {
+        "bytes": 5772,
+        "sha256": "eaab3fa86a2767826b1947bbbb808c64983dc72b17bcc70029261009f832fa39",
+        "source": "retained-local"
+      },
+      "TabCopyPopup-cf4717b573.css": {
+        "bytes": 739,
+        "sha256": "f456bc88f7bd7253ff5e19e016c177e2ab995c14ad72b481e2eab00a47cffa7c",
+        "source": "retained-local"
+      },
+      "TabNameEditor-C-jMhz9RuF-kgwPp.js": {
+        "bytes": 17337,
+        "sha256": "2a55eb56ca34c756b546c120496fd43e6375ba937f78b7239e3e6e7551d7697a",
+        "source": "retained-local"
+      },
+      "TabNameEditor-a1f90f7713.css": {
+        "bytes": 1350,
+        "sha256": "8a18592285cc4fc4928af3560a9def5fd03801581dcb0e510f99d5badb398404",
+        "source": "retained-local"
+      },
+      "TempoEditor-4005c396da.css": {
+        "bytes": 2936,
+        "sha256": "77520c8732491184f69c84aa40625f3b2c6931c2bd68568ab43878c071139b4f",
+        "source": "retained-local"
+      },
+      "TempoEditor-C8PpaYBG2ID27gFS.js": {
+        "bytes": 41665,
+        "sha256": "9a682bdb7cdc758a7a1f6fa4512d6ea24a46c404d23c64b4c29fbab9e749945b",
+        "source": "retained-local"
+      },
+      "TestBeatHitLayer-PRs7x6s3H9dhuXIP.js": {
+        "bytes": 2116,
+        "sha256": "b241fadb5b75cd5372c0a9a429a300dc282ec08cf8c61f9198d52a6398e125b0",
+        "source": "retained-local"
+      },
+      "TextPanel-8e42343d60.css": {
+        "bytes": 964,
+        "sha256": "d5ff0ee912f2f351f8ff8bb9a185dd90f4145136db57a69ddbad3c3ea468d0a6",
+        "source": "retained-local"
+      },
+      "TextPanel-d7dQD5g0eAKbMUn6.js": {
+        "bytes": 2589,
+        "sha256": "1c1ecddb2c21bfc2e2f60357b2ba5db9a9f1654b752e5e681266b1095e765166",
+        "source": "retained-local"
+      },
+      "TremoloBarEditor-8c29e1c59d.css": {
+        "bytes": 2585,
+        "sha256": "ce58ec60278bd635dd069efe9dc8f76137222f94c17b0741e8051a63cf0ad9fb",
+        "source": "retained-local"
+      },
+      "TremoloBarEditor-i33YlnMIWyAdTiNI.js": {
+        "bytes": 20733,
+        "sha256": "e45503cff43418fcc3c98db86ac0b6b6d31035cda2afe0786946ea04d9ab9a8b",
+        "source": "retained-local"
+      },
+      "TrillEditor-XIcm4hvnSQDZgy14.js": {
+        "bytes": 11139,
+        "sha256": "96cd978bae44321c4b174afb37d99d279a887993f232bfc5094f3926d5a68fbc",
+        "source": "retained-local"
+      },
+      "TrillEditor-d2463bac01.css": {
+        "bytes": 2977,
+        "sha256": "307c76dc87af544df39a0aba9faae9a5cb3e0d99751fb928b9c6c4d936d914ec",
+        "source": "retained-local"
+      },
+      "TurkeyPricePopup-DuNcRGoZqjFzZuph.js": {
+        "bytes": 8777,
+        "sha256": "350f5a56d778ecd9062636bd1e3818342899a64f2081132d7d9810df52329520",
+        "source": "retained-local"
+      },
+      "TurkeyPricePopup-c0b82c186d.css": {
+        "bytes": 1267,
+        "sha256": "33aceeefe8223d33314a124d97e0996e4ca237a2e86efff41c15ed52e0ffe4ab",
+        "source": "retained-local"
+      },
+      "Tutorial-2b30d3687d.css": {
+        "bytes": 700,
+        "sha256": "c3dc14d7275f5a4cdfa4594e00fbf2c7dca3cb7b75f3acefc75ade86d22b73f2",
+        "source": "retained-local"
+      },
+      "Tutorial-zzQUpHww7vfcqnBF.js": {
+        "bytes": 6742,
+        "sha256": "b9c58b6ae1b93789b63fa6f7683c4323f84180f2c7dc7f8face6847a1f782fc3",
+        "source": "retained-local"
+      },
+      "TutorialFinish-CeKZyZ9jxd24yA_6.js": {
+        "bytes": 4884,
+        "sha256": "3eb900f967af13d42ce55bb9d72974987cc816a800d316f368e9796a6ed930ab",
+        "source": "retained-local"
+      },
+      "TutorialFinish-cc6a8f5c3e.css": {
+        "bytes": 522,
+        "sha256": "74719014ef185b2734515fa68a64b97883754a3c7edd9aeb3cbcd0fda321c0de",
+        "source": "retained-local"
+      },
+      "UTRecorder-13f99ec226.css": {
+        "bytes": 3276,
+        "sha256": "20ba013577701b6d20143ce340a1f307e26cdedb05323e02c18b306622273fe5",
+        "source": "retained-local"
+      },
+      "UTRecorder-BCzGggCkj5aWOyte.js": {
+        "bytes": 77535,
+        "sha256": "623f3e76bf33db5c1d66b0c8d8aa21c706d213b53dce5b2845bb1c365ed35fde",
+        "source": "retained-local"
+      },
+      "UndoStackCompressModal-59c8701964.css": {
+        "bytes": 373,
+        "sha256": "4e764eb2af916ac5829cea3d5058c43c70d540b1f6b736e759a56203e67e2b54",
+        "source": "retained-local"
+      },
+      "UndoStackCompressModal-D0wExiZyV3mYk_I2.js": {
+        "bytes": 3873,
+        "sha256": "30162adf9594cbb437e39dc8e9cdf38fd47b6dcdd08c2f12088c59e8c0aa3e70",
+        "source": "retained-local"
+      },
+      "UpdateCardPanel-CgKH1_Yq3zimI7g7.js": {
+        "bytes": 13899,
+        "sha256": "73b28862aa5f1f648aaa289e585b7b9c5cd78accfa68a589bde5244a333f608a",
+        "source": "retained-local"
+      },
+      "UpdateCardPanel-d76e585332.css": {
+        "bytes": 25110,
+        "sha256": "63121653608529708236180b5cfb43cc9d16ec0aeb905e44bd8337c2092d7a56",
+        "source": "retained-local"
+      },
+      "UpgradeToProDialog-724659e229.css": {
+        "bytes": 910,
+        "sha256": "31b0eececd855c6c4fefc78dc8f1748ca70597c68b300b59143d47afc426b348",
+        "source": "retained-local"
+      },
+      "UpgradeToProDialog-BU1_Sbh1nkV1HQIh.js": {
+        "bytes": 17423,
+        "sha256": "18a977208014f61498bcf32ef7de42b8c6ca30f6c4dd486fc03a1f3040815282",
+        "source": "retained-local"
+      },
+      "UploadTabModal-CpHFH5ujogSsITwF.js": {
+        "bytes": 7744,
+        "sha256": "e23c6a40447c06be9dd8efc871b71e98f44e8e6c5d2ebe0549c8cf87f384ea65",
+        "source": "retained-local"
+      },
+      "UploadTabModal-b20826944d.css": {
+        "bytes": 677,
+        "sha256": "bb0c2eb10859b9cba43b22483fbe115a16da6a4f2c92019c87ebad06fdd93754",
+        "source": "retained-local"
+      },
+      "YTRequestAudioModal-c9c1f989ef.css": {
+        "bytes": 1452,
+        "sha256": "b493037fa2ab2cb3ddb67f3ad0cf9e33f7c6a2691c38b265df492fc675b9a7db",
+        "source": "retained-local"
+      },
+      "YTRequestAudioModal-v9lEAQpLJX0wWXJ_.js": {
+        "bytes": 22629,
+        "sha256": "3cb25d06ed7d45398fc5d4887402fecdaab36f1068e2170ed765c172bf2cfc46",
+        "source": "retained-local"
+      },
+      "common-CVVCJ2BAYELu9FUN.js": {
+        "bytes": 2546736,
+        "sha256": "c6b8a07871bd146281394d9320cf72c54226271c94f9c09a51ef6037eb007b89",
+        "source": "retained-local"
+      },
+      "di-CAo-ia7NhMFhLPoN.js": {
+        "bytes": 67793,
+        "sha256": "b538c41f870b7bd647270d7fe95c25873a436667708c8a0222035a3595f4c322",
+        "source": "retained-local"
+      },
+      "nosleep-CjtSfGekt-vn5ckE.js": {
+        "bytes": 13466,
+        "sha256": "d1f1c0ab0b8c129212310dbad28d95a8b7bf1a36ac10b556807c647cbd4dadce",
+        "source": "retained-local"
+      },
+      "preact-yxv0eTc5oaquyHAa.js": {
+        "bytes": 22208,
+        "sha256": "ba373b2dc7897154e2fbd7e517b7e6253aece5cc0ee9abf47b7c7ef4dcd1fa8b",
+        "source": "retained-local"
+      },
+      "realtimeVoiceSession-CqjEW7AaPEzpNXU4.js": {
+        "bytes": 24381,
+        "sha256": "b3356b3b61f021750c691e4b07bf078104d84745a435064dd7de3df5207547c4",
+        "source": "retained-local"
+      },
+      "rolldown-runtime-bwV8cYxwBQ-0muz9.js": {
+        "bytes": 1084,
+        "sha256": "cb2fb01f2064eb36487466778d2ffc4c97ad86af89be1635209de18f0b5b2236",
+        "source": "retained-local"
+      },
+      "split-DhdUMn3J-JzwW-E6.js": {
+        "bytes": 2250,
+        "sha256": "ad33a31dc81a2ccf7657efc8461e25b8c496394b5486b35da7c8f1f70f78dd6b",
+        "source": "retained-local"
+      },
+      "vendor-CCXI6uB2LjWiwz5m.js": {
+        "bytes": 627997,
+        "sha256": "ac9d02c8f789d58146dac6d1d423344c706bb54ced2265c02a30019332c36483",
+        "source": "retained-local"
+      },
+      "AudioPlayerWorkerEntry-Duusu9w2dz713TVV.js": {
+        "bytes": 160358,
+        "sha256": "f5e771d157b77159a5cbf9046c7a081fdd4b4ee1f18f86bced3728bbadf2823d",
+        "source": "retained-local"
+      },
+      "AudioWorkletsBundle-DGqrRQAzvvtQ2sO7.js": {
+        "bytes": 2097,
+        "sha256": "4da8c1cb287885be697f9a01d96dd9624a81fd67cc8a9e523fba736763b31012",
+        "source": "retained-local"
+      },
+      "DrumToolbarOnboarding-3db67967b5.css": {
+        "bytes": 1079,
+        "sha256": "5a74a163e4946db853f6b18b468bc15d7481f0a744369a37d6c235fba587b932",
+        "source": "retained-local"
+      },
+      "DrumToolbarOnboarding-C5FgKVVSesPKVT1u.js": {
+        "bytes": 3567,
+        "sha256": "9bcca8d2ebaaa59f42b47222be7d16c9f890fff6480bfa1bc30954fde95cfbad",
+        "source": "retained-local"
+      },
+      "FluidsynthAudioPlayerWorkerEntry-BZYiArzdtB8GAPDh.js": {
+        "bytes": 377074,
+        "sha256": "461983359a7f820b303f847a437ea79b7f934952661e45633f2d0406bbb6e756",
+        "source": "retained-local"
+      },
+      "PlayerAudioUtilitiesWorker-Bb3r7Hy2YLAC7Few.js": {
+        "bytes": 222285,
+        "sha256": "5c30328b9b4d8318a71ddfd5e04e84479d68e44ec3f7cdada6da6ad87a4d2954",
+        "source": "retained-local"
+      },
+      "artwork-128x128-Dltc45RdAMAtruYa.js": {
+        "bytes": 142,
+        "sha256": "e2163637c2e8b8d1c3f0cadc4a9a141d715589f25640758d8424cc468c1e5f43",
+        "source": "retained-local"
+      },
+      "artwork-192x192-ATokxP74ROqWMk8g.js": {
+        "bytes": 142,
+        "sha256": "a114ecfee393581d058eb4b188b39ce3da199f3eb255fc348585950dc7ae26eb",
+        "source": "retained-local"
+      },
+      "artwork-256x256-BUB6II4SihK-zDQj.js": {
+        "bytes": 142,
+        "sha256": "a95218761cf22c462a28bc6e65da4c468bbfa1e9e345543cf5040e859a01bf09",
+        "source": "retained-local"
+      },
+      "artwork-384x384-D0yHn9VV-R1__2op.js": {
+        "bytes": 142,
+        "sha256": "96b0f7b44bd0f6404f2522f3cf8058687e675d1efdcdb895b8397421574b2515",
+        "source": "retained-local"
+      },
+      "artwork-512x512-CVpfy45FMut2GKHa.js": {
+        "bytes": 142,
+        "sha256": "80bca45d7e977d73c26d06f5d247efe3d5aea83f4b29559abc23cbaa3179d986",
+        "source": "retained-local"
+      },
+      "artwork-96x96-C4l0rOl5b-SYbJvq.js": {
+        "bytes": 138,
+        "sha256": "1415c7e57aafff6ae18d0fd330b8d1aef8eecdb4da7abb706711ff8e7b7ed343",
+        "source": "retained-local"
+      },
+      "dropin-ceSPadXzzuDc2DxX.js": {
+        "bytes": 516806,
+        "sha256": "603e6deb675a8724238a4ac6afc051b5d669099755257ecb37a0f55902adada0",
+        "source": "retained-local"
+      }
+    },
+    "failed": {}
+  },
+  "current": {
+    "entries": [
+      "appClient-P7U-hXvJJNFfnZ30.js"
+    ],
+    "assets": {
+      "appClient-P7U-hXvJJNFfnZ30.js": {
+        "bytes": 1102364,
+        "sha256": "d961dd60be8fae1ef995881c4d19e58bac661ca0bc4500588bbe9fa8b0544709",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/appClient-P7U-hXvJJNFfnZ30.js"
+      },
+      "AIAssistant-b88cb39a42.css": {
+        "bytes": 16243,
+        "sha256": "d5c4fecda9a7a281af6c7dba8cafea8071929bf890417e0095469bb84b7b991c",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AIAssistant-b88cb39a42.css"
+      },
+      "AIAssistant-l1nUj_BYMWromsy0.js": {
+        "bytes": 181270,
+        "sha256": "ca46d57be9c98bc11ee81405c6e06e3e3b9f78cd24ea825f419089ac926d29c6",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AIAssistant-l1nUj_BYMWromsy0.js"
+      },
+      "AIChatCloseOnboarding-742d1075ce.css": {
+        "bytes": 142,
+        "sha256": "ece20fca81545919ebda30744056f202a0b23b547faacb9850462d4b36e0efcf",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AIChatCloseOnboarding-742d1075ce.css"
+      },
+      "AIChatCloseOnboarding-Dfw2ravnogXLRXbo.js": {
+        "bytes": 2731,
+        "sha256": "7d3d1708c4fbd0012583b1e2eaa0fa6395f236511193acf6df6a46b2f60a6f55",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AIChatCloseOnboarding-Dfw2ravnogXLRXbo.js"
+      },
+      "AIFullTabPlusOverlay-7256a0523d.css": {
+        "bytes": 863,
+        "sha256": "ab3248ba36b8d217ad6cc31d4288f437b69423f962473c59ff04076ff2663c40",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AIFullTabPlusOverlay-7256a0523d.css"
+      },
+      "AIFullTabPlusOverlay-CwewZ-bMCIVCVxyf.js": {
+        "bytes": 5356,
+        "sha256": "8cdba59277cb433c5bdaf9508213cbc7be61e3bf9d8a6d211bad204cf9ac771b",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AIFullTabPlusOverlay-CwewZ-bMCIVCVxyf.js"
+      },
+      "AboutPanel-C2SdIxq3cJieo_AN.js": {
+        "bytes": 32737,
+        "sha256": "6b456b6bb158b6aae0b015f93f4a789f2dd69f8520b6e5bec57bf851c68247e1",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AboutPanel-C2SdIxq3cJieo_AN.js"
+      },
+      "AboutPanel-b5625d121f.css": {
+        "bytes": 1207,
+        "sha256": "d9559aaccfb4ee758cfe54effed5692926230dc7c16619eccb7e25bff7c7f62a",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AboutPanel-b5625d121f.css"
+      },
+      "AccountPanel-DQSTWmRyvZ6N260T.js": {
+        "bytes": 56454,
+        "sha256": "0a54d72025c4f9cce369e5669bfeb8eaa0e00db55b555d29752a44cdcc4c714e",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AccountPanel-DQSTWmRyvZ6N260T.js"
+      },
+      "AccountPanel-d5f01ae149.css": {
+        "bytes": 8977,
+        "sha256": "7632ec4e76844f6530851942721bd8c79c94125736dcac280bbdba2663e5442b",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AccountPanel-d5f01ae149.css"
+      },
+      "ActionResolvingModal-BoviT_vGhw6-qvhf.js": {
+        "bytes": 21121,
+        "sha256": "3f0997b954c1286ff9edcb695445e19c3e4fbf50539dad9d73e080026de2e8bf",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ActionResolvingModal-BoviT_vGhw6-qvhf.js"
+      },
+      "ActionResolvingModal-d183afbf0a.css": {
+        "bytes": 1302,
+        "sha256": "3f25608f7defb07d20695bd5aea17f6a3985129b62b8f393c36de548bb1e67d7",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ActionResolvingModal-d183afbf0a.css"
+      },
+      "AddLyricsButton-2cd655030c.css": {
+        "bytes": 260,
+        "sha256": "4dacd898e4ca560810eee76763232ea66651781a30d88a42b425afa16242ff93",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AddLyricsButton-2cd655030c.css"
+      },
+      "AddLyricsButton-CaltBACNcqTEBNUi.js": {
+        "bytes": 2249,
+        "sha256": "0ae35e0bdf21ec90d050880d5c2723a82fb35cda691303c442305e907609db25",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AddLyricsButton-CaltBACNcqTEBNUi.js"
+      },
+      "AddTrack-CeD8rILlt1KG0dn0.js": {
+        "bytes": 45713,
+        "sha256": "a5fa8e3b6ea98446853e40db2ed2258a9cdc73edfb2948dea3b145ed7127d462",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AddTrack-CeD8rILlt1KG0dn0.js"
+      },
+      "AddTrack-da9c46a973.css": {
+        "bytes": 5518,
+        "sha256": "b75171990a495c64aa843b60739d4e460bd4ce3af1ce97e354650e5e575daf8f",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AddTrack-da9c46a973.css"
+      },
+      "AlternateEndingToolbar-C_RHZzHNTllU6utY.js": {
+        "bytes": 520,
+        "sha256": "6eab11da173ff444aca15f1abc2b92c4c70ce9b23c5e52f2b02dff6cfe9d2316",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AlternateEndingToolbar-C_RHZzHNTllU6utY.js"
+      },
+      "AnacrusisEditor-DhiJVzJ6oY3a9fvl.js": {
+        "bytes": 5244,
+        "sha256": "c53fc445bc53e00cdd03af756103ca7823d6532bb3eb64e610291ed5eca16dd4",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AnacrusisEditor-DhiJVzJ6oY3a9fvl.js"
+      },
+      "AnacrusisEditor-edc84ebbcf.css": {
+        "bytes": 567,
+        "sha256": "ee82b5b972d4064e2209d199df9f84c77fe7876ead35096ede0ad0b15dd34269",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AnacrusisEditor-edc84ebbcf.css"
+      },
+      "AppChords-CQizUXxA_ryj4E3Z.js": {
+        "bytes": 36382,
+        "sha256": "634fa96cde35f3b53289602839eb21820b1238618f5fcc92017c8919c60d1e49",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AppChords-CQizUXxA_ryj4E3Z.js"
+      },
+      "AppChords-b61209aace.css": {
+        "bytes": 12777,
+        "sha256": "46f5573968e48bee3357f56c75e7ab3651bb8bd0649f44d23ecb70ead607533d",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AppChords-b61209aace.css"
+      },
+      "AppDiff-50e835fc71.css": {
+        "bytes": 2140,
+        "sha256": "37b07861eb9d39df3269ff6bd58d1de9252e19cd19924f28dc435ac227b3f5bc",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AppDiff-50e835fc71.css"
+      },
+      "AppDiff-TYSlPhbC25nyNFYu.js": {
+        "bytes": 9050,
+        "sha256": "f8aec790eefd34eedaa92c91f86b95e810af998747224a6b1a1aacfc9b139a89",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AppDiff-TYSlPhbC25nyNFYu.js"
+      },
+      "AppPlus-4315ce6d56.css": {
+        "bytes": 21897,
+        "sha256": "266da17b8c01fae18c7432b35dad1eb76b185a3d18167e151a38e5d28f193db1",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AppPlus-4315ce6d56.css"
+      },
+      "AppPlus-CdtefEGrxFql3Kgs.js": {
+        "bytes": 106368,
+        "sha256": "ecf65c6a541803a80bb6bfd936953a1535fff524f50b97113a8953710a34e262",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AppPlus-CdtefEGrxFql3Kgs.js"
+      },
+      "AppTags-38709cef8c.css": {
+        "bytes": 1955,
+        "sha256": "95e7439630e519a04afb3dc3c3d9e0a64c032a59cbb34b52e17185227c087ad2",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AppTags-38709cef8c.css"
+      },
+      "AppTags-M2c7A933Ow37FGsa.js": {
+        "bytes": 5921,
+        "sha256": "2169c299b7bff16154ea3868506058df00188fa7ffa0f7fbb55f1930e6cabd4c",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AppTags-M2c7A933Ow37FGsa.js"
+      },
+      "AppTeacherPlan-4bf2aab6c2.css": {
+        "bytes": 9774,
+        "sha256": "39d123a8823bf0335c8944564c45314b3740cefb65049e54cac7acc03e2de572",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AppTeacherPlan-4bf2aab6c2.css"
+      },
+      "AppTeacherPlan-CnEl-MazV5DMxgUO.js": {
+        "bytes": 89046,
+        "sha256": "78ed0fe4ab5eda2389188de64402d7a792b39d499952199d5776911649eb6e34",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AppTeacherPlan-CnEl-MazV5DMxgUO.js"
+      },
+      "ArpeggioEditor-cIqbVnOmvKBSmaPV.js": {
+        "bytes": 2680,
+        "sha256": "6b6d77212ca041767de2a0472b626505370b8963cc6c6a9cf363535496ecc304",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ArpeggioEditor-cIqbVnOmvKBSmaPV.js"
+      },
+      "ArtificialHarmonicEditor-6add998843.css": {
+        "bytes": 1436,
+        "sha256": "6f6dc3e904219f2fc5207bddbe144e24b866ccadb45a32319a817e3154f43c63",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ArtificialHarmonicEditor-6add998843.css"
+      },
+      "ArtificialHarmonicEditor-DR0-l3y4E3aNLLGG.js": {
+        "bytes": 11312,
+        "sha256": "628edbf48f97a9524d770ec893b3cfb4c67b9ce8803b2b0f13e6f42687fd76fa",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ArtificialHarmonicEditor-DR0-l3y4E3aNLLGG.js"
+      },
+      "AudioUploadModal-322f61c912.css": {
+        "bytes": 3386,
+        "sha256": "e3d786b5f35aea57dc2bb997e029b943f837303d72ba6bea6fcae309f6186d7d",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AudioUploadModal-322f61c912.css"
+      },
+      "AudioUploadModal-DBF2quayjt7q6Ri6.js": {
+        "bytes": 22119,
+        "sha256": "64916fa1e9fe37d2bf9cba11cbff46983efc93dfebdd87691fdc60f69dea08fe",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AudioUploadModal-DBF2quayjt7q6Ri6.js"
+      },
+      "AutocompletePlusPopup-59bf911607.css": {
+        "bytes": 331,
+        "sha256": "798fa4d803f238afe67b28afbd1916979b64bda952fde3f2d9a41cecc1314f7d",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AutocompletePlusPopup-59bf911607.css"
+      },
+      "AutocompletePlusPopup-BTnYzfWwgGDs5g14.js": {
+        "bytes": 25285,
+        "sha256": "ac7ec267b87ca7effaa22b50bd2809e9693905082b9c11a01fd4421f7c6acd6d",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AutocompletePlusPopup-BTnYzfWwgGDs5g14.js"
+      },
+      "AutosyncOptionsModal-6e27143b78.css": {
+        "bytes": 1322,
+        "sha256": "e33e7738a83a8296df9c7a1eb721bb5ea612d698ad78f74a51aaf25dd9208ae7",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AutosyncOptionsModal-6e27143b78.css"
+      },
+      "AutosyncOptionsModal-6hpH6TMHJTSczsgr.js": {
+        "bytes": 37597,
+        "sha256": "8f90f2cf198c19ad74cbb098683c152c0308300bbfc20cc310ef30d3e0b6470e",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AutosyncOptionsModal-6hpH6TMHJTSczsgr.js"
+      },
+      "BalanceSpendConfirmModal-B-eLmNIN6M5NEC9_.js": {
+        "bytes": 21552,
+        "sha256": "880436fb480379c26bbaf5adf3fa4e5dac4a84438db8746164a757140c57d528",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/BalanceSpendConfirmModal-B-eLmNIN6M5NEC9_.js"
+      },
+      "BalanceSpendConfirmModal-e163a155a9.css": {
+        "bytes": 761,
+        "sha256": "7252b5edae24d50df7b9bc66261c802cccb70151867357b9a3e6f74545dea161",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/BalanceSpendConfirmModal-e163a155a9.css"
+      },
+      "BendEditor-CvQfNm_jdWW-Mf8a.js": {
+        "bytes": 26145,
+        "sha256": "83005ad0880b2e98c2aec83dafda7235d3f8c05759ef4353460b1cad86b8e1bc",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/BendEditor-CvQfNm_jdWW-Mf8a.js"
+      },
+      "BendEditor-cc803a6c4b.css": {
+        "bytes": 2290,
+        "sha256": "2ed8d63c1675981a776bbead6b70631e3e42804bff3ac0ebfd94b4422bb27236",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/BendEditor-cc803a6c4b.css"
+      },
+      "BrushStrokeEditor-ethNFUmZdola0frP.js": {
+        "bytes": 7091,
+        "sha256": "7325c49e3a2ede42d6faf11a088156a62f14b4288c7a1069765a3ddba70d3511",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/BrushStrokeEditor-ethNFUmZdola0frP.js"
+      },
+      "CancelPlusPanel-KJgQTgsEZy37MPRM.js": {
+        "bytes": 25535,
+        "sha256": "02017c6c723721cf3b3ec1189b38d7fda89eb21dd6c7b20e99243abd851fa733",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/CancelPlusPanel-KJgQTgsEZy37MPRM.js"
+      },
+      "ChangeEmailPanel-DdC-jUlA9cXAK8pO.js": {
+        "bytes": 13439,
+        "sha256": "adb6c2485edbd188695abae0c2d099849ba76ab64685824af414eecea3ab4740",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ChangeEmailPanel-DdC-jUlA9cXAK8pO.js"
+      },
+      "ChangeNamePanel-D_y3LSJhsQWvqwwk.js": {
+        "bytes": 3696,
+        "sha256": "e8720eb6d9a0ee18f98a7a60cc9b3831463f9d036d2f20ab8c6143cf7f368868",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ChangeNamePanel-D_y3LSJhsQWvqwwk.js"
+      },
+      "ChangePasswordPanel-C5Mo9uEfewRzWcye.js": {
+        "bytes": 6164,
+        "sha256": "b03a9d5a6420e178768cacc11d059fe397287ad2e39b58278ea09931dc82b54c",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ChangePasswordPanel-C5Mo9uEfewRzWcye.js"
+      },
+      "ChangesPreview-DygcAeqf4q4Z10Ol.js": {
+        "bytes": 29568,
+        "sha256": "7121a39353ac1765c2faf6f3228df682154ca35626355e1098716dda0f6a667f",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ChangesPreview-DygcAeqf4q4Z10Ol.js"
+      },
+      "ChangesPreview-bc1179e090.css": {
+        "bytes": 2680,
+        "sha256": "d2bfb988d3f0da0762cd493069861d0edc7022aa2799b66daac577c2cb2d8c8a",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ChangesPreview-bc1179e090.css"
+      },
+      "ClefEditor-Cgh4UcaOsRFmO1Wm.js": {
+        "bytes": 3172,
+        "sha256": "088c5b9ebe22e42c44eba9f3f8f2b9bcd906aadbcc8820c9be3398cd44d33ced",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ClefEditor-Cgh4UcaOsRFmO1Wm.js"
+      },
+      "ConsentManager-BkR7glOopC2xapbv.js": {
+        "bytes": 121172,
+        "sha256": "04e3894da737bcc8f0a08d0aa45cfe2dc0d3c7166c48dd3e678ef0913a664350",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ConsentManager-BkR7glOopC2xapbv.js"
+      },
+      "ConsentManager-c20f15313c.css": {
+        "bytes": 9065,
+        "sha256": "553a1b38af7d041bac6d63006e26010e03f07bc6bf119f6602ef81726c668d06",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ConsentManager-c20f15313c.css"
+      },
+      "ConstraintsModal-8afbddaac0.css": {
+        "bytes": 1521,
+        "sha256": "921aaa8efcaaeaed07e7987df09ed3051cd9c264fb32dc99b5c5255fa7ceaa8a",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ConstraintsModal-8afbddaac0.css"
+      },
+      "ConstraintsModal-DVeFVJQnVXuTn2NV.js": {
+        "bytes": 11135,
+        "sha256": "40120d96e369493f0a5f714b9b950b173453ffb2c58f40a16b5c501a0ad28563",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ConstraintsModal-DVeFVJQnVXuTn2NV.js"
+      },
+      "ContextHintPopup-7a7ae75c16.css": {
+        "bytes": 3376,
+        "sha256": "adb8aa98124a9314a005392a3f557def6484d800d11fc214e161d46b67c6766e",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ContextHintPopup-7a7ae75c16.css"
+      },
+      "ContextHintPopup-BPQDgz34GZgBLsRS.js": {
+        "bytes": 90096,
+        "sha256": "30a4207d1a5ea06bedecfe46a0b7cbe15fcad55339ce350e888219bde9544a80",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ContextHintPopup-BPQDgz34GZgBLsRS.js"
+      },
+      "ContextToolbar-DR14C8erKW3xWRAQ.js": {
+        "bytes": 22765,
+        "sha256": "043f3591dd4be2bceef508032e08f9d38bb46b7fbd5d2d72a4b582b2b6786288",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ContextToolbar-DR14C8erKW3xWRAQ.js"
+      },
+      "CouponPanel-CN20MhZmFiGdbK7k.js": {
+        "bytes": 4693,
+        "sha256": "a2c3f7dd5b0ff9d9617544719a192dac99d4397295e075a802700ffb6033b18e",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/CouponPanel-CN20MhZmFiGdbK7k.js"
+      },
+      "DeactivatePanel-Duz69xZj5IyYoq9u.js": {
+        "bytes": 6002,
+        "sha256": "096bf696db6ef5484ad998e30b9a516569df584cf47d9404abcef17155537281",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/DeactivatePanel-Duz69xZj5IyYoq9u.js"
+      },
+      "DisableExtensionsModal-Nm7UT27b19bX_IJc.js": {
+        "bytes": 5554,
+        "sha256": "d0a4a004302f1e16533fd31e542b91035b5fe641adec967ea6014a88116f391e",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/DisableExtensionsModal-Nm7UT27b19bX_IJc.js"
+      },
+      "DisableExtensionsModal-f13725c29d.css": {
+        "bytes": 600,
+        "sha256": "78ff788912bcfd1049f62c66bad3125c9ecfe5f48ca536b0a4018bf0159149c9",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/DisableExtensionsModal-f13725c29d.css"
+      },
+      "DownloadEditsConfirmModal-4d5ec3c0b4.css": {
+        "bytes": 715,
+        "sha256": "bbc349da6bff74b55288f6c42a436d9442b5ef4c4cb37d4fb3f0fffcee7a72f6",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/DownloadEditsConfirmModal-4d5ec3c0b4.css"
+      },
+      "DownloadEditsConfirmModal-DU7SZH9tdNNPDkGD.js": {
+        "bytes": 7085,
+        "sha256": "08a10ff60b923f3e66dcea91f37dc2ed71142416ac41868853410ecc13587776",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/DownloadEditsConfirmModal-DU7SZH9tdNNPDkGD.js"
+      },
+      "DownloadPopup-3460f02ae5.css": {
+        "bytes": 1200,
+        "sha256": "45f6102b562e52bcc0d2feb1ca6d64c0f5bfd3db037991cec55a0060a1ac9631",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/DownloadPopup-3460f02ae5.css"
+      },
+      "DownloadPopup-DUk8Ql-7_NdDMfKv.js": {
+        "bytes": 29964,
+        "sha256": "0902519a60c755ce553ab8f4367f758dab5ec8f514b9a18f773c32c9379d8779",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/DownloadPopup-DUk8Ql-7_NdDMfKv.js"
+      },
+      "DraggableDrumBlock-D7QZMIgcp1qLGfib.js": {
+        "bytes": 385,
+        "sha256": "c027fb343c4992c7569c76bfd6dfe87baa54918140daa0d2b6d36f4b14f8f038",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/DraggableDrumBlock-D7QZMIgcp1qLGfib.js"
+      },
+      "DrumLegend-52bc305f6b.css": {
+        "bytes": 5986,
+        "sha256": "68bbc3dde0eec4fb9a54889b88b4f851ce2436f9d861483de4503ff1e1dafa3d",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/DrumLegend-52bc305f6b.css"
+      },
+      "DrumLegend-B2I9941Qv5mmvUcd.js": {
+        "bytes": 27402,
+        "sha256": "4826a7dc75502f0d1b1a57cc856f4297216aed3c92c715adc5e9df2e32c0d303",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/DrumLegend-B2I9941Qv5mmvUcd.js"
+      },
+      "EditAnalysisPanel-2e6a6bf91b.css": {
+        "bytes": 6817,
+        "sha256": "4904298f83c4bac4b5b65bb9c006bc6bc195ed884b34bdd6cbe52175229961c0",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditAnalysisPanel-2e6a6bf91b.css"
+      },
+      "EditAnalysisPanel-DPzHzukDKL3TlD1m.js": {
+        "bytes": 28303,
+        "sha256": "0d61b962f5f043c94c5cd76170998b4994a4bb55f997fbab33ec716632ccda6d",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditAnalysisPanel-DPzHzukDKL3TlD1m.js"
+      },
+      "EditRepeatEnd-CMqJ7SEdyoDeCMxJ.js": {
+        "bytes": 10971,
+        "sha256": "670e8242f94929dc13bf96b23588eb18788dcfedabe467c0acc042a1b809a241",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditRepeatEnd-CMqJ7SEdyoDeCMxJ.js"
+      },
+      "EditRepeatEnd-b02c753717.css": {
+        "bytes": 996,
+        "sha256": "d1b1925b4935525d2a98fcda1b21b8839ae93025ddb19bdec87bbaa945b7703d",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditRepeatEnd-b02c753717.css"
+      },
+      "EditorBarWarningButtons-D3rOK2QfwGn2orL_.js": {
+        "bytes": 22246,
+        "sha256": "5ba26d127119ff291dc2978454962fe3c72b103760a0ab68a423330569dca842",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditorBarWarningButtons-D3rOK2QfwGn2orL_.js"
+      },
+      "EditorBarWarningButtons-cd3ca6ec4e.css": {
+        "bytes": 2187,
+        "sha256": "068285fbd5793f3895b71926a094e7d19ace9450ec342ea894a4479d4cdf936f",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditorBarWarningButtons-cd3ca6ec4e.css"
+      },
+      "EditorBeatChord-31ebe7ca41.css": {
+        "bytes": 3076,
+        "sha256": "ffac574d1b54ae80cfc9e7a0274e3f7499fd4ee5c0007857976bd1dcf311267a",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditorBeatChord-31ebe7ca41.css"
+      },
+      "EditorBeatChord-z7me8v7W8Kue0LM8.js": {
+        "bytes": 24131,
+        "sha256": "196c9957854ea57f77565a9b1711358c9d7a0bc5cc71d9e263adc9b00d8ea520",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditorBeatChord-z7me8v7W8Kue0LM8.js"
+      },
+      "EditorBeatTextAnnotation-Dr-8f63hIsyMUYrw.js": {
+        "bytes": 5207,
+        "sha256": "39c4781eb6e15d4890626a6321b60acd52a1ab51e88e6cfff6bdbeb49a0ffce1",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditorBeatTextAnnotation-Dr-8f63hIsyMUYrw.js"
+      },
+      "EditorBeatTextAnnotation-b804be6a59.css": {
+        "bytes": 477,
+        "sha256": "5435678a6b01c3f76c68703bec10ea482476cc416f667ed084a7e788736f54cf",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditorBeatTextAnnotation-b804be6a59.css"
+      },
+      "EditorMultiPropagateButton-oIMz5QP6wgs2t1Gu.js": {
+        "bytes": 707,
+        "sha256": "4e01b50ef653b75deb0ab093f376ffecba17490c6bf1a63cdfb8cee36a9a7d87",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditorMultiPropagateButton-oIMz5QP6wgs2t1Gu.js"
+      },
+      "EditorMultiSurface-67bee3bcf5.css": {
+        "bytes": 2182,
+        "sha256": "1a6d88cdda3852f71550c7f74fe0d1338bd2d45169cf10dad4ba017b63bbf42b",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditorMultiSurface-67bee3bcf5.css"
+      },
+      "EditorMultiSurface-CJniYtYI8Zwfpb9E.js": {
+        "bytes": 3129,
+        "sha256": "7a8cc2a8385bf025f833c93cb75cba37b4c4bd632a9718ea124e5f6db7d7caf1",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditorMultiSurface-CJniYtYI8Zwfpb9E.js"
+      },
+      "EditorPropagateWithHighlightButton-CLUwERJ8i3hpue_3.js": {
+        "bytes": 528,
+        "sha256": "fee16dc2aea84a7802ed49d9b20ca2eb85ac96043fcbcc1ed10c2e0203a69f49",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditorPropagateWithHighlightButton-CLUwERJ8i3hpue_3.js"
+      },
+      "EditorScaleDiagram-9db71bfd73.css": {
+        "bytes": 3048,
+        "sha256": "0408f939850661039d5d471fb6630f5a0dcb5ad12ed61ea4eef8a26a074bf0f3",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditorScaleDiagram-9db71bfd73.css"
+      },
+      "EditorScaleDiagram-CenwyJyY3YxqxqRH.js": {
+        "bytes": 20278,
+        "sha256": "542501eeffba7a8b4edf0121c323a61c054de2febb3cb56c9c8c18d9d26d9e33",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditorScaleDiagram-CenwyJyY3YxqxqRH.js"
+      },
+      "EditorSignupOverlay-389bf2584e.css": {
+        "bytes": 384,
+        "sha256": "6b65bd75ab15cd438b9984e5600e91e3109ab012348f9e763df30ac125a41aad",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditorSignupOverlay-389bf2584e.css"
+      },
+      "EditorSignupOverlay-DI3BTObT-k6t886l.js": {
+        "bytes": 932,
+        "sha256": "c9ea1087b5b84732b7f805ade85c3ba523cdc1c6e153491dadf9234d0f2c26c7",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/EditorSignupOverlay-DI3BTObT-k6t886l.js"
+      },
+      "FastRecorder-D90fFbA3R1_lvOe7.js": {
+        "bytes": 4929,
+        "sha256": "1bdf4495c761afa78e41f5c54e71120f7f143b81f6b4d7b1c4ce59fef42eb5ee",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/FastRecorder-D90fFbA3R1_lvOe7.js"
+      },
+      "FermataSettings-CoxNatVhS-vaJ5Rl.js": {
+        "bytes": 10119,
+        "sha256": "39dd4b26d6bc447494f98cafc98c2f5348a145fde73bfd34d989467620710282",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/FermataSettings-CoxNatVhS-vaJ5Rl.js"
+      },
+      "FermataSettings-d0d1243bd5.css": {
+        "bytes": 2695,
+        "sha256": "7b6c3c37509ccb1aec4458dc5cc5d511f779754e73ec0e33a426147f345929a4",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/FermataSettings-d0d1243bd5.css"
+      },
+      "FingeringRulesPanel-31d6d34125.css": {
+        "bytes": 1393,
+        "sha256": "2ccaf7bf38bcf8a7591b3cab7f8180a218440abb17f16484ede1b68beedd99df",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/FingeringRulesPanel-31d6d34125.css"
+      },
+      "FingeringRulesPanel-_C5L3BG-oAUlm0tR.js": {
+        "bytes": 63638,
+        "sha256": "59d2937d9fcee2676407952d973672f77876d272fc51823496aad88908688dd0",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/FingeringRulesPanel-_C5L3BG-oAUlm0tR.js"
+      },
+      "FixBarsConfirmModal-7dc1360f89.css": {
+        "bytes": 575,
+        "sha256": "d4f8a4acffb0ab74fc20f5bedb42abbdadcb111b91413203d0037333204fe32a",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/FixBarsConfirmModal-7dc1360f89.css"
+      },
+      "FixBarsConfirmModal-BkHwLQbGq5nP9124.js": {
+        "bytes": 5912,
+        "sha256": "3eaa4c3d51b57ee8181327c7f0a43a01e59d07a752c453d9384394970302d331",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/FixBarsConfirmModal-BkHwLQbGq5nP9124.js"
+      },
+      "ForgotPasswordPanel-BgqxDv0I9oFhdpJU.js": {
+        "bytes": 10337,
+        "sha256": "f00289a335acc749831066e141a4886c277624c6d4b41680f2350efb05357bec",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ForgotPasswordPanel-BgqxDv0I9oFhdpJU.js"
+      },
+      "HeaderMoreInstrumentsList-By4Y0p7IBqnC635d.js": {
+        "bytes": 931,
+        "sha256": "bbb1ec21a04629004ad7c525efe0f6b7b790193e33e8c21e8cb8d663e1cc8227",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/HeaderMoreInstrumentsList-By4Y0p7IBqnC635d.js"
+      },
+      "HelpMenu-B6bl8FfSp002-7Z_.js": {
+        "bytes": 38380,
+        "sha256": "a8f6b6bf576fb19a59fcc9b984a0ea75e7d12ba7b7520a552f86f0b003e6f6e1",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/HelpMenu-B6bl8FfSp002-7Z_.js"
+      },
+      "HelpMenu-eeb5d55a11.css": {
+        "bytes": 5490,
+        "sha256": "a61df8960567c66f11828e02d0bfe43a6035c2ba3125ff02492be56634913ed7",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/HelpMenu-eeb5d55a11.css"
+      },
+      "HelpPanel-5d065d060f.css": {
+        "bytes": 8167,
+        "sha256": "91547bff6a2f819c60c45427c343c9e5e9db63d07fe49ddd66c60672e3c131ac",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/HelpPanel-5d065d060f.css"
+      },
+      "HelpPanel-CpdENGn33caIfkZU.js": {
+        "bytes": 20901,
+        "sha256": "6ec27d0f44adee0dafcdce3126e97b5a5bd70a2982dd832adaf428e0f09326ce",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/HelpPanel-CpdENGn33caIfkZU.js"
+      },
+      "HideBannerModal-DdZIsQVOLfet7QnU.js": {
+        "bytes": 4915,
+        "sha256": "8eb008541156017d7fe963f8ee6da5bba18774c1230c80eec130bb4c427966b5",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/HideBannerModal-DdZIsQVOLfet7QnU.js"
+      },
+      "HideBannerModal-dcf53e4029.css": {
+        "bytes": 698,
+        "sha256": "4245c1020ae028945a5239b47ceaa9692817765850758d63a95142e76940b615",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/HideBannerModal-dcf53e4029.css"
+      },
+      "HighlightToolbar-0d7a9978fa.css": {
+        "bytes": 7196,
+        "sha256": "89006b8c0161ee8704365ab8e8bae9c78b43e64b9e658c2202aa4028a86b8917",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/HighlightToolbar-0d7a9978fa.css"
+      },
+      "HighlightToolbar-j26JRBl87bUol07c.js": {
+        "bytes": 37871,
+        "sha256": "8db68949524fdf781e20099734833bf181b591ffe9255286fe547f4dbaf511e9",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/HighlightToolbar-j26JRBl87bUol07c.js"
+      },
+      "HowToReadTabPanel-2aK-kGispI5ISv61.js": {
+        "bytes": 421642,
+        "sha256": "0e2e28a9d52421b8b4c78e288df5fe7158f4dd077e183927e77d522bddefae97",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/HowToReadTabPanel-2aK-kGispI5ISv61.js"
+      },
+      "HowToReadTabPanel-6a3edf6a7a.css": {
+        "bytes": 8319,
+        "sha256": "2737368c39f2649c7f54383014aa2792a143169a72ffe559ed806df9c5a39a6f",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/HowToReadTabPanel-6a3edf6a7a.css"
+      },
+      "JobsPanel-3aa7cbff14.css": {
+        "bytes": 1662,
+        "sha256": "83dc4635bd95244702d6fb5a3176766e66db7e7fa8bf31eb563b5344b497391a",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/JobsPanel-3aa7cbff14.css"
+      },
+      "JobsPanel-CVaqtTo8VN7Aq5Tf.js": {
+        "bytes": 3449,
+        "sha256": "19bfab846059b61df9057263a60106eb2b3f7ba536718a3e0a5303c9de93c8e1",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/JobsPanel-CVaqtTo8VN7Aq5Tf.js"
+      },
+      "KeySignatureEditor-CXJAFKyoQvusjLTD.js": {
+        "bytes": 4438,
+        "sha256": "cd9f4ebf01b5cafc36fe50951d5410b22bc84f89ca845ac8e0fda63aa4c7adcb",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/KeySignatureEditor-CXJAFKyoQvusjLTD.js"
+      },
+      "LineSurfaces-BhO6jIxvThkwBC3L.js": {
+        "bytes": 36615,
+        "sha256": "f776849ea50890e996b9886bacb107b675f43735ad495b6d01f0196ffd339e98",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/LineSurfaces-BhO6jIxvThkwBC3L.js"
+      },
+      "LineSurfaces-e12b24b97e.css": {
+        "bytes": 624,
+        "sha256": "59c21405c1731b53260888ee0325593e22d681d19f9c009974e2ae199c92d7f9",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/LineSurfaces-e12b24b97e.css"
+      },
+      "LiveScrollWorker-C42ZdHmRNdd0C38v.js": {
+        "bytes": 81010,
+        "sha256": "4440db5338f84be3f81fad3e2012db50d693483f4d6cb54823ea64d5cf2c6dd4",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/LiveScrollWorker-C42ZdHmRNdd0C38v.js"
+      },
+      "LyricsModalEditor-CdEytsvnpwf0HXij.js": {
+        "bytes": 41900,
+        "sha256": "c837ebe9e3b60721b818b67204530956f557b61bfbf3baf363870361147b74ab",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/LyricsModalEditor-CdEytsvnpwf0HXij.js"
+      },
+      "LyricsModalEditor-d0b4ee0b7c.css": {
+        "bytes": 3934,
+        "sha256": "a5ad1bac24a962dde5b2633f5dea57bc6177707306e3b0faf6422d90989f814e",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/LyricsModalEditor-d0b4ee0b7c.css"
+      },
+      "MeasureAutoswitchPopup-DoSMTNDXRU8sJb7o.js": {
+        "bytes": 11932,
+        "sha256": "a3ead338a8e575f1e9b4c03596ba1e1ee78ae7e673ebb898ac2b6ac795ee18fa",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/MeasureAutoswitchPopup-DoSMTNDXRU8sJb7o.js"
+      },
+      "MeasureAutoswitchPopup-b036bac46a.css": {
+        "bytes": 2636,
+        "sha256": "70647466369aeb624aea6a76d8352892bb23da6f209fcce5a46fca80a5b852c1",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/MeasureAutoswitchPopup-b036bac46a.css"
+      },
+      "MigrationPopup-3f645b6e5f.css": {
+        "bytes": 1405,
+        "sha256": "7e89e109f06b144dafed5919c3b70bfc080cf1347b196f391cccef1477fce4ba",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/MigrationPopup-3f645b6e5f.css"
+      },
+      "MigrationPopup-C3RL-kaiGfNxqEGS.js": {
+        "bytes": 3272,
+        "sha256": "2a4216986a04c39bd2ae9e831f41668a63b71364de6a4e50d66d12dafd55f302",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/MigrationPopup-C3RL-kaiGfNxqEGS.js"
+      },
+      "Mixer-1f111b6612.css": {
+        "bytes": 11352,
+        "sha256": "7b0a3df594bd7efdcc026772b8b5a3fdc0b2e5231a1dfb068b59d48f00bdb9ce",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/Mixer-1f111b6612.css"
+      },
+      "Mixer-ClMhlgHv2yBmNEby.js": {
+        "bytes": 72420,
+        "sha256": "b97ebaf405b9cadafa4e456331824e7d8f50c46a08d35c5df506718db374407d",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/Mixer-ClMhlgHv2yBmNEby.js"
+      },
+      "MixerOnboarding-645f19a590.css": {
+        "bytes": 131,
+        "sha256": "0dc18b83003d478a25d691850fb9cfc85c8c46f3b8a24ec35775b1c2e3eef539",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/MixerOnboarding-645f19a590.css"
+      },
+      "MixerOnboarding-DccDl3U4k-SSIGoX.js": {
+        "bytes": 5671,
+        "sha256": "e724ddadcd789975915c153994a1999326a3feb02032251a3f21ee225627d0e7",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/MixerOnboarding-DccDl3U4k-SSIGoX.js"
+      },
+      "MyTabsPanel-022f96e68d.css": {
+        "bytes": 22201,
+        "sha256": "5ec08bc0a192e9d606453a948f91310cffef936a7887aa39c451f4f7c2d0ae91",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/MyTabsPanel-022f96e68d.css"
+      },
+      "MyTabsPanel-KXBmSeD09JyKFPIL.js": {
+        "bytes": 125172,
+        "sha256": "7c4338c89c0ab62bec281b33c8615fbea27f6f8ae20006ef977eef0691d75d48",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/MyTabsPanel-KXBmSeD09JyKFPIL.js"
+      },
+      "NaturalHarmonicEditor-4d1cc971ce.css": {
+        "bytes": 702,
+        "sha256": "d91107cd30f112268223f4b1a73e082e7483db454e79a5593e1bcd5a08f33f67",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/NaturalHarmonicEditor-4d1cc971ce.css"
+      },
+      "NaturalHarmonicEditor-CqSfrzlo-_yCGtvC.js": {
+        "bytes": 6689,
+        "sha256": "b6616c76d17793cb4ca2df899fa067fe32f5b2dbceb49226e2072eea7b1037fc",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/NaturalHarmonicEditor-CqSfrzlo-_yCGtvC.js"
+      },
+      "NewTabPanel-95e268ade1.css": {
+        "bytes": 6125,
+        "sha256": "e3f4d91e726302fa614d69806f80ee59f87d353e9485ff466be4a16c93c9babf",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/NewTabPanel-95e268ade1.css"
+      },
+      "NewTabPanel-CQVEAZnIAxc5fd6N.js": {
+        "bytes": 43891,
+        "sha256": "ad4e6d3c05ca802f872256d3ba44e0127db9f94e9c145f874dbf60add409ba8a",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/NewTabPanel-CQVEAZnIAxc5fd6N.js"
+      },
+      "PartTuningEditor-CCuF0m_r1PTUhl5j.js": {
+        "bytes": 15400,
+        "sha256": "ff10f47b11c80c3afcb07be76ce0a7fd1b3b2bf6a6474706bead6310cc24ae15",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/PartTuningEditor-CCuF0m_r1PTUhl5j.js"
+      },
+      "PartTuningEditor-d8925c4926.css": {
+        "bytes": 1948,
+        "sha256": "7bab064fefbd696be5ab4f72b7d7c355fb3da48dad2640a6e8d51a86b0bdc936",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/PartTuningEditor-d8925c4926.css"
+      },
+      "PaymentPanel-21663235bf.css": {
+        "bytes": 2732,
+        "sha256": "dc96f18c57d958127a956c4880bec91def976a5c78ab3c57f95218aa66b36e99",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/PaymentPanel-21663235bf.css"
+      },
+      "PaymentPanel-CU5QhcFCOfvbTBB7.js": {
+        "bytes": 23757,
+        "sha256": "c9e34db620c06fec59c1bc0357049c787ff3257f54699db4e1d0a3aeeb17cd57",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/PaymentPanel-CU5QhcFCOfvbTBB7.js"
+      },
+      "PitchShift-72422ad1c2.css": {
+        "bytes": 1932,
+        "sha256": "b7e840c5b89724dc86fc4deadc4e0962661a1ece45a5e320e5efdb66abd31a48",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/PitchShift-72422ad1c2.css"
+      },
+      "PitchShift-DQsUJw9HNlqUZC8p.js": {
+        "bytes": 8418,
+        "sha256": "e20bf3f4b497e7fc815f10977e2f8544eae0fcca166084e66f04e94b3d8f0760",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/PitchShift-DQsUJw9HNlqUZC8p.js"
+      },
+      "Print-304bd284f4.css": {
+        "bytes": 1107,
+        "sha256": "88ed5f6a81626651f04fb73daff29727d9cd9584adf73077b8c5169a49b7020e",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/Print-304bd284f4.css"
+      },
+      "Print-CtMTFWCdsrCPuW0W.js": {
+        "bytes": 2916,
+        "sha256": "4abe093aecb82876c17490b452b7a55d9de082ebb742ab3414144234d6ea1b24",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/Print-CtMTFWCdsrCPuW0W.js"
+      },
+      "ProfilePanel-16c2d9a178.css": {
+        "bytes": 2410,
+        "sha256": "be1473225d22d38b4e1c665ccc69f340b7c2f7e8ee2537047a0900833dda0e71",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ProfilePanel-16c2d9a178.css"
+      },
+      "ProfilePanel-BGF9oi3HzTd8eOg1.js": {
+        "bytes": 8812,
+        "sha256": "f9b06fa4fd72779ec93fb6e35832c6310f8e15aa82f62024bf114cd87f838da4",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ProfilePanel-BGF9oi3HzTd8eOg1.js"
+      },
+      "PropagateHoverButton-9a0b68b325.css": {
+        "bytes": 1314,
+        "sha256": "3485fa4636a8ab3b8f812df86b9aaa2cd7e68b212621747dbb052394dd23db46",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/PropagateHoverButton-9a0b68b325.css"
+      },
+      "PropagateHoverButton-Cu2CwxxXgcnqVa5Y.js": {
+        "bytes": 5374,
+        "sha256": "c6a92bc0ba50ec7a847a0e90bd9bd7e779b949e9849db9216215f41d3728916e",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/PropagateHoverButton-Cu2CwxxXgcnqVa5Y.js"
+      },
+      "PublishSongDuplicateModal-CimHCptyhUFd6uQR.js": {
+        "bytes": 6935,
+        "sha256": "f019455061407fc5cd03c0ed12dfb435329ef4256ac7e81d0c023189f19ac061",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/PublishSongDuplicateModal-CimHCptyhUFd6uQR.js"
+      },
+      "PublishSongDuplicateModal-e220217157.css": {
+        "bytes": 924,
+        "sha256": "900342c2720d62e7f4b99803138c3b2b3825b71d1a7253beeb85fcc04eb20bd0",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/PublishSongDuplicateModal-e220217157.css"
+      },
+      "PublishSongModal-9deb7b967d.css": {
+        "bytes": 506,
+        "sha256": "a35dbae3c39cf8b72e3aaa3d7e7cbf7e4b1b1cf9f24cc7d368098c7e8efadaaa",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/PublishSongModal-9deb7b967d.css"
+      },
+      "PublishSongModal-D4l4qa5qgvyJvqPS.js": {
+        "bytes": 21961,
+        "sha256": "220c2119ad714b8d0c08b1c61ae927b46e969e8b8c0169e40cb05f4f6894fd1a",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/PublishSongModal-D4l4qa5qgvyJvqPS.js"
+      },
+      "RegenerateConfirmModal-B4bWOPRyEemojACF.js": {
+        "bytes": 23134,
+        "sha256": "4726a4a52dad797559dc14c96d73f9e0c3b6652786190471fd7107095e65fc44",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/RegenerateConfirmModal-B4bWOPRyEemojACF.js"
+      },
+      "RegenerateConfirmModal-f8bd9cf879.css": {
+        "bytes": 5223,
+        "sha256": "5c4a563e055961fbecd6be15d99e5dd1b837b8082314029387cf45d24be571ab",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/RegenerateConfirmModal-f8bd9cf879.css"
+      },
+      "RequestAddVideoModal-4dff0d3235.css": {
+        "bytes": 354,
+        "sha256": "e5054930ef1b18842eb8bdf2972516303cfcd8af9450fa659233d44f7e072270",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/RequestAddVideoModal-4dff0d3235.css"
+      },
+      "RequestAddVideoModal-D4GMIKlYo5tTMwJJ.js": {
+        "bytes": 2692,
+        "sha256": "9e2a439f237601324f1fdc3226484179df1c1866f8766da1a219181d8ed19b51",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/RequestAddVideoModal-D4GMIKlYo5tTMwJJ.js"
+      },
+      "ResetConfirmModal-3f3478e4e2.css": {
+        "bytes": 686,
+        "sha256": "da564287216fea08755b8ee3496b9593519cee8774fc047936312ab2085cec4a",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ResetConfirmModal-3f3478e4e2.css"
+      },
+      "ResetConfirmModal-tfXKXgEIzu_Nr8AV.js": {
+        "bytes": 7213,
+        "sha256": "7ceda215702f40111af01f2f5d7c59a8f17404c55cbaac89ddc19dad13f0a468",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ResetConfirmModal-tfXKXgEIzu_Nr8AV.js"
+      },
+      "SectionEditor-2bdb720040.css": {
+        "bytes": 692,
+        "sha256": "f89bf46d84436a3fe377874ef7cc59234a9594ff4037c4c8065f647c0074c21a",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SectionEditor-2bdb720040.css"
+      },
+      "SectionEditor-CQSAb0T1mTX8pRqQ.js": {
+        "bytes": 8987,
+        "sha256": "58f2b79081a4d3fc404e9fd4a664c10b37a55f8d7df586daa49b11658b7c6b65",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SectionEditor-CQSAb0T1mTX8pRqQ.js"
+      },
+      "Settings-75e26554ef.css": {
+        "bytes": 3734,
+        "sha256": "1362adfb1e21ce60b71cdc70ddfe77e8b22cf3cf0d2c6345ca636b15cf0d0e62",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/Settings-75e26554ef.css"
+      },
+      "Settings-Do3uT1MbLooeSrYo.js": {
+        "bytes": 26791,
+        "sha256": "73c5a30955f332bc6be71458de2524b19a19fe2ec091c23cf18356f5d7e45b40",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/Settings-Do3uT1MbLooeSrYo.js"
+      },
+      "SheetAddStringModal-323ee9e0ff.css": {
+        "bytes": 382,
+        "sha256": "82c0f665690947d30118d90ec7f33ac42f9504b6ac26258baae2f2f54c880242",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SheetAddStringModal-323ee9e0ff.css"
+      },
+      "SheetAddStringModal-BOKzTGxKkwGS-vM2.js": {
+        "bytes": 8812,
+        "sha256": "6935f933bf6a00a7192d1b7ccbdc4067336124541613f31ef0f564e87721d1be",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SheetAddStringModal-BOKzTGxKkwGS-vM2.js"
+      },
+      "ShowroomBottom-7cbff641d6.css": {
+        "bytes": 396,
+        "sha256": "281a7fd81e4c7bbd60a1d215e0497a08d3735c73169d6303f60001b64f854c13",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ShowroomBottom-7cbff641d6.css"
+      },
+      "ShowroomBottom-BP1C191w44yHbYd_.js": {
+        "bytes": 743,
+        "sha256": "6d266203e212dcf160b1592162049b16d36f278da03abced660f1b8ad14e8f1a",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ShowroomBottom-BP1C191w44yHbYd_.js"
+      },
+      "SigninPanel-BNxp9sLXXTAjKx7T.js": {
+        "bytes": 31531,
+        "sha256": "6ceecc5ea3de7819e79bc1092d9cea294887a314381a2734e453fbcc394a9729",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SigninPanel-BNxp9sLXXTAjKx7T.js"
+      },
+      "SigninPanel-b29c38f18e.css": {
+        "bytes": 3776,
+        "sha256": "22853edbf753c527a84d82397a35721b7d449f513c408dc5352578aea35dc125",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SigninPanel-b29c38f18e.css"
+      },
+      "SignupPanel-Dohor-x4-2SMcDS3.js": {
+        "bytes": 7097,
+        "sha256": "49930889baf621378bf901ccc2900093f7efd21b5c021004f9645a4acd73a3d8",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SignupPanel-Dohor-x4-2SMcDS3.js"
+      },
+      "SignupPanel-ccd1f1b397.css": {
+        "bytes": 952,
+        "sha256": "b420e8f32b13660f998e69f47e957b2e277427688fdcc96fa43c37016906d357",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SignupPanel-ccd1f1b397.css"
+      },
+      "SongsPanel-7a72274335.css": {
+        "bytes": 2470,
+        "sha256": "a9ff54deeb78007ef7b77d575139b199e9ab3b03a713b89ec50de6028f7dbbd9",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SongsPanel-7a72274335.css"
+      },
+      "SongsPanel-Cz0szvKULfrEKQcV.js": {
+        "bytes": 17192,
+        "sha256": "4191bef26f1cfa3a802908e1b2916b8d2c3645b631d9bb8e3e2734ca3d147327",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SongsPanel-Cz0szvKULfrEKQcV.js"
+      },
+      "SoundsTrackInstrument-9955d1590b.css": {
+        "bytes": 793,
+        "sha256": "f99d4a4b014b94ac8c64540b2c3977a9d55834e443ec23dd3473a033ce271bdc",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SoundsTrackInstrument-9955d1590b.css"
+      },
+      "SoundsTrackInstrument-DOIdvPJReseDGIFu.js": {
+        "bytes": 19499,
+        "sha256": "0808f8f30c7db38f79f7aa41417e92c3d2427e692136997d6d95210512a22cea",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SoundsTrackInstrument-DOIdvPJReseDGIFu.js"
+      },
+      "StoreWorker-CkAXslXDlDmRdqI7.js": {
+        "bytes": 1174800,
+        "sha256": "e6043be512b1377bc10efd99474aa943c02d48e64eda4f4b2dc8980360ac5513",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/StoreWorker-CkAXslXDlDmRdqI7.js"
+      },
+      "SubmitRevisionOnboarding-8316c63b9b.css": {
+        "bytes": 140,
+        "sha256": "666115a7f4df013d32d3a2a4938b86ba5f527386bf1182f844b0493d60650615",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SubmitRevisionOnboarding-8316c63b9b.css"
+      },
+      "SubmitRevisionOnboarding-DJiCb0JBOFbWbEvF.js": {
+        "bytes": 7387,
+        "sha256": "a5ef8e09336fe9f532a2dcf526e6018c2ed40ec7d136eece9c72e08ffb0715bd",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SubmitRevisionOnboarding-DJiCb0JBOFbWbEvF.js"
+      },
+      "SubscribeDialogPopup-597e79e380.css": {
+        "bytes": 653,
+        "sha256": "d2c1424e08d101421ad657d2b080368e2f12fd57f1125a3fc53e6ba25bdcc690",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SubscribeDialogPopup-597e79e380.css"
+      },
+      "SubscribeDialogPopup-CMqaSvSt5LhnglRR.js": {
+        "bytes": 5643,
+        "sha256": "a8eeccdd0c8c80fdc89fe485680506e45a4df2d1e80503ad84b146a08e2687ec",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/SubscribeDialogPopup-CMqaSvSt5LhnglRR.js"
+      },
+      "TabCopyPopup-e0aa302086.css": {
+        "bytes": 729,
+        "sha256": "4bd1d389cc78943fcfd243d46b926acfe2947100e828e86252bf52ef0341734d",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TabCopyPopup-e0aa302086.css"
+      },
+      "TabCopyPopup-xtNOH70at9qegTX0.js": {
+        "bytes": 6511,
+        "sha256": "f9289fd9d9a9d5b45984a0ae1ae7a09404c784d17741e97c54afba68289983c7",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TabCopyPopup-xtNOH70at9qegTX0.js"
+      },
+      "TabNameEditor-23de410203.css": {
+        "bytes": 1389,
+        "sha256": "5431111ac44883a073b4af119cc3e69ffd32ddfa097608f104269e95452d49e4",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TabNameEditor-23de410203.css"
+      },
+      "TabNameEditor-DZkpkqV4-rhWJcj_.js": {
+        "bytes": 19703,
+        "sha256": "a537ddec0e5abecd489cf7113174b7714d3c64d487d66fa8e7a778297ad7c8bb",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TabNameEditor-DZkpkqV4-rhWJcj_.js"
+      },
+      "TempoEditor-363deab59e.css": {
+        "bytes": 3237,
+        "sha256": "b7d4064e5c0defc8cc3d36eb60450f11f1c3637c62bcd79c91002704e8b5fda1",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TempoEditor-363deab59e.css"
+      },
+      "TempoEditor-B5R_ciaaDeoqLK6L.js": {
+        "bytes": 52637,
+        "sha256": "f134f13d54f5fe415fa33834397cb8b8ceec74e1c7f817db57bfa74ba9fa4a8e",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TempoEditor-B5R_ciaaDeoqLK6L.js"
+      },
+      "TestBeatHitLayer-Bni8-Bpcc7EMwcAK.js": {
+        "bytes": 2116,
+        "sha256": "b260dfe666e009239053a5372e7738ff5a934e8e5073b3621a0fa5dbfcf4be25",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TestBeatHitLayer-Bni8-Bpcc7EMwcAK.js"
+      },
+      "TextPanel-8e42343d60.css": {
+        "bytes": 964,
+        "sha256": "d5ff0ee912f2f351f8ff8bb9a185dd90f4145136db57a69ddbad3c3ea468d0a6",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TextPanel-8e42343d60.css"
+      },
+      "TextPanel-Dqzj_wU3IjubrYpT.js": {
+        "bytes": 2589,
+        "sha256": "f55e024b54c8aaa1d68fc1ff031fa729ede86fdb36079bb4b7b9fbad3df1f24b",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TextPanel-Dqzj_wU3IjubrYpT.js"
+      },
+      "TransposeEditor-37ad60e09a.css": {
+        "bytes": 1663,
+        "sha256": "3f9cf127c90d7d8f653863e6f8b9853fa4af7891629bac5b4cca203ab55da015",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TransposeEditor-37ad60e09a.css"
+      },
+      "TransposeEditor-DdZ7uHc3f5Lja6Qv.js": {
+        "bytes": 19500,
+        "sha256": "5a93699e5cc559b1b1135361cc938368c5488df17187ac3b2de31e5f45929a88",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TransposeEditor-DdZ7uHc3f5Lja6Qv.js"
+      },
+      "TremoloBarEditor-6c3a5070b5.css": {
+        "bytes": 2710,
+        "sha256": "38a9f750fe1910e3b69089a9e440fd8b586079dce3f40cb2a7cf35b3aecd3685",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TremoloBarEditor-6c3a5070b5.css"
+      },
+      "TremoloBarEditor-C3gV7ev8ocouv-gR.js": {
+        "bytes": 32852,
+        "sha256": "04e1dad5f62fb36a044ba6f52ddcd821a16280b6430f15229342014a91ce0562",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TremoloBarEditor-C3gV7ev8ocouv-gR.js"
+      },
+      "TrillEditor-4fc51758d9.css": {
+        "bytes": 2552,
+        "sha256": "5a1568fbadb13cf7f78aca20402c6d8bfeed5233f8ea84f708d6223b81d2dac1",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TrillEditor-4fc51758d9.css"
+      },
+      "TrillEditor-ByajF5TIr5BH4Wqy.js": {
+        "bytes": 11106,
+        "sha256": "b450da50fdf3c8a811bbe2244af3eefe4ab54c3f2d97a439a0a6c3f03c02435e",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TrillEditor-ByajF5TIr5BH4Wqy.js"
+      },
+      "TurkeyPricePopup-CnCK84PSaYPGfKrh.js": {
+        "bytes": 8782,
+        "sha256": "df91b420e3b478c410ca10e8851e387dbd0f68c52f4d1976fbe322ce690e8080",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TurkeyPricePopup-CnCK84PSaYPGfKrh.js"
+      },
+      "TurkeyPricePopup-c0b82c186d.css": {
+        "bytes": 1267,
+        "sha256": "33aceeefe8223d33314a124d97e0996e4ca237a2e86efff41c15ed52e0ffe4ab",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TurkeyPricePopup-c0b82c186d.css"
+      },
+      "Tutorial-2b30d3687d.css": {
+        "bytes": 700,
+        "sha256": "c3dc14d7275f5a4cdfa4594e00fbf2c7dca3cb7b75f3acefc75ade86d22b73f2",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/Tutorial-2b30d3687d.css"
+      },
+      "Tutorial-IYwrsRfLSB9PCHd7.js": {
+        "bytes": 6742,
+        "sha256": "892d9b79772e8fd2f26cbc63df6a7217a0b91ef01f064d5c5ffdc6b9aec251fc",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/Tutorial-IYwrsRfLSB9PCHd7.js"
+      },
+      "TutorialFinish-CPDNybANSYEliN39.js": {
+        "bytes": 4889,
+        "sha256": "0f0627787e03e749f77469023768e06bc0bc575598944ac8da1bba620a0c8abe",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TutorialFinish-CPDNybANSYEliN39.js"
+      },
+      "TutorialFinish-cc6a8f5c3e.css": {
+        "bytes": 522,
+        "sha256": "74719014ef185b2734515fa68a64b97883754a3c7edd9aeb3cbcd0fda321c0de",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/TutorialFinish-cc6a8f5c3e.css"
+      },
+      "UTRecorder-01d03e270b.css": {
+        "bytes": 2595,
+        "sha256": "d46f32e05eda8c1208652582743fc497572c6f08b24da507b49371cbe226b888",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/UTRecorder-01d03e270b.css"
+      },
+      "UTRecorder-BQhkoMEGQA9dwWAD.js": {
+        "bytes": 75346,
+        "sha256": "af065d60e0ac78bc211457cbc59b92c66296361c022a55d195f4ece61fa19e3c",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/UTRecorder-BQhkoMEGQA9dwWAD.js"
+      },
+      "UndoStackCompressModal-59c8701964.css": {
+        "bytes": 373,
+        "sha256": "4e764eb2af916ac5829cea3d5058c43c70d540b1f6b736e759a56203e67e2b54",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/UndoStackCompressModal-59c8701964.css"
+      },
+      "UndoStackCompressModal-D87YcGh3ef8BAJUa.js": {
+        "bytes": 3873,
+        "sha256": "abb6ae1e11b9b2ea61bb652ab30f9c0fa7538c47aa59f71391e3d63acd7a3716",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/UndoStackCompressModal-D87YcGh3ef8BAJUa.js"
+      },
+      "UpdateCardPanel-6c2a79699c.css": {
+        "bytes": 24851,
+        "sha256": "268e6f89c0e06cf54cb19612da76ec3366694d14c4bd524efea9d47f92d3ef03",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/UpdateCardPanel-6c2a79699c.css"
+      },
+      "UpdateCardPanel-C3SrP3gttzpqrAAx.js": {
+        "bytes": 13733,
+        "sha256": "4a9ac6cd46123a97e294597a1c2460df44e833c9c9a3f2aa86bebdb7d302ccea",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/UpdateCardPanel-C3SrP3gttzpqrAAx.js"
+      },
+      "UpgradeToProDialog-01dfe97e59.css": {
+        "bytes": 1443,
+        "sha256": "8b9192ac8990ee064878da65f8d8c109b6501a9eb143aec59280d3fe26b52280",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/UpgradeToProDialog-01dfe97e59.css"
+      },
+      "UpgradeToProDialog-D_xGj7cehuXZi7I1.js": {
+        "bytes": 78717,
+        "sha256": "29183e8e4181d3203913af4045b61a05aed1ed61f3263111e0e7c025e2222df3",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/UpgradeToProDialog-D_xGj7cehuXZi7I1.js"
+      },
+      "UploadTabModal-BG8ZSMglG4M5t7u-.js": {
+        "bytes": 7868,
+        "sha256": "bcc8c8fcf4c02a86c245d7388f5394b34ab8f8d8dd3706fc45606548047360a1",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/UploadTabModal-BG8ZSMglG4M5t7u-.js"
+      },
+      "UploadTabModal-b20826944d.css": {
+        "bytes": 677,
+        "sha256": "bb0c2eb10859b9cba43b22483fbe115a16da6a4f2c92019c87ebad06fdd93754",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/UploadTabModal-b20826944d.css"
+      },
+      "VelocitySurfaces-m9gPIv6PLbZ1M-yK.js": {
+        "bytes": 1534,
+        "sha256": "e16d94ba46cdc14f027b38c70b9dc9754b7d13b42c4bbe35427df65eeeeba8ea",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/VelocitySurfaces-m9gPIv6PLbZ1M-yK.js"
+      },
+      "YTRequestAudioModal-DPk2pr8-mgsVzfTw.js": {
+        "bytes": 29499,
+        "sha256": "5ad33e7673b445c6de8dfdb23a56df3c0d543a6996303cd84708cc967b551df6",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/YTRequestAudioModal-DPk2pr8-mgsVzfTw.js"
+      },
+      "YTRequestAudioModal-b3a4251f20.css": {
+        "bytes": 1996,
+        "sha256": "a606caafb7a0a261c9aa6892310f2cb68fa03a6aae40b378750d5a06a226f3bd",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/YTRequestAudioModal-b3a4251f20.css"
+      },
+      "YTSyncPopup-C9CrfZQg1TgSDhgO.js": {
+        "bytes": 24196,
+        "sha256": "fbd890686e435134650a56b0b56ef117a9e028d621dfb4ffc3086dc0837a9b60",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/YTSyncPopup-C9CrfZQg1TgSDhgO.js"
+      },
+      "YTSyncPopup-f32bebe9ff.css": {
+        "bytes": 3723,
+        "sha256": "a37c8bfe6ae84592631377909bb1851abd25615c3b9c132bb0606e6e08ada1a6",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/YTSyncPopup-f32bebe9ff.css"
+      },
+      "common-1dbaa787ec.css": {
+        "bytes": 307209,
+        "sha256": "96746c930d6901ff52f114a10a59430ab63730613d2fcb2812a6f06288a43545",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/common-1dbaa787ec.css"
+      },
+      "common-D9jb_iiWazq10Y0L.js": {
+        "bytes": 3111066,
+        "sha256": "2d5856e1fbf27850245b25187f9fe465857b28a604b823c5f8dea6da98f8e299",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/common-D9jb_iiWazq10Y0L.js"
+      },
+      "di-BNdFoJTub94IRLwn.js": {
+        "bytes": 91738,
+        "sha256": "88f3bb574147ecf409ff7cdf86f606ac7a83461577d25077a0e6c904c6565c69",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/di-BNdFoJTub94IRLwn.js"
+      },
+      "ensembleForestNgr-C_4SV5WsBW0L8sqT.js": {
+        "bytes": 1535959,
+        "sha256": "209bf8682771be203db267f1b848c868c90918bac562b662139edddeebf1636c",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/ensembleForestNgr-C_4SV5WsBW0L8sqT.js"
+      },
+      "nosleep-bPZVb_-rs-ecO1Hs.js": {
+        "bytes": 13466,
+        "sha256": "eb7ea7cf1dcdd6e98d0c714f124943cb337d17799ca174bd0379b82a8e23139a",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/nosleep-bPZVb_-rs-ecO1Hs.js"
+      },
+      "preact-DRh5Vn1qjwAuuFSd.js": {
+        "bytes": 21953,
+        "sha256": "d2629703ccb43c9e84a1b608979f681b79a42732510c7fb4d10cfe24553f757f",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/preact-DRh5Vn1qjwAuuFSd.js"
+      },
+      "rolldown-runtime-bwV8cYxwBQ-0muz9.js": {
+        "bytes": 1084,
+        "sha256": "cb2fb01f2064eb36487466778d2ffc4c97ad86af89be1635209de18f0b5b2236",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/rolldown-runtime-bwV8cYxwBQ-0muz9.js"
+      },
+      "split-C1Mk9W379OaRB7N7.js": {
+        "bytes": 2365,
+        "sha256": "16bf8993fa01b03600ae87a942bfc6e1e83b23d4248d4de08aeba65a21e72015",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/split-C1Mk9W379OaRB7N7.js"
+      },
+      "vendor-DEuYOyXl-lF2U7J-.js": {
+        "bytes": 645532,
+        "sha256": "073b936addd5919fa571363055ac92764845694bcc6a626c31c6f465bdf82c35",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/vendor-DEuYOyXl-lF2U7J-.js"
+      },
+      "AudioPlayerWorkerEntry-BlrZNPhOw2QPvbv3.js": {
+        "bytes": 182030,
+        "sha256": "bc94ac294077b96c007ccdb11e47b58e661928c15ebceb26644d9cb238eb1cd7",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AudioPlayerWorkerEntry-BlrZNPhOw2QPvbv3.js"
+      },
+      "AudioWorkletsBundle-dTqsc4F4DO87sSij.js": {
+        "bytes": 2728,
+        "sha256": "0d656baccbf440c4bed81649ccf84e8c3a036636eba81ae48bed4459662dada5",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/AudioWorkletsBundle-dTqsc4F4DO87sSij.js"
+      },
+      "BarMenu-6c60fab750.css": {
+        "bytes": 2829,
+        "sha256": "e9f6ed4a98143a5f08a84d163e7a77b7b01d59c66cd323e74df686790808b656",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/BarMenu-6c60fab750.css"
+      },
+      "BarMenu-D3KdxyQh4zuYp_Nn.js": {
+        "bytes": 4260,
+        "sha256": "b7112783bde6d863074055e289529a40367cd294a20cd860c27c52882482a977",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/BarMenu-D3KdxyQh4zuYp_Nn.js"
+      },
+      "CorpusTab-DTSRSPRbWrKnIgRC.js": {
+        "bytes": 6973,
+        "sha256": "bfb1b91123977ec03c8a5e33118009955dfb65da430125336dcca006489543a2",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/CorpusTab-DTSRSPRbWrKnIgRC.js"
+      },
+      "DrumToolbarOnboarding-2e6374186d.css": {
+        "bytes": 1139,
+        "sha256": "fa91773be45a9a0f2002dd5c7b1a6440c7b50d283bf70f41e6b7fb39ebf190f2",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/DrumToolbarOnboarding-2e6374186d.css"
+      },
+      "DrumToolbarOnboarding-BKPPaJT76QEcpr3t.js": {
+        "bytes": 3562,
+        "sha256": "fd8eae02f04fa39a447fcadd3960106d50372e4fa74a794a954901c1ffe1ae94",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/DrumToolbarOnboarding-BKPPaJT76QEcpr3t.js"
+      },
+      "FluidsynthAudioPlayerWorkerEntry-Cyk22vwVOOt0KnCS.js": {
+        "bytes": 436715,
+        "sha256": "9a5ae9041a1177382303aece57720ae471ae324a98618db03c00c9b0fd3a38bd",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/FluidsynthAudioPlayerWorkerEntry-Cyk22vwVOOt0KnCS.js"
+      },
+      "PlayerAudioUtilitiesWorker-DJsOOq0Gg5eQK5vG.js": {
+        "bytes": 255561,
+        "sha256": "fb69e4f16194ef3128970a15850e7b428f14136b9ce0a42afbf24efab5ccfd2a",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/PlayerAudioUtilitiesWorker-DJsOOq0Gg5eQK5vG.js"
+      },
+      "artwork-128x128-C2F5WlhhgFx5FI3S.js": {
+        "bytes": 142,
+        "sha256": "f093f0475bb1c3194fb5047956cc7671824040fc6c27059611b89708a6b68438",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/artwork-128x128-C2F5WlhhgFx5FI3S.js"
+      },
+      "artwork-192x192-CJ3BLBL00aYmxgHA.js": {
+        "bytes": 142,
+        "sha256": "7cfca257fbf7ce97ba339bdf53430740a033e7906dcae36ccaed4223957f6925",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/artwork-192x192-CJ3BLBL00aYmxgHA.js"
+      },
+      "artwork-256x256-BMykYIdL49zyHBdZ.js": {
+        "bytes": 142,
+        "sha256": "34446db199c21eb53c52e65af8baf37bed8f514c0b1885c93e0f5826ac4f0324",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/artwork-256x256-BMykYIdL49zyHBdZ.js"
+      },
+      "artwork-384x384-BgUQdKdQjFLTMfJc.js": {
+        "bytes": 142,
+        "sha256": "bd2d9291cf4fe528308e802f297905dd8d6d898990e89d3c5b757c3a55b30081",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/artwork-384x384-BgUQdKdQjFLTMfJc.js"
+      },
+      "artwork-512x512-DPAccCwGfj15K0at.js": {
+        "bytes": 142,
+        "sha256": "5820dd8ca70936d042d66b3133fb6267fd17a8b30f1eeb706a7b676dcd0ffca7",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/artwork-512x512-DPAccCwGfj15K0at.js"
+      },
+      "artwork-96x96-DQsOhkivjdyVbPGF.js": {
+        "bytes": 138,
+        "sha256": "d3de3e0100cf829ecb57406e632dead53ed2dd30bacb28aaae24437fb3405e16",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/artwork-96x96-DQsOhkivjdyVbPGF.js"
+      },
+      "dropin-Czgtcy8-8ruZbmD8.js": {
+        "bytes": 516806,
+        "sha256": "d5a3017ddaa227ef597419f3c1ec442c1334d8e1f7f0602c3d6507beff3309ff",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/dropin-Czgtcy8-8ruZbmD8.js"
+      },
+      "fingeringEngine-L2xPFPWMUJ0oOooh.js": {
+        "bytes": 132631,
+        "sha256": "f590e74d7760325b4b8a607c4ad895812be8fbbebdf8264447c7c17fb8b5e565",
+        "source": "https://static3.songsterr.com/production-main/static3/latest/fingeringEngine-L2xPFPWMUJ0oOooh.js"
+      }
+    },
+    "failed": {
+      "stretch-DvwSRxsTOISjEyM3.wasm": "Command '['curl', '--fail', '--silent', '--show-error', '--location', '--max-time', '30', 'https://static3.songsterr.com/production-main/static3/latest/stretch-DvwSRxsTOISjEyM3.wasm']' returned non-zero exit status 22."
+    }
+  }
+}
