@@ -1,9 +1,9 @@
 # Songsterr Classic — locally packaged July UI
 
-A personal, opt-in Chrome extension for the July 15, 2026 Songsterr interface
-with live Songsterr song/account data. Task: T604.
+A personal, opt-in Chrome/Firefox extension for the July 15, 2026 Songsterr interface
+with live Songsterr song/account data.
 
-**0.3.0 simplifies the product to one animated per-tab toggle.**
+**0.3.1 keeps one compact toggle, with reload guidance on hover/focus and project links.**
 It remains a compatibility beta, not a completed all-functionality migration.
 
 - [Build, installation, exact behavior and verification](docs/local-build-2026-10-12.md)
@@ -63,3 +63,17 @@ copy any normal browser session. The package contains no credentials/profile.
 Vendor assets remain ignored in Git. Songsterr retains its rights in those
 assets; this project is not affiliated with Songsterr and does not prepare a
 Chrome Web Store/public distribution.
+
+## Firefox
+
+[Firefox build, temporary installation and verification](docs/firefox.md).
+The same source produces both browsers; Firefox adds one small asset loader
+and a generated manifest. The unsigned XPI is a development install, not an
+AMO release.
+
+## Versioning
+
+Versions describe this extension, not Songsterr. The initial preview was 0.1;
+0.2 introduced local packaging and editing adapters; 0.3 replaced the two modes
+with one toggle. 0.3.1 refines that popup without changing the API adapters.
+The leading zero reflects the still-incomplete compatibility work.

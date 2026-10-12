@@ -1,7 +1,6 @@
 const toggle = document.getElementById("toggle");
 const status = document.getElementById("status");
-const description = document.getElementById("description");
-const stateLabel = document.getElementById("state-label");
+const notice = document.getElementById("notice");
 const errorNotice = document.getElementById("error");
 let tabId;
 let enabled = false;
@@ -15,11 +14,10 @@ function show(result) {
     toggle.setAttribute("aria-checked", String(enabled));
     toggle.removeAttribute("aria-busy");
     toggle.disabled = false;
-    stateLabel.textContent = enabled ? "On" : "Off";
-    description.textContent = enabled ? "July layout · editing enabled" : "Current Songsterr layout";
-    status.textContent = enabled ? "Classic is active on this tab" : "Ready when you are";
+    status.textContent = enabled ? "Classic on" : "Classic off";
+    notice.hidden = !result.legacyPreview;
     if (result.legacyPreview) {
-        description.textContent = "Older preview needs a refresh";
+        notice.textContent = "Turn on to update the older preview.";
         status.textContent = "Turn on to enable Classic with editing";
     }
 }
@@ -27,15 +25,16 @@ function show(result) {
 async function start() {
     toggle.disabled = true;
     errorNotice.hidden = true;
+    notice.hidden = true;
     document.getElementById("version").textContent = "v" + chrome.runtime.getManifest().version;
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
     tabId = tab?.id;
     const url = new URL(tab?.url || "about:blank");
     if (url.origin !== "https://www.songsterr.com") {
         document.body.dataset.state = "unavailable";
-        stateLabel.textContent = "Not here";
-        description.textContent = "Open a Songsterr song to begin";
-        status.textContent = "Available on songsterr.com";
+        notice.hidden = false;
+        notice.textContent = "Open a Songsterr song to begin.";
+        status.textContent = notice.textContent;
         return;
     }
     const result = await chrome.runtime.sendMessage({ action: "status", tabId });
@@ -44,9 +43,9 @@ async function start() {
     // switchable OFF there; only initial activation needs a song URL.
     if (!result.enabled && !url.pathname.startsWith("/a/wsa/")) {
         document.body.dataset.state = "unavailable";
-        stateLabel.textContent = "Open a song";
-        description.textContent = "Choose a song before switching";
-        status.textContent = "Your current page stays unchanged";
+        notice.hidden = false;
+        notice.textContent = "Open a song before switching.";
+        status.textContent = notice.textContent;
         return;
     }
     show(result);
@@ -57,7 +56,6 @@ toggle.addEventListener("click", async () => {
     toggle.disabled = true;
     toggle.setAttribute("aria-busy", "true");
     document.body.dataset.state = "busy";
-    stateLabel.textContent = "Switching";
     status.textContent = enable ? "Loading Classic…" : "Restoring current interface…";
     errorNotice.hidden = true;
     try {
@@ -69,7 +67,6 @@ toggle.addEventListener("click", async () => {
             show(await chrome.runtime.sendMessage({ action: "status", tabId }));
         } catch {
             document.body.dataset.state = "unavailable";
-            stateLabel.textContent = "Unavailable";
             status.textContent = "Reopen the popup to check this tab";
             toggle.removeAttribute("aria-busy");
         }
@@ -80,8 +77,16 @@ toggle.addEventListener("click", async () => {
 
 start().catch(error => {
     document.body.dataset.state = "unavailable";
-    stateLabel.textContent = "Unavailable";
     status.textContent = "Could not read this tab";
     errorNotice.textContent = error.message;
     errorNotice.hidden = false;
 });
+
+// Escape dismisses help without changing the switch; a new hover/focus can reopen it.
+const toggleWrap = document.querySelector(".toggle-wrap");
+document.addEventListener("keydown", event => {
+    if (event.key === "Escape") toggleWrap.dataset.dismissed = "true";
+});
+for (const event of ["mouseleave", "focusout"]) {
+    toggleWrap.addEventListener(event, () => delete toggleWrap.dataset.dismissed);
+}

@@ -72,7 +72,8 @@ async function applyTabState(tabId, enable) {
 chrome.runtime.onMessage.addListener((message, sender, respond) => {
     (async () => {
         if (message.action === "status") {
-            const rules = await tabRules(message.tabId);
+            // Content scripts may query only their own tab; popup messages carry its ID.
+            const rules = await tabRules(sender.tab?.id ?? message.tabId);
             return { enabled: rules.length > 0, legacyPreview: rules.some(rule => rule.action.type === "block") };
         }
         if (message.action !== "enable" && message.action !== "disable") {

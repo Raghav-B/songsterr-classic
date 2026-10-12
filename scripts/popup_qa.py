@@ -16,13 +16,13 @@ async def main():
     errors = []
     async with async_playwright() as playwright:
         browser = await playwright.chromium.launch(executable_path=CHROME, headless=True, args=["--no-sandbox"])
-        page = await browser.new_page(viewport={"width":360,"height":560}, device_scale_factor=2)
+        page = await browser.new_page(viewport={"width":300,"height":300}, device_scale_factor=2)
         page.on("pageerror", lambda error: errors.append(str(error)))
         await page.add_init_script("""
             globalThis.popupQA = {enabled:false,legacyPreview:false,fail:false,url:'https://www.songsterr.com/a/wsa/test-tab-s439',calls:[]};
             globalThis.chrome = {
                 tabs:{query:async()=>[{id:1,url:popupQA.url}]},
-                runtime:{getManifest:()=>({version:'0.3.0'}),sendMessage:async message=>{
+                runtime:{getManifest:()=>({version:'0.3.1'}),sendMessage:async message=>{
                     popupQA.calls.push(message);
                     if(message.action === 'status')return {enabled:popupQA.enabled,legacyPreview:popupQA.legacyPreview};
                     await new Promise(resolve=>setTimeout(resolve,400));
@@ -59,7 +59,7 @@ async def main():
         checks.append("Failed activation exposes error and preserves the actual switch state")
         await page.evaluate("popupQA.enabled=true;popupQA.legacyPreview=true;popupQA.fail=false;start()")
         assert await switch.get_attribute("aria-checked") == "false"
-        assert "Older preview" in await page.locator("#description").inner_text()
+        assert "older preview" in await page.locator("#notice").inner_text()
         await switch.click()
         await page.locator("body[data-state='on']").wait_for()
         checks.append("Legacy preview requires explicit activation instead of claiming editing is enabled")
@@ -72,11 +72,42 @@ async def main():
         checks.append("Classic can be switched off after navigating to My tabs")
         await page.emulate_media(reduced_motion="reduce")
         assert await page.locator(".thumb").evaluate("el=>getComputedStyle(el).transitionDuration") == "0s"
-        assert await page.locator(".staff b").evaluate("el=>getComputedStyle(el).animationName") == "none"
-        checks.append("Reduced motion disables switch and playhead animations")
-        await page.locator("summary").click()
-        await page.locator("main").screenshot(path=str(output / "details.png"))
-        assert await page.evaluate("document.documentElement.scrollWidth") == 360
+        checks.append("Reduced motion disables switch and tooltip transitions")
+        # The warning must be discoverable without adding persistent copy or
+        # falling outside Chrome's auto-sized popup viewport.
+        await page.mouse.move(0, 0)
+        await switch.evaluate("el=>el.blur()")
+        tooltip = page.get_by_role("tooltip")
+        assert not await tooltip.is_visible()
+        await switch.hover()
+        await tooltip.wait_for(state="visible")
+        box = await tooltip.bounding_box()
+        bounds = await page.locator("main").bounding_box()
+        assert box["x"] >= 0 and box["x"] + box["width"] <= 300
+        assert box["y"] + box["height"] <= bounds["height"]
+        await page.mouse.move(box["x"] + 20, box["y"] + 20)
+        assert await tooltip.is_visible()
+        await page.locator("main").screenshot(path=str(output / "tooltip.png"))
+        await page.keyboard.press("Escape")
+        assert not await tooltip.is_visible()
+        await page.mouse.move(0, 0)
+        await switch.focus()
+        assert await tooltip.is_visible()
+        checks.append("Tooltip works on hover and keyboard focus, stays inside the popup, and dismisses with Escape")
+        for label, href in [("GitHub repository", "https://github.com/Raghav-B/songsterr-classic"), ("Raghav on X", "https://x.com/EphemeralRag")]:
+            link = page.get_by_role("link", name=label)
+            assert await link.get_attribute("href") == href
+            assert await link.get_attribute("target") == "_blank"
+            assert "noopener" in await link.get_attribute("rel")
+        checks.append("Accessible social icons point to the exact repository and verified X profile")
+        await page.mouse.move(0, 0)
+        await switch.evaluate("el=>el.blur()")
+        assert await page.evaluate("document.documentElement.scrollWidth") == 300
+        assert (await page.locator("main").bounding_box())["height"] < 170
+        assert await page.locator("#notice").is_hidden()
+        assert await page.locator("#version").inner_text() == "v0.3.1"
+        await page.locator("main").screenshot(path=str(output / "compact.png"))
+        checks.append("Normal popup is under 170px tall with no persistent explanatory copy")
         assert not errors, errors
         await browser.close()
     (output / "receipt.json").write_text(json.dumps({"checks":checks,"errors":errors},indent=2)+'\n')

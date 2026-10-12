@@ -26,7 +26,7 @@ async function loadBackground(initialRules = []) {
     }});
     vm.runInContext(background, context);
     return {context, reloads, rules:() => structuredClone(rules),
-        message:message => new Promise(resolve => listener(message, {}, resolve))};
+        message:(message, sender = {}) => new Promise(resolve => listener(message, sender, resolve))};
 }
 
 test("Classic allows editing and restoration leaves other tabs unchanged", async () => {
@@ -68,4 +68,13 @@ test("simultaneous switches do not reuse global rule IDs and a rejected change d
     await assert.rejects(harness.context.changeTab(3, true), /song page/);
     await harness.context.changeTab(1, false);
     assert.ok(harness.rules().every(rule => rule.condition.tabIds.includes(2)));
+});
+
+test("content-script status uses its real sender tab, not a supplied other tab", async () => {
+    // Firefox's document-start loader must never enable Classic on an inactive
+    // tab by querying another tab's rules. The popup still supplies its tab ID.
+    const harness = await loadBackground();
+    await harness.context.changeTab(1, true);
+    assert.equal((await harness.message({action:"status"}, {tab:{id:1}})).enabled, true);
+    assert.equal((await harness.message({action:"status",tabId:1}, {tab:{id:2}})).enabled, false);
 });
