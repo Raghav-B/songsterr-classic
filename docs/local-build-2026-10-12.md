@@ -1,12 +1,11 @@
-# Songsterr Classic 0.2.0 — local compatibility candidate
+# Songsterr Classic 0.3.0 — local compatibility candidate
 
-This is a **candidate, not a completed all-functionality migration**. The
-everyday Chrome installation remains on the earlier 0.1.0 preview. Task T604
-continues to own the remaining work.
+This is a **compatibility beta, not a completed all-functionality migration**.
+Task T604 continues to own the remaining work.
 
 ## What this package does
 
-Open a live Songsterr song, then choose **Load July UI** from the extension.
+Open a live Songsterr song, then turn **Classic interface ON** in the extension popup.
 Chrome redirects the frontend requests into this package. July's renderer
 rebuilds the page using today's song/account bootstrap. Song data, account
 permissions, recordings, sound libraries and other dynamic services remain
@@ -31,19 +30,23 @@ definitions into a hidden SVG in the Songsterr document, namespaces their IDs
 and updates use references to local fragments. The actual visible controls
 and logo are checked for resolved symbols and nonempty geometry.
 
-## Modes and external effects
+## Single toggle and external effects
 
-- **Preview:** Songsterr write methods and WebSockets are blocked. Local note
-  editing is possible, but saving will visibly fail. Do not compose work you
-  need to keep in this mode.
-- **Experimental editing:** removes this extension's write block. The request
-  adapter and track-identity patch run, but live persistence has NOT been
-  certified. This mode permits real account requests; it is not a sandbox or
-  a payment/publication guard. Use only an explicitly disposable private song.
-- Switching modes or restoring the current UI reloads the tab and can discard
-  unsaved changes. Other tabs are unaffected. Session rules reset when Chrome
-  restarts. Disabling/uninstalling the extension also requires reloading any
-  Classic page already open.
+- **ON:** July's interface with editing enabled. The extension redirects frontend
+  assets but does not block API writes or WebSockets. Request adapters and the
+  track-identity patch run; live save/reopen has not been certified. This is not
+  a sandbox or payment/publication guard. Start with a disposable private song.
+- **OFF:** remove this tab's rules and reload today's Songsterr interface.
+- Switching reloads the tab and can discard unsaved changes. Other tabs remain
+  unaffected. Session rules reset when Chrome restarts. Disabling/uninstalling
+  also requires reloading any Classic page already open.
+- A tab left in the old preview mode is shown as needing activation. Switching
+  ON replaces its old rules, including the write blocks. It never silently
+  changes that tab's write policy simply because the popup opened.
+- The animated popup includes keyboard/focus handling, reduced-motion support,
+  a pending state that prevents duplicate clicks, and actionable errors. Tab
+  mutations are serialized so concurrent clicks cannot allocate duplicate
+  Chrome network-rule IDs. No fixed preview banner covers the song.
 
 The build does not introduce new controls for the 34 current-only call
 patterns. Credits, notification preferences, newer synchronization modes,
@@ -68,11 +71,14 @@ were ported into Classic.
 
 ## Verification and boundaries
 
-- 13 offline tests cover bootstrap account-state preservation, transport,
-  per-tab preview/editing/restoration policy and actual frozen worker functions.
+- 16 offline tests cover bootstrap account-state preservation, transport,
+  per-tab activation/restoration, preview upgrades and concurrent rule changes and actual frozen worker functions.
   These do not contact Songsterr.
 - Isolated browser QA denies every non-read network request and denies the
   pinned archived CDN asset names; the harness never supplies frontend bytes.
+- The real popup switch activates and restores the actual packaged extension.
+  Separate popup checks cover keyboard input, reduced motion, old previews,
+  unsupported pages and failed activation without pretending the state changed.
 - Public-song rendering, mixer, synth play/pause, editor entry, local symbol
   rendering, fret entry (0 → 7), undo (7 → 0), redo (0 → 7), and restoring the
   current UI are exercised. These are local edits with server saves blocked.
@@ -100,6 +106,7 @@ migrations remain implementation work even after login permission is granted.
 ```sh
 python3 scripts/build_local.py
 node --test tests/*.test.mjs
+python3 scripts/popup_qa.py
 python3 scripts/local_qa.py
 python3 scripts/coverage_report.py
 python3 scripts/package.py
@@ -111,10 +118,9 @@ moving latest release. Vendor assets are ignored in Git and packaged only for
 this personal extension. The ZIP contains no browser profile or credentials.
 
 To test manually, extract the ZIP, open `chrome://extensions`, enable Developer
-mode, choose Load unpacked and select its `extension` directory. Keep the
-existing working preview until the candidate is accepted; do not enable two
-Classic versions against the same tab. No normal-profile installation has
-been performed for this candidate.
+mode, choose Load unpacked and select its `extension` directory. Do not enable two Classic versions against the same tab. Before upgrading an
+existing unpacked installation, finish or preserve edits: activating the new
+version reloads the song. Keep the previous package for rollback.
 
 ## Invariants
 
@@ -126,4 +132,4 @@ been performed for this candidate.
 | Account authority remains server-owned | compat.mjs preserves user state; transport preserves responses | Tests and logged-out state comparison; signed-in verification pending |
 | Track identity is not inferred from instrument | Actual original metadata and action-stack replay | Frozen-worker differential tests; server acceptance pending |
 | Save errors stay errors | Fetch response is returned unchanged | Transport rejection tests; visible blocked-save notice |
-| Test does not publish edits | Preview DNR plus independent context write denial | Public-only isolated QA; no account session reused |
+| Test does not publish edits | Independent browser-context write denial | Public-only isolated QA; no account session reused |

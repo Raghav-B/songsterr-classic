@@ -63,9 +63,6 @@ def build():
     manifest = json.loads((OUTPUT / "manifest.json").read_text())
     (OUTPUT / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
     (OUTPUT / "asset-list.json").write_text(json.dumps(sorted(records), indent=2) + "\n")
-    bootstrap = (OUTPUT / "bootstrap.mjs").read_text()
-    (OUTPUT / "bootstrap.mjs").write_text(bootstrap)
-    (OUTPUT / "bootstrap-edit.mjs").write_text(bootstrap)
 
     media = json.loads((ROOT / "docs/media-receipt-2026-10-12.json").read_text())["assets"]
     (OUTPUT / "media").mkdir(exist_ok=True)

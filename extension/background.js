@@ -5,8 +5,17 @@ async function tabRules(tabId) {
     return rules.filter(rule => rule.condition.tabIds?.includes(tabId));
 }
 
-async function changeTab(tabId, enable, mode = "preview") {
-    if (mode !== "preview" && mode !== "editing") throw new Error("Unknown Classic mode");
+let pendingChange = Promise.resolve();
+
+function changeTab(tabId, enable) {
+    // Session rule IDs are shared by all tabs. Serialize the read/replace
+    // transaction so two popup clicks cannot allocate the same IDs.
+    const change = pendingChange.then(() => applyTabState(tabId, enable));
+    pendingChange = change.catch(() => {});
+    return change;
+}
+
+async function applyTabState(tabId, enable) {
     const owned = await tabRules(tabId);
     const removeRuleIds = owned.map(rule => rule.id);
     if (!enable) {
@@ -35,7 +44,7 @@ async function changeTab(tabId, enable, mode = "preview") {
         condition: { ...condition, tabIds: [tabId] },
     });
 
-    redirect({regexFilter: "^https://static3\\.songsterr\\.com/production-main/static3/latest/appClient-[A-Za-z0-9_-]+\\.js$", resourceTypes: ["script"]}, mode === "editing" ? "/bootstrap-edit.mjs" : "/bootstrap.mjs", 10);
+    redirect({regexFilter: "^https://static3\\.songsterr\\.com/production-main/static3/latest/appClient-[A-Za-z0-9_-]+\\.js$", resourceTypes: ["script"]}, "/bootstrap.mjs", 10);
     redirect({regexFilter: "^https://static3\\.songsterr\\.com/production-main/static3/latest/appClient-[A-Za-z0-9_-]+\\.css$", resourceTypes: ["stylesheet"]}, "/vendor/appClient-442d1888c9.css", 10);
     redirect({regexFilter: "^https://static3\\.songsterr\\.com/production-main/static3/latest/common-[A-Za-z0-9_-]+\\.css$", resourceTypes: ["stylesheet"]}, "/vendor/common-7b4ff45b27.css", 10);
     for (const name of assets) {
@@ -52,18 +61,11 @@ async function changeTab(tabId, enable, mode = "preview") {
         }
     }
 
-    // Preview is explicitly read-only. Editing removes this extension's write
-    // block; it does not change Songsterr authentication or server permissions.
-    if (mode === "preview") addRules.push({id: id++, priority: 100, action: {type: "block"}, condition: {
-        tabIds: [tabId], requestDomains: ["songsterr.com"],
-        requestMethods: ["post", "put", "patch", "delete"],
-    }});
-    if (mode === "preview") addRules.push({id: id++, priority: 100, action: {type: "block"}, condition: {
-        tabIds: [tabId], requestDomains: ["songsterr.com"], resourceTypes: ["websocket"],
-    }});
+    // Classic changes frontend assets, never blocks API writes. Removing the
+    // tab's old rules also clears preview blocks left by a 0.2.x installation.
     await chrome.declarativeNetRequest.updateSessionRules({ removeRuleIds, addRules });
-    await chrome.action.setBadgeBackgroundColor({ tabId, color: "#85521a" });
-    await chrome.action.setBadgeText({ tabId, text: mode === "preview" ? "RO" : "EDIT" });
+    await chrome.action.setBadgeBackgroundColor({ tabId, color: "#2876f9" });
+    await chrome.action.setBadgeText({ tabId, text: "ON" });
     await chrome.tabs.reload(tabId, { bypassCache: true });
 }
 
@@ -71,13 +73,13 @@ chrome.runtime.onMessage.addListener((message, sender, respond) => {
     (async () => {
         if (message.action === "status") {
             const rules = await tabRules(message.tabId);
-            return { enabled: rules.length > 0, mode: rules.some(rule => rule.action.type === "block") ? "preview" : "editing" };
+            return { enabled: rules.length > 0, legacyPreview: rules.some(rule => rule.action.type === "block") };
         }
         if (message.action !== "enable" && message.action !== "disable") {
             throw new Error("Unknown Classic action");
         }
-        await changeTab(message.tabId, message.action === "enable", message.mode);
-        return message.action === "enable" ? {enabled:true,mode:message.mode ?? "preview"} : {enabled:false};
+        await changeTab(message.tabId, message.action === "enable");
+        return { enabled: message.action === "enable", legacyPreview: false };
     })().then(respond).catch(error => respond({ error: error.message }));
     return true;
 });

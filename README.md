@@ -3,8 +3,8 @@
 A personal, opt-in Chrome extension for the July 15, 2026 Songsterr interface
 with live Songsterr song/account data. Task: T604.
 
-**0.2.0 is an experimental compatibility candidate, not a complete migration.**
-The normal Chrome installation remains on 0.1.0 until explicitly updated.
+**0.3.0 simplifies the product to one animated per-tab toggle.**
+It remains a compatibility beta, not a completed all-functionality migration.
 
 - [Build, installation, exact behavior and verification](docs/local-build-2026-10-12.md)
 - [Every one of the 184 requested current HTTP patterns](docs/route-coverage-2026-10-12.md)
@@ -24,17 +24,20 @@ worker patches are explicit and hash-recorded. Authentication, subscription
 checks and server permissions are not changed. Live songs, audio and services
 remain required; this is not an offline catalogue.
 
-## Two modes
+## One switch
 
-- **Preview** blocks Songsterr write methods and WebSockets. Local edits cannot
-  be saved and will show a save error.
-- **Experimental editing** allows live requests with the compatibility patches.
-  It is not a sandbox. Use a disposable private test song only until actual
-  save/reload, revision identity and conflict behavior are verified.
+- **ON:** July's interface, with editing enabled. Classic does not block API
+  writes or WebSockets. The request adapters and track-identity patch run.
+- **OFF:** remove this tab's asset redirects and reload today's interface.
 
-Both are per-tab. Restoring current UI removes that tab's rules and reloads.
-Mode switches/reloads can discard unsaved work. Restarting Chrome clears the
-session rules. Disable/uninstall also requires reloading open Classic tabs.
+The popup supports keyboard operation, reduced motion, pending/error states,
+and explicit activation when upgrading a tab from the old blocked preview.
+There is no separate read-only mode or fixed in-page preview banner.
+
+Switching reloads the tab and can discard unsaved work. The setting is per-tab
+and resets when Chrome restarts. Disable/uninstall also requires reloading open
+Classic tabs. Real save/reopen, revision identity and conflict behavior remain
+unverified; begin with a disposable private song.
 
 The current-only features do not exist merely because the extension permits
 their endpoints. All 184 patterns remain tracked; no all-functionality claim
@@ -47,6 +50,7 @@ Using the retained, hash-verified audit snapshot and media files:
 ```sh
 python3 scripts/build_local.py
 node --test tests/*.test.mjs
+python3 scripts/popup_qa.py
 python3 scripts/local_qa.py
 python3 scripts/coverage_report.py
 python3 scripts/package.py

@@ -3,11 +3,10 @@ import {readFile} from "node:fs/promises";
 import vm from "node:vm";
 import test from "node:test";
 
-test("Preview, experimental editing and restoration preserve another tab's rules", async () => {
-    // Execute the real rule builder against Chrome's API boundary. No browser
-    // network or account writes occur; this verifies mode/isolation policy.
-    let rules = [];
+async function loadBackground(initialRules = []) {
+    let rules = structuredClone(initialRules);
     const reloads = [];
+    let listener;
     const background = await readFile(new URL("../extension/background.js", import.meta.url), "utf8");
     const context = vm.createContext({URL, fetch:async url => ({json:async () =>
         url.endsWith("asset-list.json") ? ["worker-pinned.js"] : ["/static3/media/test.svg"]}), chrome:{
@@ -22,25 +21,51 @@ test("Preview, experimental editing and restoration preserve another tab's rules
             get:async id => ({url:id === 3 ? "https://www.songsterr.com/account" : "https://www.songsterr.com/a/wsa/test-tab-s1"}),
             reload:async id => reloads.push(id), onRemoved:{addListener:() => {}},
         },
-        runtime:{getURL:path => "chrome-extension://test/" + path,onMessage:{addListener:() => {}}},
+        runtime:{getURL:path => "chrome-extension://test/" + path,onMessage:{addListener:value => { listener = value; }}},
         action:{setBadgeText:async () => {},setBadgeBackgroundColor:async () => {}},
     }});
     vm.runInContext(background, context);
-    await context.changeTab(1, true);
-    await context.changeTab(2, true);
-    const other = JSON.stringify(rules.filter(rule => rule.condition.tabIds.includes(2)));
-    const first = rules.filter(rule => rule.condition.tabIds.includes(1));
-    assert.equal(first.filter(rule => rule.action.type === "block").length, 2);
-    assert.deepEqual(Array.from(first.find(rule => rule.condition.requestMethods)?.condition.requestMethods), ["post","put","patch","delete"]);
-    await context.changeTab(1, true, "editing");
-    assert.ok(rules.filter(rule => rule.condition.tabIds.includes(1)).every(rule => rule.action.type !== "block"));
-    assert.equal(JSON.stringify(rules.filter(rule => rule.condition.tabIds.includes(2))), other);
-    assert.ok(rules.some(rule => rule.action.redirect?.extensionPath === "/bootstrap-edit.mjs"));
-    await context.changeTab(1, false);
-    assert.ok(rules.every(rule => !rule.condition.tabIds.includes(1)));
-    assert.equal(JSON.stringify(rules), other);
-    assert.deepEqual(reloads,[1,2,1,1]);
-    await assert.rejects(context.changeTab(3, true), /song page/);
-    await assert.rejects(context.changeTab(1, true, "unknown"), /Unknown Classic mode/);
-    assert.equal(JSON.stringify(rules), other);
+    return {context, reloads, rules:() => structuredClone(rules),
+        message:message => new Promise(resolve => listener(message, {}, resolve))};
+}
+
+test("Classic allows editing and restoration leaves other tabs unchanged", async () => {
+    // The real rule builder runs against a fake Chrome network-rule boundary.
+    // ON must never block saves; OFF must remove only this tab's redirects.
+    const harness = await loadBackground();
+    await harness.context.changeTab(1, true);
+    await harness.context.changeTab(2, true);
+    const other = harness.rules().filter(rule => rule.condition.tabIds.includes(2));
+    assert.ok(harness.rules().every(rule => rule.action.type === "redirect"));
+    assert.ok(harness.rules().some(rule => rule.action.redirect?.extensionPath === "/bootstrap.mjs"));
+    assert.ok(harness.rules().every(rule => rule.action.redirect?.extensionPath !== "/bootstrap-edit.mjs"));
+    await harness.context.changeTab(1, false);
+    assert.deepEqual(harness.rules(), other);
+    assert.deepEqual(harness.reloads, [1, 2, 1]);
+    await assert.rejects(harness.context.changeTab(3, true), /song page/);
+    assert.deepEqual(harness.rules(), other);
+});
+
+test("activating Classic replaces stale preview blocks rather than preserving a hidden read-only mode", async () => {
+    // Chrome can retain session rules across an extension update. Surface the
+    // old preview honestly until the user's next ON explicitly replaces it.
+    const harness = await loadBackground([{id:1,action:{type:"block"},condition:{tabIds:[1],requestMethods:["post"]}}]);
+    const before = await harness.message({action:"status",tabId:1});
+    assert.equal(before.legacyPreview, true);
+    const result = await harness.message({action:"enable",tabId:1});
+    assert.equal(result.enabled, true);
+    assert.equal(result.legacyPreview, false);
+    assert.ok(harness.rules().every(rule => rule.action.type === "redirect"));
+});
+
+test("simultaneous switches do not reuse global rule IDs and a rejected change does not poison the queue", async () => {
+    // Two tabs allocate IDs from the same Chrome rule store. Exercise actual
+    // concurrent calls and a failed operation followed by successful work.
+    const harness = await loadBackground();
+    await Promise.all([harness.context.changeTab(1, true), harness.context.changeTab(2, true)]);
+    assert.ok(harness.rules().some(rule => rule.condition.tabIds.includes(1)));
+    assert.ok(harness.rules().some(rule => rule.condition.tabIds.includes(2)));
+    await assert.rejects(harness.context.changeTab(3, true), /song page/);
+    await harness.context.changeTab(1, false);
+    assert.ok(harness.rules().every(rule => rule.condition.tabIds.includes(2)));
 });

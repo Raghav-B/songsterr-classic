@@ -1,12 +1,47 @@
 <!doctype html>
-<html lang="en"><meta charset="utf-8"><title>Songsterr Classic</title>
-<link rel="stylesheet" href="popup.css">
-<main>
-  <h1>Songsterr Classic</h1>
-  <p>July 2026 · local compatibility build</p>
-  <p id="status" role="status">Checking this tab…</p>
-  <button id="toggle" disabled>Load July UI</button>
-  <button id="editing" disabled>Load July UI with editing</button>
-  <p class="note">Default preview blocks writes. Editing enables live requests, but saved-song compatibility is not yet certified. Use a disposable private song. Switching modes reloads this tab and discards unsaved changes.</p>
-  <p class="note">To sign in or use account settings, restore the current UI first. Songsterr’s subscription limits still apply.</p>
-</main><script src="popup.js"></script></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Songsterr Classic</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body data-state="loading">
+  <main>
+    <header class="masthead">
+      <div class="brand-mark" aria-hidden="true">S<span></span></div>
+      <h1>Songsterr <strong>Classic</strong></h1>
+      <span class="edition">JUL ’26</span>
+    </header>
+
+    <section class="control-card" aria-labelledby="control-title">
+      <div class="card-topline"><span>THIS TAB</span><span id="state-label">Checking</span></div>
+      <div class="control-row">
+        <div>
+          <h2 id="control-title">Classic interface</h2>
+          <p id="description">Finding your Songsterr tab…</p>
+        </div>
+        <button id="toggle" type="button" role="switch" aria-checked="false"
+                aria-label="Classic interface" aria-describedby="description reload-note" disabled>
+          <span class="thumb"><span class="thumb-mark"></span></span>
+        </button>
+      </div>
+      <div class="staff" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><b></b></div>
+      <div class="card-bottom"><span class="status-dot"></span><span id="status" role="status" aria-live="polite">Connecting…</span></div>
+    </section>
+
+    <p id="reload-note" class="reload-note">Switching reloads this tab. Save your changes first.</p>
+    <p id="error" role="alert" hidden></p>
+    <details>
+      <summary>About this build <span aria-hidden="true">+</span></summary>
+      <div class="details-body">
+        <p>The July interface, packaged locally. Songs and account access stay live.</p>
+        <p>Editing is enabled. Save/reopen compatibility is still being tested; start with a disposable song.</p>
+        <p>Applies to this tab until Chrome restarts. For sign-in or account settings, switch Classic off.</p>
+      </div>
+    </details>
+    <footer><span>LOCAL EDITION <span class="beta">BETA</span></span><span id="version"></span></footer>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

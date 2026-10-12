@@ -63,11 +63,18 @@ async def main():
             page.on("pageerror", lambda error: receipt["errors"].append(str(error)))
             await page.goto(SONG, wait_until="domcontentloaded")
             original_user = await page.evaluate("JSON.parse(document.getElementById('state').textContent).user")
-            popup = await context.new_page()
-            await popup.goto(f"chrome-extension://{extension_id}/popup.html")
-            tab = await popup.evaluate("async()=> (await chrome.tabs.query({url:'https://www.songsterr.com/*'}))[0].id")
+            # Open the real popup document inactive so its active-tab lookup
+            # sees the song, exactly as it does from Chrome's toolbar popup.
+            await page.bring_to_front()
+            async with context.expect_page() as opened:
+                await worker.evaluate("url => chrome.tabs.create({url,active:false})", f"chrome-extension://{extension_id}/popup.html")
+            popup = await opened.value
+            await popup.locator("body[data-state='off']").wait_for()
+            await popup.screenshot(path=str(OUTPUT / "popup-off.png"))
             classic = True
-            receipt["enable"] = await popup.evaluate("id=>chrome.runtime.sendMessage({action:'enable',tabId:id})", tab)
+            await popup.get_by_role("switch", name="Classic interface").click()
+            await popup.locator("body[data-state='on']").wait_for()
+            receipt["checks"]["real_popup_enables_classic"] = True
             await page.wait_for_timeout(13000)
             assert await page.evaluate("document.documentElement.dataset.songsterrClassic") == "july-2026"
             assert await page.evaluate("JSON.parse(document.getElementById('state').textContent).user") == original_user
@@ -152,8 +159,9 @@ async def main():
             receipt["notation_elements"] = await page.locator("svg text").evaluate_all("es=>es.slice(0,30).map(e=>({text:e.textContent,html:e.outerHTML.slice(0,250)}))")
             receipt["checks"]["source_location_delay"] = page.url.startswith("https://www.songsterr.com/")
             classic = False
-            result = await popup.evaluate("id=>chrome.runtime.sendMessage({action:'disable',tabId:id})",tab)
-            assert result == {"enabled":False}
+            await popup.get_by_role("switch", name="Classic interface").click()
+            await popup.locator("body[data-state='off']").wait_for()
+            receipt["checks"]["real_popup_disables_classic"] = True
             await page.wait_for_timeout(6000)
             assert await page.evaluate("document.documentElement.dataset.songsterrClassic") is None
             receipt["checks"]["restore_current"] = True

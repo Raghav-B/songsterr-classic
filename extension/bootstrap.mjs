@@ -15,12 +15,6 @@ try {
     root.replaceChildren();
     await installLocalSprites();
     document.documentElement.dataset.songsterrClassic = "july-2026";
-    const preview = document.createElement("aside");
-    preview.id = "songsterr-classic-status";
-    preview.textContent = import.meta.url.includes("bootstrap-edit") ? "Classic · experimental editing" : "Classic preview · saving disabled";
-    preview.title = "Use the extension button to restore the current UI.";
-    preview.style.cssText = "position:fixed;bottom:78px;right:12px;padding:6px 10px;border-radius:4px;background:#fff0d0;color:#563b08;z-index:1000;font:12px system-ui,sans-serif;box-shadow:0 1px 5px #0002";
-    document.body.append(preview);
     // The build pins local bytes and records the entry's source-location patch.
     // API requests still run from the live Songsterr page and worker origins.
     await import("./vendor/appClient-CQbxiWv10TmWc-Ge.js");

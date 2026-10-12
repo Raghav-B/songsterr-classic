@@ -9,7 +9,7 @@ def main():
     manifest = json.loads((OUTPUT / "manifest.json").read_text())
     destination = ROOT / "artifacts" / f"songsterr-classic-{manifest['version']}-candidate.zip"
     source_files = [path.name for path in (ROOT / "extension").iterdir() if path.is_file()]
-    generated = ["bootstrap-edit.mjs", "media-assets.json", "packaging-receipt.json"]
+    generated = ["media-assets.json", "packaging-receipt.json"]
     assets = json.loads((OUTPUT / "asset-list.json").read_text())
     media = json.loads((OUTPUT / "media-assets.json").read_text())
     names = set(source_files + generated)

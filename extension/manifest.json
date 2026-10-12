@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Songsterr Classic — local compatibility build",
-  "version": "0.2.1",
+  "name": "Songsterr Classic",
+  "version": "0.3.0",
   "description": "Locally packaged July frontend with live Songsterr data. Experimental compatibility build.",
   "permissions": ["activeTab", "declarativeNetRequestWithHostAccess"],
   "host_permissions": ["https://www.songsterr.com/*", "https://*.songsterr.com/*"],
