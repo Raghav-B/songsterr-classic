@@ -4,7 +4,7 @@ The older Songsterr interface, one switch away. For Chrome and Firefox.
 
 ![Countercurrent by EphemeralRag, open in Songsterr Classic](docs/images/countercurrent.png)
 
-*On the score: [Countercurrent](https://www.songsterr.com/a/wsa/ephemeralrag-countercurrent-tab-s6835900), by EphemeralRag.*
+*On the score: [Countercurrent](https://www.songsterr.com/a/wsa/ephemeralrag-countercurrent-tab-s6835900), by me! 🌚*
 
 I preferred Songsterr's older layout, so I made a switch to bring it back.
 Classic restores the July interface while keeping songs, playback and your
