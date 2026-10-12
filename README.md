@@ -68,5 +68,12 @@ for builds and tests, or [open an issue](https://github.com/Raghav-B/songsterr-c
 with the browser version and steps to reproduce a problem. Please leave out
 cookies, account details and private songs.
 
-Made by [Raghav](https://x.com/EphemeralRag). Independent of Songsterr.
+Made by [Raghav](https://x.com/EphemeralRag).
 [Privacy](PRIVACY.md) · [Third-party materials](THIRD_PARTY.md)
+
+---
+
+An independent project for educational and interoperability research. Not
+affiliated with or endorsed by Songsterr. Songsterr’s trademarks and frontend
+assets belong to their respective owners. Existing account permissions and
+subscription requirements still apply. Provided as-is, without warranty.
