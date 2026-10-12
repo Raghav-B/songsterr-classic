@@ -33,7 +33,8 @@ Classic switch.
 
 This is an **unsigned development build**. Temporary installation lasts until
 Firefox exits. A normal persistent installation in Firefox release requires
-Mozilla signing; no signing or submission to Mozilla has been performed. The
+Mozilla signing. Unlisted signing is the selected release route; the current
+package is not signed or submitted yet. See [release preparation](releasing.md). The
 repository intentionally excludes Songsterr's vendor assets.
 
 ## Browser test

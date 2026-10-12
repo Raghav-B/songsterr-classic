@@ -39,19 +39,24 @@ replace its files and click **Reload** on its card in `chrome://extensions`.
 
 ### Firefox
 
-The XPI is unsigned. Use Firefox's temporary add-on loader—no signing is
-needed for this installation method:
+The release target is a **Mozilla-signed XPI**, hosted here on GitHub rather
+than listed in Mozilla's add-on directory. Once signed:
 
-1. On the Releases page, right-click `songsterr-classic-0.3.1-firefox.xpi`
-   and choose **Save Link As…**. Save it without extracting it.
-2. Open `about:debugging#/runtime/this-firefox`.
-3. Choose **Load Temporary Add-on** and select the downloaded XPI.
+1. Download `songsterr-classic-0.3.1-firefox.xpi` from Releases. Keep it as an
+   XPI; don't extract it.
+2. Open `about:addons`, click the gear menu and choose **Install Add-on From File…**.
+3. Select the XPI and approve Firefox's installation prompt.
 4. Open a Songsterr song, then use **Extensions → Songsterr Classic**.
 
-**Firefox removes this temporary add-on when it closes.** Load the saved XPI
-again with steps 2–3 after restarting. To update, download the newer XPI,
-remove the old temporary add-on on the same debugging page, and load the new one.
-No changes to Firefox's signature-check settings are needed.
+A signed installation stays installed after Firefox restarts. No Developer
+Edition or changed security settings are needed. To update, download the newer
+signed XPI and install it the same way. Automatic updates aren't configured.
+
+**Signing is pending for the current draft.** Its XPI is still unsigned and
+cannot use the persistent installation steps above. For testing, save the XPI
+with **Save Link As…**, open `about:debugging#/runtime/this-firefox`, and choose
+**Load Temporary Add-on**. This temporary installation is removed when Firefox
+closes. Check the release notes for the signing status before downloading.
 
 ### Remove
 
