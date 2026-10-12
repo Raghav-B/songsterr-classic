@@ -19,7 +19,7 @@ Firefox editor implementation or copied account session.
 
 ## Build and use
 
-With the retained hash-verified archive available locally:
+After fetching the locked assets (see [development](development.md)):
 
 ```sh
 python3 scripts/build_firefox.py
@@ -36,29 +36,22 @@ Firefox exits. A normal persistent installation in Firefox release requires
 Mozilla signing; no signing or submission to Mozilla has been performed. The
 repository intentionally excludes Songsterr's vendor assets.
 
-## Verified scope
+## Browser test
 
-Firefox 150.0.3 was exercised visibly inside the existing 1920×1080
-Xephyr/Weston desktop using a separate fresh profile. Mouse operation of the
-native popup and its tooltip was checked through the isolated OpenClaw node.
-The page/worker smoke uses Selenium through geckodriver and a temporary QA-only
-addon that blocks Songsterr writes and archived assets still headed to the
-network. That guard is not part of the delivered extension and is removed
-before handing the test browser back.
-
-The repeatable smoke is `scripts/firefox_qa.py`. It attaches to a **fresh QA
-session**, never a personal browser, on an externally owned geckodriver server
-started with `--allow-system-access`. Pass its session receipt:
+`scripts/firefox_qa.py` attaches to a fresh Selenium session in a caller-owned
+Firefox desktop. Start geckodriver with `--allow-system-access`, create a new
+profile/session, install the XPI using its persistent absolute path, then pass
+a JSON file containing Selenium's `sessionId` and `capabilities`:
 
 ```sh
 python3 scripts/firefox_qa.py --session-file /path/to/qa-session.json
 ```
 
-The JSON contains `sessionId` and `capabilities` from Selenium's new-session
-response. Install the Firefox package first using the persistent local XPI
-path, not a short-lived upload file. The test expects a 1920px content width
-for the inspected fret coordinates. It checks app loading, unchanged account
-bootstrap, mixer, synth playback, local note edit/undo/redo, OFF restoration,
-and repeated activation. Screenshots and the receipt go to ignored
-`artifacts/firefox-qa/`. Account saves, private revisions and the remaining
-184-route compatibility work are still unverified.
+The test expects a 1920px content width. It checks local loading, unchanged
+account state, mixer, synth playback, note editing with undo/redo, OFF and repeat
+activation. A temporary QA-only addon blocks writes and archived CDN requests;
+it is removed in the cleanup path. It is never part of the release package.
+
+Use only a fresh testing profile. The script leaves Firefox running. Test
+screenshots and results are written to ignored `artifacts/firefox-qa/`.
+Server save/reopen is a separate test and is not covered by this smoke.

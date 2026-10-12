@@ -5,8 +5,8 @@ import test from "node:test";
 import {createRequire} from "node:module";
 
 const require = createRequire(import.meta.url);
-const acorn = require("../artifacts/parser-tools/node_modules/acorn");
-const walk = require("../artifacts/parser-tools/node_modules/acorn-walk");
+const acorn = require("acorn");
+const walk = require("acorn-walk");
 
 async function declarations(path, names) {
     const source = await readFile(new URL(path, import.meta.url), "utf8");
@@ -20,13 +20,12 @@ async function declarations(path, names) {
     return selected.join("\n");
 }
 
-test("Packaged July stack replay matches current track hashes for structural edits and undo", async () => {
-    // Run the real frozen replay functions; mock only display metadata helpers
-    // which cannot determine identity. This is not a server acceptance test.
+test("Packaged stack replay preserves distinct track hashes through structural edits and undo", async () => {
+    // Execute the real worker, not a duplicate adapter implementation. Expected
+    // identities describe the edited score even when two instruments are equal.
     const july = await declarations("../artifacts/local-extension/vendor/StoreWorker-DAj6qVcM_zrkZ0K4.js", ["Jw","Gw","Hw","Uw","Ww"]);
-    const current = await declarations("../artifacts/api-audit-2026-10-12/current/StoreWorker-CkAXslXDlDmRdqI7.js", ["zN","IN","NN","PN","FN"]);
-    const context = vm.createContext({structuredClone, Kw:()=>{}, LN:()=>{}, Vw:e=>e.name, MN:e=>e.name});
-    vm.runInContext(july + "\n" + current, context);
+    const context = vm.createContext({structuredClone, Kw:()=>{}, Vw:e=>e.name});
+    vm.runInContext(july, context);
     const original = [{partId:0,hash:"same-instrument-a",instrumentId:27}, {partId:1,hash:"same-instrument-b",instrumentId:27}];
     const index = n => [n,0,0,0,0];
     const stack = [
@@ -35,11 +34,16 @@ test("Packaged July stack replay matches current track hashes for structural edi
         [[["p","r",index(2)]]],
     ];
     const createAddedTrack = (value, position) => ({...value,partId:position});
+    const expected = [
+        ["same-instrument-a", "same-instrument-b"],
+        ["same-instrument-b", "same-instrument-a"],
+        ["same-instrument-b", "new-track-id", "same-instrument-a"],
+        ["same-instrument-b", "new-track-id"],
+    ];
     for (const pointer of [0,1,2,3,2,1,0]) {
         const options = {createAddedTrack,stackPointer:pointer};
         const oldTracks = context.Jw(stack,original,options);
-        const newTracks = context.zN(stack,original,options);
-        assert.equal(JSON.stringify(oldTracks),JSON.stringify(newTracks));
+        assert.deepEqual(Array.from(oldTracks, track => track.hash), expected[pointer]);
     }
 });
 

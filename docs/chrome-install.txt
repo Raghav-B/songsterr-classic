@@ -1,0 +1,22 @@
+Songsterr Classic — Chrome
+
+1. Extract this ZIP somewhere you will keep it.
+2. Open chrome://extensions and turn on Developer mode.
+3. Click Load unpacked and select the extracted extension folder.
+4. Open a song on songsterr.com, then open Songsterr Classic from Extensions.
+5. Turn the switch on. Turn it off to return to the current interface.
+
+Keep the extracted folder: Chrome reads the extension from it.
+Switching reloads the song tab. Save your work first.
+Classic is enabled per tab and resets when the browser restarts.
+
+Updating: replace the extracted files, then click Reload on the extension's
+card at chrome://extensions. Save any open song edits before updating.
+
+Removing: turn Classic off, then choose Remove at chrome://extensions.
+Reload any remaining Classic tabs after removing the extension.
+
+Saving and reopening edits has not yet been verified end to end. Test on a
+disposable private song before relying on it for your work.
+
+Project: https://github.com/Raghav-B/songsterr-classic

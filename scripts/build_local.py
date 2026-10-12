@@ -1,31 +1,33 @@
-"""Build a personal, debugger-free July package from the pinned audit snapshot.
-
-The one vendor relocation change gives the entry its canonical source URL.
-Authentication, entitlement and API code are not replaced. The receipt records
-both source and output hashes so the change cannot be mistaken for original bytes.
-"""
+"""Build the shared browser payload from the hash-locked local asset cache."""
 import hashlib
 import json
 import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-AUDIT = ROOT / "artifacts/api-audit-2026-10-12"
+CACHE = ROOT / "artifacts/assets"
 OUTPUT = ROOT / "artifacts/local-extension"
 ENTRY = "appClient-CQbxiWv10TmWc-Ge.js"
 CDN = "https://static3.songsterr.com/production-main/static3/latest/"
 
 
 def build():
+    # Rebuild only this generated directory, so old files cannot leak into a ZIP.
+    if OUTPUT.exists():
+        shutil.rmtree(OUTPUT)
     OUTPUT.mkdir(parents=True, exist_ok=True)
-    shutil.copytree(ROOT / "extension", OUTPUT, dirs_exist_ok=True)
+    for source in (ROOT / "extension").iterdir():
+        if source.is_file():
+            shutil.copy2(source, OUTPUT / source.name)
+    shutil.copy2(ROOT / "THIRD_PARTY.md", OUTPUT / "THIRD_PARTY.md")
     (OUTPUT / "vendor").mkdir(exist_ok=True)
     records = {}
-    pinned = json.loads((ROOT / "docs/asset-receipt-2026-10-12.json").read_text())["july"]["assets"]
+    lock = json.loads((ROOT / "build/assets.lock.json").read_text())
+    pinned = lock["frontend"]
     transport = (ROOT / "extension/transport.js").read_bytes()
     identities = (ROOT / "extension/track-identities.js").read_bytes()
     for name in sorted(pinned):
-        source = AUDIT / "july" / name
+        source = CACHE / "frontend" / name
         original = source.read_bytes()
         if hashlib.sha256(original).hexdigest() != pinned[name]["sha256"]:
             raise ValueError(f"Archived asset hash mismatch: {name}")
@@ -64,15 +66,15 @@ def build():
     (OUTPUT / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
     (OUTPUT / "asset-list.json").write_text(json.dumps(sorted(records), indent=2) + "\n")
 
-    media = json.loads((ROOT / "docs/media-receipt-2026-10-12.json").read_text())["assets"]
+    media = lock["media"]
     (OUTPUT / "media").mkdir(exist_ok=True)
     for path, record in media.items():
-        data = (ROOT / "artifacts/july-media" / Path(path).name).read_bytes()
+        data = (CACHE / "media" / Path(path).name).read_bytes()
         if hashlib.sha256(data).hexdigest() != record["sha256"]:
             raise ValueError(f"Archived media hash mismatch: {path}")
         (OUTPUT / "media" / Path(path).name).write_bytes(data)
     (OUTPUT / "media-assets.json").write_text(json.dumps(sorted(media), indent=2) + "\n")
-    (OUTPUT / "packaging-receipt.json").write_text(json.dumps(records, indent=2) + "\n")
+    (ROOT / "artifacts/build-receipt.json").write_text(json.dumps(records, indent=2) + "\n")
     print(OUTPUT)
 
 

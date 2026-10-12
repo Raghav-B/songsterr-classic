@@ -6,6 +6,7 @@ and denies archived CDN files. It never supplies frontend bytes to the browser.
 """
 import asyncio
 import json
+import os
 import shutil
 import tempfile
 from io import BytesIO
@@ -18,7 +19,7 @@ from playwright.async_api import async_playwright
 ROOT = Path(__file__).resolve().parents[1]
 EXTENSION = ROOT / "artifacts/local-extension"
 OUTPUT = ROOT / "artifacts/local-qa"
-CHROME = "/home/raghavb/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome"
+CHROME = os.environ.get("CLASSIC_CHROMIUM")
 SONG = "https://www.songsterr.com/a/wsa/red-hot-chili-peppers-californication-tab-s439"
 
 
@@ -33,7 +34,7 @@ async def main():
     classic = False
     async with async_playwright() as playwright:
         context = await playwright.chromium.launch_persistent_context(
-            profile, headless=True, executable_path=CHROME, viewport={"width":1440,"height":1000},
+            profile, headless=True, channel="chromium", executable_path=CHROME, viewport={"width":1440,"height":1000},
             args=["--no-sandbox", "--disable-dev-shm-usage", "--mute-audio", "--disable-extensions-except=" + str(EXTENSION), "--load-extension=" + str(EXTENSION)],
             ignore_default_args=["--disable-extensions"])
         try:

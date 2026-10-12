@@ -1,4 +1,4 @@
-"""Derive Firefox from the exact Chrome payload; only the manifest differs."""
+"""Derive Firefox from the shared payload, with its manifest and asset loader."""
 import json
 import shutil
 import zipfile
@@ -8,6 +8,8 @@ from build_local import ROOT, OUTPUT, build
 def main():
     build()
     target = ROOT / "artifacts/firefox-extension"
+    if target.exists():
+        shutil.rmtree(target)
     shutil.copytree(OUTPUT, target, dirs_exist_ok=True)
     manifest = json.loads((target / "manifest.json").read_text())
     # Firefox runs MV3 background scripts as an event page, not a service worker.

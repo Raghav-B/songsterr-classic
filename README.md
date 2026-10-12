@@ -1,79 +1,72 @@
-# Songsterr Classic — locally packaged July UI
+# Songsterr Classic
 
-A personal, opt-in Chrome/Firefox extension for the July 15, 2026 Songsterr interface
-with live Songsterr song/account data.
+The older Songsterr interface, one switch away. For Chrome and Firefox.
 
-**0.3.1 keeps one compact toggle, with reload guidance on hover/focus and project links.**
-It remains a compatibility beta, not a completed all-functionality migration.
+![Countercurrent by EphemeralRag, open in Songsterr Classic](docs/images/countercurrent.png)
 
-- [Build, installation, exact behavior and verification](docs/local-build-2026-10-12.md)
-- [Every one of the 184 requested current HTTP patterns](docs/route-coverage-2026-10-12.md)
-- [Original API audit and source references](docs/compatibility-guide-2026-10-12.md)
-- [Endpoint-by-endpoint extracted request inventory](docs/api-endpoint-inventory-2026-10-12.md)
+*On the score: [Countercurrent](https://www.songsterr.com/a/wsa/ephemeralrag-countercurrent-tab-s6835900), by EphemeralRag.*
 
-## Design
+I preferred Songsterr's older layout, so I made a switch to bring it back.
+Classic restores the July interface while keeping songs, playback and your
+account connected to Songsterr.
 
-Keep the visible page on Songsterr and obtain its fresh bootstrap normally.
-The extension redirects frontend assets to pinned local JS/CSS/WASM/media.
-A small bootstrap adapts artist state and rebuilds the page root. SVG symbol
-resources are embedded into the same document because cross-origin SVG use
-references cannot load extension resources like ordinary images.
+<img src="docs/images/popup.png" alt="Songsterr Classic popup with the switch on, version number and GitHub and X links" width="300">
 
-There is **no debugger permission**. The source-location relocation and score
-worker patches are explicit and hash-recorded. Authentication, subscription
-checks and server permissions are not changed. Live songs, audio and services
-remain required; this is not an offline catalogue.
+**On** brings back Classic. **Off** returns to the current interface.
+The setting applies to one tab and resets when you restart the browser.
+Switching reloads the tab, so save your edits first.
 
-## One switch
+## Install
 
-- **ON:** July's interface, with editing enabled. Classic does not block API
-  writes or WebSockets. The request adapters and track-identity patch run.
-- **OFF:** remove this tab's asset redirects and reload today's interface.
+Public downloads are not live yet. The instructions below work with the
+prepared **0.3.1** candidate packages; published builds will appear under
+[Releases](https://github.com/Raghav-B/songsterr-classic/releases).
 
-The popup supports keyboard operation, reduced motion, pending/error states,
-and explicit activation when upgrading a tab from the old blocked preview.
-There is no separate read-only mode or fixed in-page preview banner.
+### Chrome
 
-Switching reloads the tab and can discard unsaved work. The setting is per-tab
-and resets when Chrome restarts. Disable/uninstall also requires reloading open
-Classic tabs. Real save/reopen, revision identity and conflict behavior remain
-unverified; begin with a disposable private song.
+1. Extract `songsterr-classic-0.3.1-chrome.zip` somewhere you'll keep it.
+2. Open `chrome://extensions` and enable **Developer mode**.
+3. Choose **Load unpacked**, then select the extracted **extension** folder.
+4. Open a song on Songsterr. Click **Extensions → Songsterr Classic** and turn
+   the switch on. Pin it to the toolbar if you'd like it within reach.
 
-The current-only features do not exist merely because the extension permits
-their endpoints. All 184 patterns remain tracked; no all-functionality claim
-is made. See the coverage ledger for the remaining feature and test work.
+Keep the extracted folder—Chrome loads the extension from there. To update,
+replace its files and click **Reload** on its card in `chrome://extensions`.
 
-## Reproduce
+### Firefox
 
-Using the retained, hash-verified audit snapshot and media files:
+The current XPI is unsigned, so installation is temporary:
 
-```sh
-python3 scripts/build_local.py
-node --test tests/*.test.mjs
-python3 scripts/popup_qa.py
-python3 scripts/local_qa.py
-python3 scripts/coverage_report.py
-python3 scripts/package.py
-```
+1. Open `about:debugging#/runtime/this-firefox`.
+2. Choose **Load Temporary Add-on** and select
+   `songsterr-classic-0.3.1-firefox.xpi`.
+3. Open a Songsterr song, then use **Extensions → Songsterr Classic**.
 
-The browser harness uses a fresh isolated profile, mutes output, denies writes
-and denies archived asset CDN requests. It does not supply frontend bytes or
-copy any normal browser session. The package contains no credentials/profile.
+Firefox removes temporary add-ons when it closes. A persistent, signed Firefox
+package is still to come; don't disable Firefox's signature checks.
 
-Vendor assets remain ignored in Git. Songsterr retains its rights in those
-assets; this project is not affiliated with Songsterr and does not prepare a
-Chrome Web Store/public distribution.
+### Remove
 
-## Firefox
+Turn Classic off, then remove it from your browser's extension manager.
+Reload any open Classic tabs afterward.
 
-[Firefox build, temporary installation and verification](docs/firefox.md).
-The same source produces both browsers; Firefox adds one small asset loader
-and a generated manifest. The unsigned XPI is a development install, not an
-AMO release.
+## Before you use it
 
-## Versioning
+Tab viewing, the mixer, synth playback and local editing with undo/redo have
+been checked in both browsers. **Saving and reopening edits is not yet
+verified end to end.** Try a disposable private song before relying on it for
+your own work. Features introduced after the older interface may be missing.
 
-Versions describe this extension, not Songsterr. The initial preview was 0.1;
-0.2 introduced local packaging and editing adapters; 0.3 replaced the two modes
-with one toggle. 0.3.1 refines that popup without changing the API adapters.
-The leading zero reflects the still-incomplete compatibility work.
+You still need an internet connection and your usual Songsterr account or
+subscription for features that require one.
+
+## Build or contribute
+
+Both browsers use the same popup, editor and compatibility code. Firefox adds
+a small loader and its own manifest. See [development](docs/development.md)
+for builds and tests, or [open an issue](https://github.com/Raghav-B/songsterr-classic/issues)
+with the browser version and steps to reproduce a problem. Please leave out
+cookies, account details and private songs.
+
+Made by [Raghav](https://x.com/EphemeralRag). Independent of Songsterr.
+[Privacy](PRIVACY.md) · [Third-party materials](THIRD_PARTY.md)

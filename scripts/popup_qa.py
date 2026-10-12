@@ -15,7 +15,7 @@ async def main():
     checks = []
     errors = []
     async with async_playwright() as playwright:
-        browser = await playwright.chromium.launch(executable_path=CHROME, headless=True, args=["--no-sandbox"])
+        browser = await playwright.chromium.launch(channel="chromium", executable_path=CHROME, headless=True, args=["--no-sandbox"])
         page = await browser.new_page(viewport={"width":300,"height":300}, device_scale_factor=2)
         page.on("pageerror", lambda error: errors.append(str(error)))
         await page.add_init_script("""
