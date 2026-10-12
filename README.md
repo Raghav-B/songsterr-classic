@@ -18,16 +18,20 @@ Switching reloads the tab, so save your edits first.
 
 ## Install
 
-Public downloads are not live yet. The instructions below work with the
-prepared **0.3.1** candidate packages; published builds will appear under
-[Releases](https://github.com/Raghav-B/songsterr-classic/releases).
+Get the package for your browser from
+[Releases](https://github.com/Raghav-B/songsterr-classic/releases), under
+**Assets**. Use the Chrome ZIP or Firefox XPI—not GitHub's **Source code** archives.
+
+*The first public release is being prepared. The steps below describe the
+download and installation process.*
 
 ### Chrome
 
-1. Extract `songsterr-classic-0.3.1-chrome.zip` somewhere you'll keep it.
-2. Open `chrome://extensions` and enable **Developer mode**.
-3. Choose **Load unpacked**, then select the extracted **extension** folder.
-4. Open a song on Songsterr. Click **Extensions → Songsterr Classic** and turn
+1. On the Releases page, download `songsterr-classic-0.3.1-chrome.zip`.
+2. Extract the ZIP somewhere you'll keep it.
+3. Open `chrome://extensions` and enable **Developer mode**.
+4. Choose **Load unpacked**, then select the extracted **extension** folder.
+5. Open a song on Songsterr. Click **Extensions → Songsterr Classic** and turn
    the switch on. Pin it to the toolbar if you'd like it within reach.
 
 Keep the extracted folder—Chrome loads the extension from there. To update,
@@ -35,15 +39,19 @@ replace its files and click **Reload** on its card in `chrome://extensions`.
 
 ### Firefox
 
-The current XPI is unsigned, so installation is temporary:
+The XPI is unsigned. Use Firefox's temporary add-on loader—no signing is
+needed for this installation method:
 
-1. Open `about:debugging#/runtime/this-firefox`.
-2. Choose **Load Temporary Add-on** and select
-   `songsterr-classic-0.3.1-firefox.xpi`.
-3. Open a Songsterr song, then use **Extensions → Songsterr Classic**.
+1. On the Releases page, right-click `songsterr-classic-0.3.1-firefox.xpi`
+   and choose **Save Link As…**. Save it without extracting it.
+2. Open `about:debugging#/runtime/this-firefox`.
+3. Choose **Load Temporary Add-on** and select the downloaded XPI.
+4. Open a Songsterr song, then use **Extensions → Songsterr Classic**.
 
-Firefox removes temporary add-ons when it closes. A persistent, signed Firefox
-package is still to come; don't disable Firefox's signature checks.
+**Firefox removes this temporary add-on when it closes.** Load the saved XPI
+again with steps 2–3 after restarting. To update, download the newer XPI,
+remove the old temporary add-on on the same debugging page, and load the new one.
+No changes to Firefox's signature-check settings are needed.
 
 ### Remove
 
