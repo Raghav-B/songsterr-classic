@@ -3,9 +3,10 @@
 <link rel="stylesheet" href="popup.css">
 <main>
   <h1>Songsterr Classic</h1>
-  <p>July 2026 · compatibility preview</p>
+  <p>July 2026 · local compatibility build</p>
   <p id="status" role="status">Checking this tab…</p>
   <button id="toggle" disabled>Load July UI</button>
-  <p class="note">Only this tab changes. Saving, publishing and other account writes are blocked. Local editor changes are experimental; do not use this for unfinished work.</p>
+  <button id="editing" disabled>Load July UI with editing</button>
+  <p class="note">Default preview blocks writes. Editing enables live requests, but saved-song compatibility is not yet certified. Use a disposable private song. Switching modes reloads this tab and discards unsaved changes.</p>
   <p class="note">To sign in or use account settings, restore the current UI first. Songsterr’s subscription limits still apply.</p>
 </main><script src="popup.js"></script></html>

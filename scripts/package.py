@@ -1,20 +1,28 @@
-"""Package the personal extension without account data or vendor JavaScript."""
+"""Package only reviewed source and pinned assets, never browser/account state."""
 import json
 import zipfile
-from pathlib import Path
+from build_local import ROOT, OUTPUT, build
 
-root = Path(__file__).resolve().parents[1]
-extension = root / "extension"
-manifest = json.loads((root / "assets-manifest.json").read_text())
-styles = sorted(name for name in manifest["assets"] if name.endswith(".css"))
-(extension / "asset-list.json").write_text(json.dumps(styles, indent=2) + "\n")
-destination = root / "artifacts/songsterr-classic-0.1.0.zip"
-destination.parent.mkdir(exist_ok=True)
-with zipfile.ZipFile(destination, "w", zipfile.ZIP_DEFLATED) as archive:
-    archive.write(root / "README.md", "README.md")
-    for path in sorted(extension.iterdir()):
-        if path.is_file():
-            archive.write(path, "extension/" + path.name)
-    for name in styles:
-        archive.write(extension / "vendor" / name, "extension/vendor/" + name)
-print(destination)
+
+def main():
+    build()
+    manifest = json.loads((OUTPUT / "manifest.json").read_text())
+    destination = ROOT / "artifacts" / f"songsterr-classic-{manifest['version']}-candidate.zip"
+    source_files = [path.name for path in (ROOT / "extension").iterdir() if path.is_file()]
+    generated = ["bootstrap-edit.mjs", "media-assets.json", "packaging-receipt.json"]
+    assets = json.loads((OUTPUT / "asset-list.json").read_text())
+    media = json.loads((OUTPUT / "media-assets.json").read_text())
+    names = set(source_files + generated)
+    names.update("vendor/" + name for name in assets)
+    names.update("media/" + path.rsplit("/", 1)[-1] for path in media)
+    with zipfile.ZipFile(destination, "w", zipfile.ZIP_DEFLATED) as archive:
+        archive.write(ROOT / "docs/local-build-2026-10-12.md", "README.md")
+        for report in ["route-coverage-2026-10-12.md", "route-coverage-2026-10-12.json"]:
+            archive.write(ROOT / "docs" / report, report)
+        for name in sorted(names):
+            archive.write(OUTPUT / name, "extension/" + name)
+    print(destination)
+
+
+if __name__ == "__main__":
+    main()

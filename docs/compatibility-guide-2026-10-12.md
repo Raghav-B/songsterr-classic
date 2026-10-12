@@ -1,5 +1,10 @@
 # Songsterr Classic: July → October compatibility and packaging guide
 
+**Implementation follow-up:** [debugger-free local candidate](local-build-2026-10-12.md)
+and [184 current-route coverage](route-coverage-2026-10-12.md). The original
+audit below records the earlier byte-identical debugger prototype; that is no
+longer the selected packaging approach. Live editing certification is pending.
+
 Date: 12 October 2026. Task: T604. Audit of the existing `32a19fc` preview;
 the installed extension and Songsterr account were not changed.
 

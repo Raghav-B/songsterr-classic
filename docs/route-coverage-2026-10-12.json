@@ -1,0 +1,2570 @@
+{
+  "scope": "184 current-client HTTP call patterns; six July-only patterns excluded by user request",
+  "counts": {
+    "unchanged-request-candidate": 133,
+    "current-feature-not-ported": 34,
+    "semantic-review-open": 13,
+    "adapter-tested-offline": 4
+  },
+  "end_to_end_certified": 0,
+  "boundary": "No authenticated save, public publication, payment, credit-spending or moderation was performed. Public 200 responses and offline adapter tests are not end-to-end certification.",
+  "routes": [
+    {
+      "method": "DELETE",
+      "route": "/actions/usertest/ticket",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@830022"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1006177"
+      ]
+    },
+    {
+      "method": "DELETE",
+      "route": "/api/edits/{songId}",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL. NOT implemented: current draft-discard lifecycle; do not blindly DELETE drafts as a conflict workaround.",
+      "july_sites": [],
+      "current_sites": [
+        "StoreWorker-CkAXslXDlDmRdqI7.js@503196",
+        "common-D9jb_iiWazq10Y0L.js@456939"
+      ]
+    },
+    {
+      "method": "DELETE",
+      "route": "/api/favorites/{songId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@331618"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@450630"
+      ]
+    },
+    {
+      "method": "DELETE",
+      "route": "/api/playlist/{playlistId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@242147"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@325774"
+      ]
+    },
+    {
+      "method": "DELETE",
+      "route": "/api/playlist/{playlistId}/song/{songId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@246060"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@329687"
+      ]
+    },
+    {
+      "method": "DELETE",
+      "route": "/api/revision/{revisionId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@675513"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@838314"
+      ]
+    },
+    {
+      "method": "DELETE",
+      "route": "/api/song/{songId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@675416"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@838217"
+      ]
+    },
+    {
+      "method": "DELETE",
+      "route": "/api/video-points/{songId}/{revisionId}/{id}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@243477"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@296961"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/actions/usertest/get_usertest/{identifier}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@829713"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1005868"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/actions/usertests/screeners",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@13077"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@29116"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/artist/autocomplete",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "TabNameEditor-C-jMhz9RuF-kgwPp.js@317"
+      ],
+      "current_sites": [
+        "TabNameEditor-DZkpkqV4-rhWJcj_.js@358"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/artist/{artistId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@51710"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@431253"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/artist/{artistId}/search",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@51294"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@430935"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/audio/{songId}/{revisionId}/export",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@152398"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@209202"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/autocomplete-bar/limits",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@143513"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@198383"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/bt-request/quota",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [
+        {
+          "method": "GET",
+          "path": "/api/bt-request/quota",
+          "status": 200
+        }
+      ],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@850495"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@856877"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/bt-request/reset-eligibility",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@856611"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/chords/{songId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@377309"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@486219"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/chords/{songId}/{chordsRevisionId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@377389"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@486299"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/comment/revision/{revisionId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "AppDiff-Bb18u-08xfL48Uru.js@10391",
+        "AppDiff-Bb18u-08xfL48Uru.js@53502"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@2837777",
+        "common-D9jb_iiWazq10Y0L.js@2891804"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/comment/revision/{revisionId}/suggest",
+      "implementation": "semantic-review-open",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Extracted request fields differ; endpoint-specific UI/state/response verification still needed. Current extra instruction is optional in the actual caller; no translation identified for July's text-only mode.",
+      "july_sites": [
+        "AppDiff-Bb18u-08xfL48Uru.js@11237"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@2838627"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/comment/{commentId}/translate",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@393129"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@533985"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/contributions/available-transcriptions-count",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@22480"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@40757"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/contributions/songs",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@117032"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@169466"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/contributions/transcriptions",
+      "implementation": "adapter-tested-offline",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "transport.js: withResults=false; explicit query preserved",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@22308"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@40340"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/contributions/transcriptions/{transcriptionId}/result",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@40547"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/credits/balance",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@17722"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/credits/catalog",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@17625"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/edits/{songId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification. NOT implemented: current draft-discard lifecycle; do not blindly DELETE drafts as a conflict workaround.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@360861"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@456598"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/edits/{songId}/mine",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@456808"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/edits/{songId}/{revisionId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification. Compare replayed note/undo state after actual private-song save and reload.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@360636"
+      ],
+      "current_sites": [
+        "StoreWorker-CkAXslXDlDmRdqI7.js@502971",
+        "common-D9jb_iiWazq10Y0L.js@456373"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/experiments",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@9904"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/faq",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@807610"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@985949"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/favorites",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@329400"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@448412"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/help/commands",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@1838454"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@2077981"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/help/suggestions",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@1838666"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@2078194"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/inbox/items",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@203828"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@264050"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/inbox/items/items-with-num-unread",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@204036"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@264258"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/inbox/items/num-unread",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@203945"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@264167"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/meta/{songId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@359778"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@458208"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/meta/{songId}/revisions",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [
+        {
+          "method": "GET",
+          "path": "/api/meta/439/revisions",
+          "status": 200
+        }
+      ],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@258002"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@353891"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/meta/{songId}/{revisionId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [
+        {
+          "method": "GET",
+          "path": "/api/meta/439/revisions",
+          "status": 200
+        }
+      ],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@130823",
+        "appClient-CQbxiWv10TmWc-Ge.js@131085",
+        "common-CVVCJ2BAYELu9FUN.js@359474",
+        "common-CVVCJ2BAYELu9FUN.js@359963"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@183875",
+        "appClient-P7U-hXvJJNFfnZ30.js@184136",
+        "common-D9jb_iiWazq10Y0L.js@457904",
+        "common-D9jb_iiWazq10Y0L.js@458393"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/onboarding",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@215095"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@287281"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/part-switching-markers/{songId}/{revisionId}",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@475674"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/playlist",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@242627"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@326254"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/preference",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification. NOT lifecycle-migrated: old dictionary GET/PUT exist; owner-aware import, migration and serialized writes are still missing.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@10041"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@24876"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/rag-chat/latest",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@851436"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1030343"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/rag-chat/{accessKey}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@851332"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1030239"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/requests/song-tasks",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@674518"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@837479"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/revision-notification/{songId}",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@355334",
+        "appClient-P7U-hXvJJNFfnZ30.js@356613"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/revision/{revisionId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "AudioPlayerWorkerEntry-Duusu9w2dz713TVV.js@143202",
+        "FluidsynthAudioPlayerWorkerEntry-BZYiArzdtB8GAPDh.js@356350"
+      ],
+      "current_sites": [
+        "AudioPlayerWorkerEntry-BlrZNPhOw2QPvbv3.js@163543",
+        "FluidsynthAudioPlayerWorkerEntry-Cyk22vwVOOt0KnCS.js@414561"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/revision/{revisionId}/translate",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@392517"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@533373"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/search",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [
+        {
+          "method": "GET",
+          "path": "/api/search",
+          "status": 200
+        }
+      ],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@375917"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@430872"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/song/copy/suggest-title",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@829299"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1002451"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/song/{songId}/main-video-request",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@856438"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/tags",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@251584"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@344331"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/tags/{tag}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@251656"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@344403"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/textpage/{slug}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@389778"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@530634"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/user/{*}",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL. Wildcard naming may address the same profile resource as July's profileName; encoded/nested names need testing.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@535897"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/useraudio/{songId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@705617"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@885468"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/api/video-points/{songId}/{revisionId}/list",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [
+        {
+          "method": "GET",
+          "path": "/api/video-points/439/9531578/list",
+          "status": 200
+        }
+      ],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@242777"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@296261"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/atp-providers.csv",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "ConsentManager-BBSxRKUaS17FE52N.js@47757"
+      ],
+      "current_sites": [
+        "ConsentManager-BkR7glOopC2xapbv.js@47703"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/auth/billing/settings",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@322877"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@414763"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/auth/profile",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@8822"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@13646"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/auth/stripe/settings",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@323401"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@415292"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/chat-api/fingering-ruleset/versions",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@987540"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/chat-api/fingering-ruleset/versions/{version}",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@987637"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/fingering-corpus",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "CorpusTab-DTSRSPRbWrKnIgRC.js@2105"
+      ]
+    },
+    {
+      "method": "GET",
+      "route": "/version",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@18999"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@31756"
+      ]
+    },
+    {
+      "method": "PATCH",
+      "route": "/api/part-switching-markers/{songId}/{revisionId}",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@474277"
+      ]
+    },
+    {
+      "method": "PATCH",
+      "route": "/api/rag-chat/{accessKey}/message/{messageId}/feedback",
+      "implementation": "adapter-tested-offline",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "transport.js: omit obsolete source field; plain/gzip bodies tested",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@851629"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1030527"
+      ]
+    },
+    {
+      "method": "PATCH",
+      "route": "/auth/profile",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@337973",
+        "common-CVVCJ2BAYELu9FUN.js@9502"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@459460",
+        "common-D9jb_iiWazq10Y0L.js@14524"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/actions/usertest/ticket/idle",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@830102"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1006257"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/actions/usertest/{identifier}/ticket",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@829873"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1006028"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/billing/cancellation-flow",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "AccountPanel-DQSTWmRyvZ6N260T.js@27694"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/bt-request/reset",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@856768"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/chords/{revisionId}/detect",
+      "implementation": "semantic-review-open",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Extracted request fields differ; endpoint-specific UI/state/response verification still needed. Published-score null-body mode remains; current edited-score source needs an additional feature flow.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@592270"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@737601",
+        "common-D9jb_iiWazq10Y0L.js@737765"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/comment",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "AppDiff-Bb18u-08xfL48Uru.js@10756"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@2838145"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/comment/approve/{commentId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "AppDiff-Bb18u-08xfL48Uru.js@11698"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@2839140"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/comment/block/{commentId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "AppDiff-Bb18u-08xfL48Uru.js@11515"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@2838955"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/credits/song/regenerate-transcription",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@104814"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/credits/song/transcribe-file-song",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@98925"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/credits/song/transcribe-song",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@99724"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/credits/song/transcribe-track",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@102322"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/credits/transcription-file-quote",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@20065"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/credits/transcription-quote",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@19936"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/edits",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification. Real draft persistence, interrupted save and concurrent-tab conflict reconciliation remain unverified.",
+      "july_sites": [
+        "StoreWorker-DAj6qVcM_zrkZ0K4.js@884302"
+      ],
+      "current_sites": [
+        "StoreWorker-CkAXslXDlDmRdqI7.js@503352"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/edits/copy",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@361087"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@457094"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/edits/download",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification. Check real GP/MIDI download and reopen; blob response is currently passed unchanged.",
+      "july_sites": [
+        "StoreWorker-DAj6qVcM_zrkZ0K4.js@884850"
+      ],
+      "current_sites": [
+        "StoreWorker-CkAXslXDlDmRdqI7.js@504003"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/edits/saveRevision",
+      "implementation": "adapter-tested-offline",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "build_local.py + track-identities.js: actual worker replay preserves identities; notification preference is not fabricated",
+      "july_sites": [
+        "StoreWorker-DAj6qVcM_zrkZ0K4.js@884449"
+      ],
+      "current_sites": [
+        "StoreWorker-CkAXslXDlDmRdqI7.js@503754"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/event",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@225729"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@276544"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/experiments",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@10005"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/inbox/item/{itemId}/set-read",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@204223"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@264445"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/inbox/items/set-all-read",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@204163"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@264385"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/mixpanel/unknown-event",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@306446"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@396314"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/moderation-separation/start",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@1474624"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1623400"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/onboarding",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@215257"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@287443"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/part-switching-markers/migrate",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@476420",
+        "appClient-P7U-hXvJJNFfnZ30.js@479682"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/part-switching-markers/{songId}/{revisionId}/resolve-imports",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@476857"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/playlist",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@241636"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@325263"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/playlist/{playlistId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@241852"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@325479"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/preference",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL. NOT lifecycle-migrated: old dictionary GET/PUT exist; owner-aware import, migration and serialized writes are still missing.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@24819"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/preference/migrate-local",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@25180"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/rag-chat",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@851045"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1029952"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/rag-chat/attachment",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@850873"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1029780"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/rag-chat/clear-history",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@851498"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1030405"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/rag-chat/function-call",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@851215"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1030122"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/rag-chat/prefill",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@852008"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1030897"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/rag-chat/{accessKey}/turns/{turnId}/part-snapshot",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@851820"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1030709"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/requests/next",
+      "implementation": "semantic-review-open",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Extracted request fields differ; endpoint-specific UI/state/response verification still needed. Current explicitly supplies allowLowPriority; queue default semantics have not been verified.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@674114"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@836413",
+        "common-D9jb_iiWazq10Y0L.js@836763"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/requests/stop",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@674430"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@837197"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/revision/refresh",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@675950"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@838751"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/revision/{revisionId}/approve",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@676071"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@838872"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/revision/{revisionId}/deactivate",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@676460"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@839261"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/revision/{revisionId}/recover",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@675821"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@838622"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/revision/{revisionId}/reject",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@676208"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@839009"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/revision/{revisionId}/unblock",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@676343"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@839144"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/song/check-duplicate",
+      "implementation": "semantic-review-open",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Extracted request fields differ; endpoint-specific UI/state/response verification still needed. Generic body extraction differs; actual metadata/video query remains a candidate, not a demonstrated break.",
+      "july_sites": [
+        "NewTabPanel-D_M_MPBfK3URAxlS.js@23106"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1002600"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/song/copy",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@829459"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1002831"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/song/from-parts",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@829029"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1002181"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/song/regenerate-transcription",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@48060"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@105102"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/song/rename/{requestId}/solve",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@675295"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@838096"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/song/transcribe-file-song",
+      "implementation": "semantic-review-open",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Extracted request fields differ; endpoint-specific UI/state/response verification still needed.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@44689"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@99154"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/song/transcribe-song",
+      "implementation": "semantic-review-open",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Extracted request fields differ; endpoint-specific UI/state/response verification still needed.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@45285"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@99865"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/song/transcribe-track",
+      "implementation": "semantic-review-open",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Extracted request fields differ; endpoint-specific UI/state/response verification still needed.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@46853"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@102597"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/song/transcription/process",
+      "implementation": "semantic-review-open",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Extracted request fields differ; endpoint-specific UI/state/response verification still needed.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@22579"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@40859"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/song/{songId}/recover",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@675622"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@838423"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/song/{songId}/rename",
+      "implementation": "adapter-tested-offline",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "transport.js: optional explanation; omit additionalCheckShown; no invented prose",
+      "july_sites": [
+        "TabNameEditor-C-jMhz9RuF-kgwPp.js@468"
+      ],
+      "current_sites": [
+        "TabNameEditor-DZkpkqV4-rhWJcj_.js@510"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/song/{songId}/request",
+      "implementation": "semantic-review-open",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Extracted request fields differ; endpoint-specific UI/state/response verification still needed.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@850361"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@856331"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/songs/{songId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@675725"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@838526"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/sound/cleanup",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@250425"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@334111"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/sound/generate",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@250304"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@333990"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/teacher-plan-requests",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "AppTeacherPlan-CnEl-MazV5DMxgUO.js@417"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/upload/proxy",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@330737"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@13082"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/upload/sign",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@328952"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@11301"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/useraudio",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@705436"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@885287"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/video-points/manual",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@243076"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@296560"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/video-points/process",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@22668"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@40977"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/video-points/suggest",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@244646"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@298258"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/video-points/switch-main-to-alt",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@1478032"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@1625064"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/video-points/{songId}/alt-video",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@244445"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@298057"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/video-points/{songId}/auto",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@243222"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@296706"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/video-points/{songId}/edited",
+      "implementation": "semantic-review-open",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Extracted request fields differ; endpoint-specific UI/state/response verification still needed. NOT adapted: current mode/parts/target/endTime and response lifecycle require UI/state migration, not a field rename.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@243767"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@297489"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/video-points/{songId}/{revisionId}/{id}/verify",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@243623"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@297107"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/video/report",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@244014"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@297626"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/video/report/{reportId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@244129"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@297741"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/api/video/report/{reportId}/reply",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@244245"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@297857"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/apple-token",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@9342"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@14363"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/billing/cancel",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@323138"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@415026"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/billing/migrate",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@323218"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@415107"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/billing/update",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@323050"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@414937"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/billing/upgrade/pro",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@323308"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@415198"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/bonus/activate-minutes",
+      "implementation": "semantic-review-open",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Extracted request fields differ; endpoint-specific UI/state/response verification still needed.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@8600"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@40177"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/bonus/purchase-feature",
+      "implementation": "semantic-review-open",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Extracted request fields differ; endpoint-specific UI/state/response verification still needed.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@8707"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@40418"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/change/email/confirm",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@9717"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@14739"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/change/email/request",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@9603"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@14625"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/change/password",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@9830"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@14852"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/coupon",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@322958"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@414844"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/credits/migration-request",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@13730"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/deactivate",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@10156"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@15072"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/google-token",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@9173"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@14193"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/password/forgot",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@10059"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@14974"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/paypal/activate-subscription",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@324504"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@416413"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/paypal/cancel",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@324425"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@416334"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/paypal/create-subscription",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@324316"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@416225"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/signin",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@9007"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@14025"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/signout",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@9094"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@14113"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/signup",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@8898"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@13915"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/stripe/cancel",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@323591"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@415493"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/stripe/portal",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@323483"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@415385"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/stripe/subscribe/embedded",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@324033"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@415942"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/stripe/subscription/status",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@323893"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@415802"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/stripe/upgrade/pro",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@323670"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@415572"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/auth/stripe/upgrade/pro/authenticate",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@415676"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/chat-api/fingering-ruleset/versions",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@987770"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/feedback/web",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "HelpPanel-BjyGpNuwVD5TOyE7.js@6066"
+      ],
+      "current_sites": [
+        "HelpPanel-CpdENGn33caIfkZU.js@6212"
+      ]
+    },
+    {
+      "method": "POST",
+      "route": "/version/reload?via={dynamic}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "common-CVVCJ2BAYELu9FUN.js@691055"
+      ],
+      "current_sites": [
+        "common-D9jb_iiWazq10Y0L.js@359835"
+      ]
+    },
+    {
+      "method": "PUT",
+      "route": "/api/favorites/{songId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@330545"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@449557"
+      ]
+    },
+    {
+      "method": "PUT",
+      "route": "/api/playlist/{playlistId}/order",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@246756"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@330442"
+      ]
+    },
+    {
+      "method": "PUT",
+      "route": "/api/playlist/{playlistId}/song/{songId}",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@247361"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@331047"
+      ]
+    },
+    {
+      "method": "PUT",
+      "route": "/api/preference",
+      "implementation": "semantic-review-open",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Extracted request fields differ; endpoint-specific UI/state/response verification still needed. NOT lifecycle-migrated: old dictionary GET/PUT exist; owner-aware import, migration and serialized writes are still missing.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@10419",
+        "appClient-CQbxiWv10TmWc-Ge.js@12093"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@24230"
+      ]
+    },
+    {
+      "method": "PUT",
+      "route": "/api/revision-notification/{songId}",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@356204"
+      ]
+    },
+    {
+      "method": "PUT",
+      "route": "/api/song/{songId}/publish",
+      "implementation": "unchanged-request-candidate",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "Pass-through; field equality is not response, authorization, or end-to-end verification.",
+      "july_sites": [
+        "appClient-CQbxiWv10TmWc-Ge.js@371851"
+      ],
+      "current_sites": [
+        "appClient-P7U-hXvJJNFfnZ30.js@512623"
+      ]
+    },
+    {
+      "method": "PUT",
+      "route": "/api/teacher-plan-requests/{id}/follow-up",
+      "implementation": "current-feature-not-ported",
+      "end_to_end_certified": false,
+      "observed_public_responses": [],
+      "detail": "July has no matching caller; needs the current feature's state/UI flow. Not satisfied by allowing the URL.",
+      "july_sites": [],
+      "current_sites": [
+        "AppTeacherPlan-CnEl-MazV5DMxgUO.js@532"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import { adaptState } from "./compat.mjs";
+import { installLocalSprites } from "./local-sprites.mjs";
 
 try {
     const stateElement = document.getElementById("state");
@@ -12,16 +13,17 @@ try {
     // The server now renders October's layout. Hydrating that DOM with July's
     // components leaves mismatched navigation behind, so rebuild only #root.
     root.replaceChildren();
+    await installLocalSprites();
     document.documentElement.dataset.songsterrClassic = "july-2026";
     const preview = document.createElement("aside");
     preview.id = "songsterr-classic-status";
-    preview.textContent = "Classic preview · saving disabled";
+    preview.textContent = import.meta.url.includes("bootstrap-edit") ? "Classic · experimental editing" : "Classic preview · saving disabled";
     preview.title = "Use the extension button to restore the current UI.";
     preview.style.cssText = "position:fixed;bottom:78px;right:12px;padding:6px 10px;border-radius:4px;background:#fff0d0;color:#563b08;z-index:1000;font:12px system-ui,sans-serif;box-shadow:0 1px 5px #0002";
     document.body.append(preview);
-    // Songsterr's client verifies its own source domain. Keep the original
-    // pinned CDN URL and the vendor check intact; this is not an offline fork.
-    await import("https://static3.songsterr.com/production-main/static3/latest/appClient-CQbxiWv10TmWc-Ge.js");
+    // The build pins local bytes and records the entry's source-location patch.
+    // API requests still run from the live Songsterr page and worker origins.
+    await import("./vendor/appClient-CQbxiWv10TmWc-Ge.js");
 } catch (error) {
     console.error("Songsterr Classic could not start", error);
     const notice = document.createElement("p");

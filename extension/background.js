@@ -5,7 +5,8 @@ async function tabRules(tabId) {
     return rules.filter(rule => rule.condition.tabIds?.includes(tabId));
 }
 
-async function changeTab(tabId, enable) {
+async function changeTab(tabId, enable, mode = "preview") {
+    if (mode !== "preview" && mode !== "editing") throw new Error("Unknown Classic mode");
     const owned = await tabRules(tabId);
     const removeRuleIds = owned.map(rule => rule.id);
     if (!enable) {
@@ -28,50 +29,55 @@ async function changeTab(tabId, enable) {
     const allRules = await chrome.declarativeNetRequest.getSessionRules();
     let id = Math.max(0, ...allRules.map(rule => rule.id)) + 1;
     const addRules = [];
-    addRules.push({id: id++, priority: 20, action: {type: "allow"}, condition: {
-        tabIds: [tabId], urlFilter: "|" + CDN + "appClient-CQbxiWv10TmWc-Ge.js|",
-        resourceTypes: ["script"],
-    }});
     const redirect = (condition, path, priority = 1) => addRules.push({
         id: id++, priority,
         action: { type: "redirect", redirect: { extensionPath: path } },
         condition: { ...condition, tabIds: [tabId] },
     });
 
-    redirect({regexFilter: "^https://static3\\.songsterr\\.com/production-main/static3/latest/appClient-[A-Za-z0-9_-]+\\.js$", resourceTypes: ["script"]}, "/bootstrap.mjs", 10);
+    redirect({regexFilter: "^https://static3\\.songsterr\\.com/production-main/static3/latest/appClient-[A-Za-z0-9_-]+\\.js$", resourceTypes: ["script"]}, mode === "editing" ? "/bootstrap-edit.mjs" : "/bootstrap.mjs", 10);
     redirect({regexFilter: "^https://static3\\.songsterr\\.com/production-main/static3/latest/appClient-[A-Za-z0-9_-]+\\.css$", resourceTypes: ["stylesheet"]}, "/vendor/appClient-442d1888c9.css", 10);
     redirect({regexFilter: "^https://static3\\.songsterr\\.com/production-main/static3/latest/common-[A-Za-z0-9_-]+\\.css$", resourceTypes: ["stylesheet"]}, "/vendor/common-7b4ff45b27.css", 10);
     for (const name of assets) {
-        if (!name.endsWith(".css")) continue;
-        redirect({urlFilter: "|" + CDN + name + "|"}, "/vendor/" + name);
+        for (const base of [CDN, "https://www.songsterr.com/static3/latest/"]) {
+            redirect({urlFilter: "|" + base + name + "|"}, "/vendor/" + name, 20);
+        }
     }
 
-    // The old editor may issue obsolete writes. Chrome blocks them before the
-    // network; this is not a disabled-button promise. Existing GET permissions
-    // and server subscription checks remain owned by Songsterr.
-    addRules.push({id: id++, priority: 100, action: {type: "block"}, condition: {
+    const media = await (await fetch(chrome.runtime.getURL("media-assets.json"))).json();
+    for (const path of media) {
+        const name = path.split("/").pop();
+        for (const origin of ["https://www.songsterr.com", "https://static3.songsterr.com/production-main"]) {
+            redirect({urlFilter: "|" + origin + path + "|"}, "/media/" + name, 5);
+        }
+    }
+
+    // Preview is explicitly read-only. Editing removes this extension's write
+    // block; it does not change Songsterr authentication or server permissions.
+    if (mode === "preview") addRules.push({id: id++, priority: 100, action: {type: "block"}, condition: {
         tabIds: [tabId], requestDomains: ["songsterr.com"],
         requestMethods: ["post", "put", "patch", "delete"],
     }});
-    addRules.push({id: id++, priority: 100, action: {type: "block"}, condition: {
+    if (mode === "preview") addRules.push({id: id++, priority: 100, action: {type: "block"}, condition: {
         tabIds: [tabId], requestDomains: ["songsterr.com"], resourceTypes: ["websocket"],
     }});
     await chrome.declarativeNetRequest.updateSessionRules({ removeRuleIds, addRules });
     await chrome.action.setBadgeBackgroundColor({ tabId, color: "#85521a" });
-    await chrome.action.setBadgeText({ tabId, text: "RO" });
+    await chrome.action.setBadgeText({ tabId, text: mode === "preview" ? "RO" : "EDIT" });
     await chrome.tabs.reload(tabId, { bypassCache: true });
 }
 
 chrome.runtime.onMessage.addListener((message, sender, respond) => {
     (async () => {
         if (message.action === "status") {
-            return { enabled: (await tabRules(message.tabId)).length > 0 };
+            const rules = await tabRules(message.tabId);
+            return { enabled: rules.length > 0, mode: rules.some(rule => rule.action.type === "block") ? "preview" : "editing" };
         }
         if (message.action !== "enable" && message.action !== "disable") {
             throw new Error("Unknown Classic action");
         }
-        await changeTab(message.tabId, message.action === "enable");
-        return { enabled: message.action === "enable" };
+        await changeTab(message.tabId, message.action === "enable", message.mode);
+        return message.action === "enable" ? {enabled:true,mode:message.mode ?? "preview"} : {enabled:false};
     })().then(respond).catch(error => respond({ error: error.message }));
     return true;
 });

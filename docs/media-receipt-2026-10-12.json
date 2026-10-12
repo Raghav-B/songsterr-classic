@@ -1,0 +1,1831 @@
+{
+  "assets": {
+    "/static3/media/01-understanding-tab-BUuxkoZps4J-svOn.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/01-understanding-tab-BUuxkoZps4J-svOn.svg",
+      "bytes": 1224,
+      "sha256": "033f5831bb5c2c2c4fa4bc36ecd57c4ecf7ea5261068a7a6e8350a9234d4e886"
+    },
+    "/static3/media/01-understanding-tab-dark-BrZtlDiaDQOTnF9g.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/01-understanding-tab-dark-BrZtlDiaDQOTnF9g.svg",
+      "bytes": 1224,
+      "sha256": "02c6ed3fda3cf248351d7191366f4feb4979dc79e487a7e82fcd3e739f0f4f13"
+    },
+    "/static3/media/010-wide-vibrato-CzE7ySkn_j_MNbwl.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/010-wide-vibrato-CzE7ySkn_j_MNbwl.svg",
+      "bytes": 968,
+      "sha256": "d36d473ef50966b35366b7452ea493e86ce0606679df474e098aa044de9142fd"
+    },
+    "/static3/media/010-wide-vibrato-dark-CZDye3-SKllAcOrl.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/010-wide-vibrato-dark-CZDye3-SKllAcOrl.svg",
+      "bytes": 968,
+      "sha256": "c9048db6c52ae6e4dffa4ca5c8daf7339ac33efccabdbb2747ff2d7096a9fe95"
+    },
+    "/static3/media/011-let-ring-BObohmkgkYzylnoM.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/011-let-ring-BObohmkgkYzylnoM.svg",
+      "bytes": 227,
+      "sha256": "8a756a6bfe6cdd402139a33ec51c0e2e14b363d2fae94db44ec02c0bbdb4c0a4"
+    },
+    "/static3/media/011-let-ring-dark-wHv3oqnD6Pw7V_W9.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/011-let-ring-dark-wHv3oqnD6Pw7V_W9.svg",
+      "bytes": 227,
+      "sha256": "1c3a31ec492c6c1cc2c8bb70c1f612ecc8a96d4a8d3b458fe36589192fe656d6"
+    },
+    "/static3/media/012-palm-mute-DhcwpJRdOZIIknfH.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/012-palm-mute-DhcwpJRdOZIIknfH.svg",
+      "bytes": 421,
+      "sha256": "05db0b83300cf3d2c8a4c3527d32b784507ca6fa0938439bc3748e7e4c48f8ad"
+    },
+    "/static3/media/012-palm-mute-dark-C-Rn1aVu3oqGVMw2.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/012-palm-mute-dark-C-Rn1aVu3oqGVMw2.svg",
+      "bytes": 421,
+      "sha256": "f3ef06bf84d48b2db28193da292287dfa73a9740dff6f6313b17cccfdd05dd3c"
+    },
+    "/static3/media/013-gost-note-CIbHbLwl4cABTtpJ.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/013-gost-note-CIbHbLwl4cABTtpJ.svg",
+      "bytes": 903,
+      "sha256": "b202a71ffd967c3cb118b17095c45450335744866dcbaff6f580571d5582563a"
+    },
+    "/static3/media/013-gost-note-dark-DOhtYyyp1BsSZWJ5.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/013-gost-note-dark-DOhtYyyp1BsSZWJ5.svg",
+      "bytes": 903,
+      "sha256": "11641ad76442ad4afbd0a94ed9549345d776c90bc12cd732428d7c205b230cee"
+    },
+    "/static3/media/014-dead-note-B4d9Ptc2GpD8Sg9C.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/014-dead-note-B4d9Ptc2GpD8Sg9C.svg",
+      "bytes": 474,
+      "sha256": "80eaabd2cac029cb44dcc09c89812c23ba140ee8a8635a8a25547470c993d44f"
+    },
+    "/static3/media/014-dead-note-dark-Dzd_6wyC1XiYydTZ.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/014-dead-note-dark-Dzd_6wyC1XiYydTZ.svg",
+      "bytes": 474,
+      "sha256": "6a9fe36979fad206e4973b89ff34176f6f9f39a0a47f88f65983b7baf227a1de"
+    },
+    "/static3/media/015-up-down-strokes-Bf6D7jr7BN0xgeIX.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/015-up-down-strokes-Bf6D7jr7BN0xgeIX.svg",
+      "bytes": 310,
+      "sha256": "4d777b1ff8230a1df8e97b55e7e94f54d87710a32019714f6e171b6988a53423"
+    },
+    "/static3/media/015-up-down-strokes-dark-BGNGGeD1oEnmB9qP.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/015-up-down-strokes-dark-BGNGGeD1oEnmB9qP.svg",
+      "bytes": 310,
+      "sha256": "b25c0a0d921cecf88e218bcb35e77e9a2f2cbbbac55490c38f6f1fd0031636c9"
+    },
+    "/static3/media/016-natural-harmonics-CuxAcwod6xMN_CP0.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/016-natural-harmonics-CuxAcwod6xMN_CP0.svg",
+      "bytes": 1070,
+      "sha256": "7a933aadf621974aa7c760f6e8107879c1965e74cd952c9ea2d5984fab398cb2"
+    },
+    "/static3/media/016-natural-harmonics-dark-DwzEOqoxIhtM3J1j.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/016-natural-harmonics-dark-DwzEOqoxIhtM3J1j.svg",
+      "bytes": 1070,
+      "sha256": "dd1be66898235a0310ba95ae6b0f0dafb58254e7132ff35c5834de79812c7348"
+    },
+    "/static3/media/017-rhythm-notation-BFAdzk7B6fRFg1M6.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/017-rhythm-notation-BFAdzk7B6fRFg1M6.svg",
+      "bytes": 222,
+      "sha256": "a7dbeb16ad2bd04583a5c5f958d788ba4062e59c975754888eb12c083c3c0592"
+    },
+    "/static3/media/017-rhythm-notation-dark-BvtjYEhoRmH0XOf4.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/017-rhythm-notation-dark-BvtjYEhoRmH0XOf4.svg",
+      "bytes": 222,
+      "sha256": "21ccdf288c3ce15ee9d11bf50234145aa643404e3b0d1d55d4a83309e4ec8c11"
+    },
+    "/static3/media/018-bars-C5ATz8Qmsscsj8Zw.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/018-bars-C5ATz8Qmsscsj8Zw.svg",
+      "bytes": 429,
+      "sha256": "d2b3e7f9ce8a2df7099f2d7f7c5a8a9bcdcc6be9e2727d5593892dfa587d4c22"
+    },
+    "/static3/media/018-bars-dark-jRAExh99HWpfmJAc.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/018-bars-dark-jRAExh99HWpfmJAc.svg",
+      "bytes": 429,
+      "sha256": "48251aec5aded922129b2f669c5f2067001d80875b232651ed0ca3e7bebfe811"
+    },
+    "/static3/media/019-time-signature-BH98C7k3E0sacKEp.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/019-time-signature-BH98C7k3E0sacKEp.svg",
+      "bytes": 1578,
+      "sha256": "6063890fe03608b173913e29f8012212f242ffdaabff79b11684be9126a9183f"
+    },
+    "/static3/media/019-time-signature-dark-tUc_AHNvcw6vLwoR.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/019-time-signature-dark-tUc_AHNvcw6vLwoR.svg",
+      "bytes": 1578,
+      "sha256": "f320498ddb638ac5260f54e367103c0fb52db7c5b89e2a7ce68393910674c556"
+    },
+    "/static3/media/02-guitar-tab-chords-dark-CeckNlYVlGXWX5Kr.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/02-guitar-tab-chords-dark-CeckNlYVlGXWX5Kr.svg",
+      "bytes": 1745,
+      "sha256": "3bf46d1e03fd7a354bef2b41d531f004f21928e7e5cd3ae914251e27f4e17694"
+    },
+    "/static3/media/02-guitar-tab-chords-x0gMBPDsBylE7oIJ.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/02-guitar-tab-chords-x0gMBPDsBylE7oIJ.svg",
+      "bytes": 1745,
+      "sha256": "e91d6542ebb0e80053909beabde63fbd3128a8d0bcf84f1ed581862cd52e54d2"
+    },
+    "/static3/media/020-notes-and-rests-DmyqWAaJ2Eig_DZJ.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/020-notes-and-rests-DmyqWAaJ2Eig_DZJ.svg",
+      "bytes": 2317,
+      "sha256": "534df1373c5925cce2f3ac32705a469bd6b1cb6d346ff9524796d9362095199a"
+    },
+    "/static3/media/020-notes-and-rests-dark-BM5DKSLkzfQkqsWM.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/020-notes-and-rests-dark-BM5DKSLkzfQkqsWM.svg",
+      "bytes": 2317,
+      "sha256": "8ef13e695ec8b67b9fa71f66bdfcad7519dc6e1e735162e4a6495eeb77753386"
+    },
+    "/static3/media/021-dots-DSki9rAl03jv9LOu.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/021-dots-DSki9rAl03jv9LOu.svg",
+      "bytes": 202,
+      "sha256": "afef330b52dad57347e7dd40c578bceda26dfc915e85b77ab9c75c7a2839fec4"
+    },
+    "/static3/media/021-dots-dark-BuG_9t7MPZi-1yPG.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/021-dots-dark-BuG_9t7MPZi-1yPG.svg",
+      "bytes": 202,
+      "sha256": "dfe93e7229aded7cde739b48d3c9790ccb5e959b18a2f04f24c3ce6e90f75444"
+    },
+    "/static3/media/022-ties-EWUM9fl7CEF_4Tpa.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/022-ties-EWUM9fl7CEF_4Tpa.svg",
+      "bytes": 793,
+      "sha256": "eb612795210065561c09e434b53534a06d8cf92cf03e0fc1f835c2f325eef59d"
+    },
+    "/static3/media/022-ties-dark-smSovoBSUvZTe-R7.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/022-ties-dark-smSovoBSUvZTe-R7.svg",
+      "bytes": 793,
+      "sha256": "204c6dbc2369313c51805464f7bfbe0c4def6649e8680b9d38fa8e49a7e011cc"
+    },
+    "/static3/media/023-beams-CwsXKYjKDKYDOMTy.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/023-beams-CwsXKYjKDKYDOMTy.svg",
+      "bytes": 304,
+      "sha256": "88c35c67c4dc8d294159c56d9ba9993e281620a1656f8ea6684c5953f349abe4"
+    },
+    "/static3/media/023-beams-dark-C8W4puxzgeNxi4Ud.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/023-beams-dark-C8W4puxzgeNxi4Ud.svg",
+      "bytes": 304,
+      "sha256": "dc85d7b9cf0ca0101019930ff2ba4cf1eb84b26f7fcb1087da62ed6eba5d2a23"
+    },
+    "/static3/media/024-triplets-D6ZPOMnStASjPgqZ.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/024-triplets-D6ZPOMnStASjPgqZ.svg",
+      "bytes": 1615,
+      "sha256": "491f3c8e30a546b74e3698bb6cc5be04e7a906a3be0fb9089a18797c24a80a60"
+    },
+    "/static3/media/024-triplets-dark-DGAqXv6f8Eicad7O.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/024-triplets-dark-DGAqXv6f8Eicad7O.svg",
+      "bytes": 1615,
+      "sha256": "e0e735ed54baa64fe573cf5cf52b76a08927a80958d9730b1e0582a73faf746c"
+    },
+    "/static3/media/025-repeats-D0O32k3sc7JniEmc.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/025-repeats-D0O32k3sc7JniEmc.svg",
+      "bytes": 658,
+      "sha256": "b010a3bfd1858770fd7d48eb3c4c71830493d44cf9789ce03fd3ad6653e6a4d8"
+    },
+    "/static3/media/025-repeats-dark-BVCLEDhuckTy-1i_.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/025-repeats-dark-BVCLEDhuckTy-1i_.svg",
+      "bytes": 658,
+      "sha256": "3a9f09e1af113373f3f210c0ebed2d6595330f98694dfc768b269bfd3444cc18"
+    },
+    "/static3/media/026-alternate-endings-BXInFu9ZbYEhOw28.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/026-alternate-endings-BXInFu9ZbYEhOw28.svg",
+      "bytes": 487,
+      "sha256": "91c13469bc34630ba91d51682bb55de180963f05f5711dee0ecd3d5d6c26ae40"
+    },
+    "/static3/media/026-alternate-endings-dark-DDDwWQ3K9oXrVhBn.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/026-alternate-endings-dark-DDDwWQ3K9oXrVhBn.svg",
+      "bytes": 487,
+      "sha256": "eb254e0b0cc95874c8cf50c3145d7ec683852f83b8289fa50cd8f39701aac738"
+    },
+    "/static3/media/027-the-beat-Bol2KEspak7cIIFK.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/027-the-beat-Bol2KEspak7cIIFK.svg",
+      "bytes": 994,
+      "sha256": "da25c6d0a2578a61405d2bdbb8df4580bb3431d217b08d40eae1e5fd2e885029"
+    },
+    "/static3/media/027-the-beat-dark-VchpZeKFYmdRRUdX.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/027-the-beat-dark-VchpZeKFYmdRRUdX.svg",
+      "bytes": 994,
+      "sha256": "9aa4d9d4449f92f72ed49f5bb289535ab08fbab362ec39ec68dc0cf1ca74b754"
+    },
+    "/static3/media/028-polyphony-BnMYK_LTDD9APPHy.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/028-polyphony-BnMYK_LTDD9APPHy.svg",
+      "bytes": 1348,
+      "sha256": "b766c3a08cea122d1c7a18b0693d2aadb72d6b10668313562500ac8d167d1905"
+    },
+    "/static3/media/028-polyphony-dark-DcSueEJW9CquTUQP.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/028-polyphony-dark-DcSueEJW9CquTUQP.svg",
+      "bytes": 1348,
+      "sha256": "c6b52800890674496ad99b8dd042ee5bad1832ca841fbb8e94236b21c7ba0d92"
+    },
+    "/static3/media/029-swing-rhythm-DaB1hfF13g7FPl94.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/029-swing-rhythm-DaB1hfF13g7FPl94.svg",
+      "bytes": 1128,
+      "sha256": "9942f83d73790afd72ce1f987162d68759999b4a30b76d8fdddb616fc8831073"
+    },
+    "/static3/media/029-swing-rhythm-dark-0PaXkztHB2CdyLby.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/029-swing-rhythm-dark-0PaXkztHB2CdyLby.svg",
+      "bytes": 1128,
+      "sha256": "11ed1ad5670b31f00e8c45ec41b7fe38b9cedcff6f1fcafb497c30a13ae94b2b"
+    },
+    "/static3/media/03-hammer-on-CYu-6FF12gWOb5U_.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/03-hammer-on-CYu-6FF12gWOb5U_.svg",
+      "bytes": 653,
+      "sha256": "f5ac50a648d21946c778aff64cb28940e7cb12e47fb75ee8ae0f968fe2c2ff0c"
+    },
+    "/static3/media/03-hammer-on-dark-D-9FDUwr_bEyszcZ.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/03-hammer-on-dark-D-9FDUwr_bEyszcZ.svg",
+      "bytes": 653,
+      "sha256": "0be9d39afcc8f38894971c74d2fed51a7a201edbc2f161c7a11769b5123145f7"
+    },
+    "/static3/media/030-pinch-harmonic-B64NVH5iow0GOfIp.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/030-pinch-harmonic-B64NVH5iow0GOfIp.svg",
+      "bytes": 425,
+      "sha256": "aaccbb9003cf377e9927a7f552d928e3fa5f2b2341368fce00071bb450137c95"
+    },
+    "/static3/media/030-pinch-harmonic-dark-CXTkaNlU_slalHE0.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/030-pinch-harmonic-dark-CXTkaNlU_slalHE0.svg",
+      "bytes": 425,
+      "sha256": "55fd6262bd9539baf4ef88329b501b8e41dd929d92c168b7f4b34d513f617739"
+    },
+    "/static3/media/031-accented-DXhnD0KRPI_afE8i.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/031-accented-DXhnD0KRPI_afE8i.svg",
+      "bytes": 273,
+      "sha256": "b3a25f1e5e3a7bebf272c85e2454c4969fa97a7af607b9f5e74cf57ec8971c8e"
+    },
+    "/static3/media/031-accented-dark-Cbj0DXp-3YGY-7qL.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/031-accented-dark-Cbj0DXp-3YGY-7qL.svg",
+      "bytes": 273,
+      "sha256": "1bf0c88786685375e7f4248f0b98aa51bfb4c781247dfe64856ed03938e802d7"
+    },
+    "/static3/media/032-heavily-accented-SFOsn-lohHpROCE6.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/032-heavily-accented-SFOsn-lohHpROCE6.svg",
+      "bytes": 177,
+      "sha256": "7385f182a5aa6c1062f0becf0eda258e235e3cbaf5c22e72fe3bd9cbb8414042"
+    },
+    "/static3/media/032-heavily-accented-dark-D_cnFfSRfTWbPv13.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/032-heavily-accented-dark-D_cnFfSRfTWbPv13.svg",
+      "bytes": 177,
+      "sha256": "6c32f9f7956b42bb395f7de9e54dfbcbc5b689165868d093cc39f76b6eada038"
+    },
+    "/static3/media/033-staccato-Do0dPyZAu4LTOHXO.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/033-staccato-Do0dPyZAu4LTOHXO.svg",
+      "bytes": 463,
+      "sha256": "67a09dcc214a08b0fc38c44965d2410c162d6beede8d4873c585d1127800ac74"
+    },
+    "/static3/media/033-staccato-dark-DUzIh3VLlSdRTeGf.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/033-staccato-dark-DUzIh3VLlSdRTeGf.svg",
+      "bytes": 463,
+      "sha256": "7ce5f2c08e5697c757cdbc0218b65ddbee98ae4a6e2c6c49dec034e8cca9a4b5"
+    },
+    "/static3/media/034-tapping-Dt1sU14JsWYOEifs.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/034-tapping-Dt1sU14JsWYOEifs.svg",
+      "bytes": 160,
+      "sha256": "2f29cf0c3d6a285fcc4cc5fd287e8b90b7ee4703786cff14643ac995fb8f2c69"
+    },
+    "/static3/media/034-tapping-dark-BiGfG_dlQH3vYQe0.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/034-tapping-dark-BiGfG_dlQH3vYQe0.svg",
+      "bytes": 160,
+      "sha256": "523fccade053d14a9e864f74b73926bb03689c13a4d60a30f1697feb7166883b"
+    },
+    "/static3/media/035-tremolo-BgWjDuS95zt75YAV.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/035-tremolo-BgWjDuS95zt75YAV.svg",
+      "bytes": 386,
+      "sha256": "56b7f569e2661ad1763204e64740b17c238efa91325a44c9b866ad17a9bce1cc"
+    },
+    "/static3/media/035-tremolo-dark-CRieWy2R7EYR0J_4.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/035-tremolo-dark-CRieWy2R7EYR0J_4.svg",
+      "bytes": 386,
+      "sha256": "cf028d05028b7f0b9fd099fa91fe379e09cf75c12e8dadb5a92127ff58bf38d4"
+    },
+    "/static3/media/036-popping-DFYp_YTDc4NLleFD.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/036-popping-DFYp_YTDc4NLleFD.svg",
+      "bytes": 897,
+      "sha256": "864595671a11dce82e0e67122ca0925f3b36c6ec58bb915134a11d580fa5a6c0"
+    },
+    "/static3/media/036-popping-dark-Dcal77uDE8q57Iua.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/036-popping-dark-Dcal77uDE8q57Iua.svg",
+      "bytes": 897,
+      "sha256": "4383178aecf8514492605862e2648f897e119270d987cd0f9563032a856dc4ce"
+    },
+    "/static3/media/037-slapping-B62NzWD7jTsbma7-.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/037-slapping-B62NzWD7jTsbma7-.svg",
+      "bytes": 2041,
+      "sha256": "4bfc6cece0ca680a1275be0605af2694eff0b1addccf0ab8657d70726cc0f441"
+    },
+    "/static3/media/037-slapping-dark-BDhW_ZXXr7bvWYnE.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/037-slapping-dark-BDhW_ZXXr7bvWYnE.svg",
+      "bytes": 2041,
+      "sha256": "291edddd7ae5ba18ffc3a1f39925b7d4c69e12d2f2f1d22fb0d1b17799294c19"
+    },
+    "/static3/media/038-double-dots-B66xC8fas9P1kqlP.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/038-double-dots-B66xC8fas9P1kqlP.svg",
+      "bytes": 216,
+      "sha256": "3151fedcd6e7af79c1446a6be7513014cdfa57e73e9ea491f52803a50faed0ab"
+    },
+    "/static3/media/038-double-dots-dark-CiK54jv7cVVLMgdL.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/038-double-dots-dark-CiK54jv7cVVLMgdL.svg",
+      "bytes": 216,
+      "sha256": "aff37e4000a331bc0e089326a6787b3ab409aa87feac4def343ae2de5fe7b06e"
+    },
+    "/static3/media/039-vibrato-tremolo-DolVrQkt5M890FFH.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/039-vibrato-tremolo-DolVrQkt5M890FFH.svg",
+      "bytes": 415,
+      "sha256": "34ce30245faea91a47f79aae62de46e841edbf6e1a22fdbe6634896b82604cbd"
+    },
+    "/static3/media/039-vibrato-tremolo-dark-DrNi6VFh7iFoJkCR.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/039-vibrato-tremolo-dark-DrNi6VFh7iFoJkCR.svg",
+      "bytes": 423,
+      "sha256": "400cbdc5f307a3adfe9a4126c4738f8dcae51465ac92f6688114f67cda30603f"
+    },
+    "/static3/media/04-pull-off-CL7QRY50SVqlN41N.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/04-pull-off-CL7QRY50SVqlN41N.svg",
+      "bytes": 646,
+      "sha256": "528819986d79f3c5cb7b358ac09a86bf43502e3c130a6bc42877d96a838b2ad3"
+    },
+    "/static3/media/04-pull-off-dark-D5u4YSi31blKplQn.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/04-pull-off-dark-D5u4YSi31blKplQn.svg",
+      "bytes": 646,
+      "sha256": "6a1fc48048fd28ebd32178190b77c725ccefd5fcaa4a6356ef75de47ab6071fa"
+    },
+    "/static3/media/041-grace-note-before-B_YQp6XrHud7-LIe.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/041-grace-note-before-B_YQp6XrHud7-LIe.svg",
+      "bytes": 313,
+      "sha256": "90264db192aaa95e303eee9946c5be034e4eaa7436483892c716f7e008ace3a1"
+    },
+    "/static3/media/041-grace-note-before-dark-BSTnAOtOlRsPQ8U8.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/041-grace-note-before-dark-BSTnAOtOlRsPQ8U8.svg",
+      "bytes": 313,
+      "sha256": "84ee01a1c22402a59ac517bf7cd9ccd1c61208f45a0e1a31f4a7a92e2b1c6990"
+    },
+    "/static3/media/042-grace-note-on-DQYlO2ecDt__R9RA.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/042-grace-note-on-DQYlO2ecDt__R9RA.svg",
+      "bytes": 233,
+      "sha256": "e6dc427b703a6cac2f50aac3881434877616cc824c6e8cfc25b4afbab81145c6"
+    },
+    "/static3/media/042-grace-note-on-dark-C4d5K74_2xLb404Z.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/042-grace-note-on-dark-C4d5K74_2xLb404Z.svg",
+      "bytes": 314,
+      "sha256": "4fa98333f38d3e0436874c9498d4b2ecc704415e6338ba05c9631a01a9cf0b9a"
+    },
+    "/static3/media/043-up-down-arpeggios-DVkFGhoslEzrz9r5.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/043-up-down-arpeggios-DVkFGhoslEzrz9r5.svg",
+      "bytes": 4063,
+      "sha256": "b23b0c9f08617f454259988aab742d29e68af15b43059f4314ae29a5a1b3587c"
+    },
+    "/static3/media/043-up-down-arpeggios-dark-DPict-2Y6eobXFZQ.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/043-up-down-arpeggios-dark-DPict-2Y6eobXFZQ.svg",
+      "bytes": 4063,
+      "sha256": "9b9fd9b97a53a3af438de352123e60f2ade1a8d7a06790ea481191ceb0e85127"
+    },
+    "/static3/media/044-pickup-bar-dark-CY9ZbwKKTc_AQXm-.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/044-pickup-bar-dark-CY9ZbwKKTc_AQXm-.svg",
+      "bytes": 5180,
+      "sha256": "675e4bedab567e4671eafca797bf40560306cd1cbea0d83733f564bccfaf02ea"
+    },
+    "/static3/media/044-pickup-bar-pjdJJWwDxQGGigIL.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/044-pickup-bar-pjdJJWwDxQGGigIL.svg",
+      "bytes": 5180,
+      "sha256": "224b39e66f1d8e743d2f7e2b0bb09e48c664e275b6d6081612c9862f83565bc4"
+    },
+    "/static3/media/045-golpe-DJo5iivSJFWsFDEH.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/045-golpe-DJo5iivSJFWsFDEH.svg",
+      "bytes": 927,
+      "sha256": "91056b560a1b9755b340ff9b0ef7dac79c0cd3be7099549d61d56d91c00bee2d"
+    },
+    "/static3/media/045-golpe-dark-BBINclAUJtkLI1Sg.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/045-golpe-dark-BBINclAUJtkLI1Sg.svg",
+      "bytes": 927,
+      "sha256": "9164899cde0aebe81ec453163b2747262e2a675f257efc71df547a3f007d22dc"
+    },
+    "/static3/media/046-crescendo-BCNhsV8HJD7q30DM.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/046-crescendo-BCNhsV8HJD7q30DM.svg",
+      "bytes": 5020,
+      "sha256": "a1f501eb67e99879ec2990ce795e062f244aa6d9f93b5882a2058d663bd98235"
+    },
+    "/static3/media/046-crescendo-dark-DnSb7NwI27MzcPHp.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/046-crescendo-dark-DnSb7NwI27MzcPHp.svg",
+      "bytes": 5019,
+      "sha256": "b9a483250f679ba81b351aa7d36589bfef2fc61c7fab7265cc9e2a87d749b7d4"
+    },
+    "/static3/media/047-diminuendo-BJKuE_2jYd3ZKuiG.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/047-diminuendo-BJKuE_2jYd3ZKuiG.svg",
+      "bytes": 3079,
+      "sha256": "6988408da1f9f4a45d0b708f3037fc2be96c5a252a20b4fa717a074b2cfcbb5b"
+    },
+    "/static3/media/047-diminuendo-dark-CS4Egi_3LUUXars3.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/047-diminuendo-dark-CS4Egi_3LUUXars3.svg",
+      "bytes": 3079,
+      "sha256": "ad5251f9fb60b8e0b2949cc267e026ea2ac7b4d81822235b0e7f69ab24b2825f"
+    },
+    "/static3/media/048-rasgueado-dark-DPM2643h64o07KDo.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/048-rasgueado-dark-DPM2643h64o07KDo.svg",
+      "bytes": 5639,
+      "sha256": "0c9646a028745bfd68c026ffec341f8a1cec6b0fb9b85c68d51644ee49808aa3"
+    },
+    "/static3/media/048-rasgueado-zAYKutBvUoQX4G1Z.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/048-rasgueado-zAYKutBvUoQX4G1Z.svg",
+      "bytes": 5637,
+      "sha256": "b428126fc07a91536ddcab818b44b72d271ac5ad3dab477c9787ceb289370194"
+    },
+    "/static3/media/049-pickstroke-up-BiEcPcofOU43e-wh.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/049-pickstroke-up-BiEcPcofOU43e-wh.svg",
+      "bytes": 270,
+      "sha256": "7eea69189555ba6f07061df952d1c53ba3b70f1ac7fb06fa02f8ab85f2afc195"
+    },
+    "/static3/media/049-pickstroke-up-dark-SF69oMNw9F4pKFDn.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/049-pickstroke-up-dark-SF69oMNw9F4pKFDn.svg",
+      "bytes": 267,
+      "sha256": "356dced63f2615dcb0578a8fa3e940802222d8a22d9411478d0bcbcebd441cbe"
+    },
+    "/static3/media/05-bends-D1Azu58i635ZEFHF.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/05-bends-D1Azu58i635ZEFHF.svg",
+      "bytes": 1005,
+      "sha256": "796d4b26f537da0cf10c8613086622df20af4b3b0de948e12931495f85e35f02"
+    },
+    "/static3/media/05-bends-dark-D8QNZzjvGH4QwIH5.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/05-bends-dark-D8QNZzjvGH4QwIH5.svg",
+      "bytes": 1005,
+      "sha256": "2adce88ada75913573cf6dcff13fc4f08927e5d00f5b558f44dc20a9e96ccc78"
+    },
+    "/static3/media/050-pickstroke-down-Ca5DEdvqQrE2J6t9.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/050-pickstroke-down-Ca5DEdvqQrE2J6t9.svg",
+      "bytes": 516,
+      "sha256": "d2a93e016c1484dc84d47d9c6be6ec8ced36dd0ac4fd05797b58d27dc043b6fd"
+    },
+    "/static3/media/050-pickstroke-down-dark-lHAhpDqiA9gc1UlC.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/050-pickstroke-down-dark-lHAhpDqiA9gc1UlC.svg",
+      "bytes": 555,
+      "sha256": "8a509429249fbcabf2a530ba78c2bd9a845018bd345befe426a413638fb23ecf"
+    },
+    "/static3/media/051-slide-in-Cqzwpfxnjss-GPVB.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/051-slide-in-Cqzwpfxnjss-GPVB.svg",
+      "bytes": 515,
+      "sha256": "dde6addfae04533f2da6984a57620f283dab1f285e8f24684ab6ffb028ad87c3"
+    },
+    "/static3/media/051-slide-in-dark-TiXzoFsLMIYWz0zn.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/051-slide-in-dark-TiXzoFsLMIYWz0zn.svg",
+      "bytes": 528,
+      "sha256": "6e822645a58fc15c03720186f95e467fa1fca77f833ca763daad42af76150950"
+    },
+    "/static3/media/052-slide-out-DU4BfI5OaoL1J70s.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/052-slide-out-DU4BfI5OaoL1J70s.svg",
+      "bytes": 516,
+      "sha256": "10efed1723f483b135b9f7827acdf36fbb9756423fbc5d87097c9994c73d5da6"
+    },
+    "/static3/media/052-slide-out-dark-3ScqCf9GtZlRwRDd.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/052-slide-out-dark-3ScqCf9GtZlRwRDd.svg",
+      "bytes": 527,
+      "sha256": "717cac30d832c5b608a05aaf85690940406e66dfa432fed710994f5e0b5b5085"
+    },
+    "/static3/media/053-dynamics-CSoEKlJ27XGVypLx.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/053-dynamics-CSoEKlJ27XGVypLx.svg",
+      "bytes": 15576,
+      "sha256": "ddde5bbed529c2e14d82a2ed2ce75eed3557e1a3b7cc0bfb8f1f24b26ff1a721"
+    },
+    "/static3/media/053-dynamics-dark-C0vRrMVdCKG0LHv_.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/053-dynamics-dark-C0vRrMVdCKG0LHv_.svg",
+      "bytes": 15576,
+      "sha256": "aedd85bc308d270dcb09f179b8b8bff2829913690b6798d07a601a08672dbc65"
+    },
+    "/static3/media/054-dead-slap-D2Nd3syywBZ1MfLu.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/054-dead-slap-D2Nd3syywBZ1MfLu.svg",
+      "bytes": 694,
+      "sha256": "5197a0c4d5b843741b4802eb561a5e73f5ec3ebe722ff41ce20729a98c59662a"
+    },
+    "/static3/media/054-dead-slap-dark-C1u7T0SOzJmy4F6N.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/054-dead-slap-dark-C1u7T0SOzJmy4F6N.svg",
+      "bytes": 694,
+      "sha256": "4f2366ec0ce1f46bd1d124018d5f25d729e5137360ad9233a7ec3bd0ba9c171f"
+    },
+    "/static3/media/055-wah-wah-DaMHsgu-Qs6m7t3C.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/055-wah-wah-DaMHsgu-Qs6m7t3C.svg",
+      "bytes": 899,
+      "sha256": "b6a258c7cc89164383c55a98dd43b4a045a374a473f331ab8c893f966ffc69f6"
+    },
+    "/static3/media/055-wah-wah-dark-CZ6lRhGqMxaEHr9D.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/055-wah-wah-dark-CZ6lRhGqMxaEHr9D.svg",
+      "bytes": 899,
+      "sha256": "145a6b2e1ac480dd8da7d1a875d0c7163df06e8c6b8e2bba152c5df4a66c9e75"
+    },
+    "/static3/media/056-sustain-pedal-CUEeKdLqps0VA21H.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/056-sustain-pedal-CUEeKdLqps0VA21H.svg",
+      "bytes": 3970,
+      "sha256": "62191373a387d8f4a1491e50571f73d012958b824115e063c0ff2dc25ffff89e"
+    },
+    "/static3/media/056-sustain-pedal-dark-bsBK7tfqhCya1LMa.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/056-sustain-pedal-dark-bsBK7tfqhCya1LMa.svg",
+      "bytes": 3970,
+      "sha256": "8059d1f61cac3fadb2b9b032e7d23486194c1a81bf5eda50d41783036c6c95c7"
+    },
+    "/static3/media/06-release-band-BrYn7qgAmdm0SePy.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/06-release-band-BrYn7qgAmdm0SePy.svg",
+      "bytes": 1277,
+      "sha256": "f97bb3b262ae31d87c2011906717900b4019c56f00f43054e7fc9d72dba09385"
+    },
+    "/static3/media/06-release-band-dark-BUygvEWsQYDRt0E0.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/06-release-band-dark-BUygvEWsQYDRt0E0.svg",
+      "bytes": 1277,
+      "sha256": "c7840e1e1901a18ed703676e9cc6d2a0547776703bf685a9625d940b46217f24"
+    },
+    "/static3/media/07-slide-D2-AP1zb4yyQEvWc.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/07-slide-D2-AP1zb4yyQEvWc.svg",
+      "bytes": 935,
+      "sha256": "751631c8d6c623c862f758c10c991fa397120023ba140c5085fa152969e0d482"
+    },
+    "/static3/media/07-slide-dark-BcNg-thOZ212iqQ8.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/07-slide-dark-BcNg-thOZ212iqQ8.svg",
+      "bytes": 935,
+      "sha256": "b41d353353c59a712f996c81a9798145e7452316a261243655d3d345e4b19b6d"
+    },
+    "/static3/media/08-legato-slide-DzP5PImzOznmTxUa.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/08-legato-slide-DzP5PImzOznmTxUa.svg",
+      "bytes": 1057,
+      "sha256": "6ce7f57cc1ba9282476a1218edad91beb242013f9e0d6cca8ae841bcd5c0679c"
+    },
+    "/static3/media/08-legato-slide-dark-CVCyofUZjBpbu4j0.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/08-legato-slide-dark-CVCyofUZjBpbu4j0.svg",
+      "bytes": 1057,
+      "sha256": "e135a6715b97085fe46ae6b704bb7160d9d88c1d1c6c135269f7e761f0e85635"
+    },
+    "/static3/media/09-vibrato-C3D6oQVLNlubatZk.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/09-vibrato-C3D6oQVLNlubatZk.svg",
+      "bytes": 1548,
+      "sha256": "61d3a19d0ad686b3074aca34a44da6028577d4186a696ca5c07b44fd4872350e"
+    },
+    "/static3/media/09-vibrato-dark-P_DFK6Zod2s-7ZHR.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/09-vibrato-dark-P_DFK6Zod2s-7ZHR.svg",
+      "bytes": 1548,
+      "sha256": "9846beb6c00a6f75b955ed2919665ed610d5d408fd393b6c5fa72b511232e783"
+    },
+    "/static3/media/1-CvlPFpEuRynDpPs-.opus": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/1-CvlPFpEuRynDpPs-.opus",
+      "bytes": 2134,
+      "sha256": "cb14492fe600375256aa558a24c77016aaf3e35a2d165bc5bb6f0ecdc8ccee66"
+    },
+    "/static3/media/2-D4ctxEPNa4VJOdKG.opus": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/2-D4ctxEPNa4VJOdKG.opus",
+      "bytes": 2263,
+      "sha256": "3182ce1e22f182bafa038354e347c266f79c2584fe94fd629c59304c9b3e5909"
+    },
+    "/static3/media/3-BSHB9Q3sX7wO6fwF.opus": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/3-BSHB9Q3sX7wO6fwF.opus",
+      "bytes": 2232,
+      "sha256": "0848b4a0f438211c5d97e0cabd64999811eba9913ec4ad628173d4d479a1eee7"
+    },
+    "/static3/media/4-BXTeXgzcILhGz3h0.opus": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/4-BXTeXgzcILhGz3h0.opus",
+      "bytes": 2002,
+      "sha256": "3bc9a2b04ff0b2a0cd6fd5595fc3b55ade02717614dc98c2ff0e2ab1551a7ff6"
+    },
+    "/static3/media/5-BJY03-WoKMDFJk3s.opus": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/5-BJY03-WoKMDFJk3s.opus",
+      "bytes": 1903,
+      "sha256": "d32b41b4b6a178836119994829eb3af551bcaa0ff36f3135072627539a1b7858"
+    },
+    "/static3/media/6-DwoQERZieLexfTOo.opus": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/6-DwoQERZieLexfTOo.opus",
+      "bytes": 3625,
+      "sha256": "30592fdcbacc1fd8037b3c1b39655ba99edb740b8c5b7de16bc5537bc3e3fe96"
+    },
+    "/static3/media/7-DjrHGZEni4jblcNL.opus": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/7-DjrHGZEni4jblcNL.opus",
+      "bytes": 3638,
+      "sha256": "afb8c0deb41c517f7f99e35100659a59c93a28641d4cb4adeb201151d0c7dac3"
+    },
+    "/static3/media/8-CLIPA39LQWtoVLZ0.opus": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/8-CLIPA39LQWtoVLZ0.opus",
+      "bytes": 1941,
+      "sha256": "b0e4a7bb1b902a06744bcb54db4d504e81fa0a076a400ec48ce8ae88df1dd391"
+    },
+    "/static3/media/ContextToolbar-sprite-nZEDd8JmmEIAcSOD.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/ContextToolbar-sprite-nZEDd8JmmEIAcSOD.svg",
+      "bytes": 2540,
+      "sha256": "34b8c64aafbd4515873b81c604c3a00526ff2ae5e7a04edfc8b87efc14780542"
+    },
+    "/static3/media/DrumBlock-sprite-D91P5LAvXAzs9D9Q.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/DrumBlock-sprite-D91P5LAvXAzs9D9Q.svg",
+      "bytes": 1069,
+      "sha256": "cc407dd31f5f3573fd2ba7295766c20684a7b048c5e7d7c0860d20ae37ffd19d"
+    },
+    "/static3/media/EditorActions-sprite-DH4hNrCuWjWg7O8c.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/EditorActions-sprite-DH4hNrCuWjWg7O8c.svg",
+      "bytes": 139061,
+      "sha256": "5a8bb940a00711dfe52a86d0062a34db7f9625feaae53d952f2e891a024ed907"
+    },
+    "/static3/media/FermataSettings.sprite-Cf5O7Ex0lqlYARU8.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/FermataSettings.sprite-Cf5O7Ex0lqlYARU8.svg",
+      "bytes": 846,
+      "sha256": "92438dcf77d48f4b6d9d61276fab2983dadec8117628682c5030b0f646004261"
+    },
+    "/static3/media/accented-D5O0aFMk2g2wom5f.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/accented-D5O0aFMk2g2wom5f.svg",
+      "bytes": 1160,
+      "sha256": "57c5d828f601887f03a603d578166988729982ffb1810f4235fe43859d359848"
+    },
+    "/static3/media/accented-dark-DyJQs6HUD_lP_fUx.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/accented-dark-DyJQs6HUD_lP_fUx.svg",
+      "bytes": 1159,
+      "sha256": "4d317cba77bf41617ccbb5aff9fd8ac26e650b16396f90b7ee06eecb9afee6d6"
+    },
+    "/static3/media/account-sprite-BmhC3c7ZBt-nJTEh.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/account-sprite-BmhC3c7ZBt-nJTEh.svg",
+      "bytes": 5079,
+      "sha256": "defee8939e8c56816a5d9554c0e3df4ed4beef568c3076d334b34d733e49add8"
+    },
+    "/static3/media/account-sprite-qDzt5FSkUUfPdR7u.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/account-sprite-qDzt5FSkUUfPdR7u.svg",
+      "bytes": 13559,
+      "sha256": "5f5c4b62c1b2cf0355b4c120e38432e67017f2c7e0d6aa76d71e6011f9a6dddf"
+    },
+    "/static3/media/after-1-marks-BLZi2a8eXk1S0eGk.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/after-1-marks-BLZi2a8eXk1S0eGk.svg",
+      "bytes": 140437,
+      "sha256": "07112007801c43eef1428969be127ae07179b5f27329f385a328d81e98d81800"
+    },
+    "/static3/media/after-1-marks-dark-B780ic5jOG4g7ENJ.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/after-1-marks-dark-B780ic5jOG4g7ENJ.svg",
+      "bytes": 140417,
+      "sha256": "f203c2c36fef113bb7898ecb1a58fdc62f7db7f1f65bc692db6a62f71c8d9a60"
+    },
+    "/static3/media/after-2-speed-Cu9s30EkURzoF_rT.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/after-2-speed-Cu9s30EkURzoF_rT.svg",
+      "bytes": 45637,
+      "sha256": "98af53636a30d164879d1d49267960dde35660129a901caea5916cad2c943163"
+    },
+    "/static3/media/after-2-speed-dark-X96Xbny77hBmbOsR.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/after-2-speed-dark-X96Xbny77hBmbOsR.svg",
+      "bytes": 43635,
+      "sha256": "4bd3314d05c39e3666235ad9368822b48f94dcc4b171c379acdbadefe0e49373"
+    },
+    "/static3/media/after-3-loop-D71hunKYMX8wJX7c.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/after-3-loop-D71hunKYMX8wJX7c.svg",
+      "bytes": 27362,
+      "sha256": "b1924ed4cf770ad81db35323ad855afccbc3813dfec9c5a4ffb1c63401c5e6fb"
+    },
+    "/static3/media/after-3-loop-dark-CByiX48Y1YdBESEV.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/after-3-loop-dark-CByiX48Y1YdBESEV.svg",
+      "bytes": 27432,
+      "sha256": "12118d3880b6cd7d261ccccb30377a2e58a22fe3f7b7d08411def90196ce80b5"
+    },
+    "/static3/media/after-4-happy-CAFquMQOJD1kTSvG.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/after-4-happy-CAFquMQOJD1kTSvG.svg",
+      "bytes": 5521,
+      "sha256": "744510794452767ade6a1ea7fe82a07cb83250d1f764ad699f78cee0fefeae34"
+    },
+    "/static3/media/after-4-happy-dark-rZPQuTQFdzkAtgbj.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/after-4-happy-dark-rZPQuTQFdzkAtgbj.svg",
+      "bytes": 5521,
+      "sha256": "c1d5a2034829fae425b1bf674022cc17ed01adae0e34c340916d4bf5230e45a8"
+    },
+    "/static3/media/ai-BKhvZkilRtgtsJqR.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/ai-BKhvZkilRtgtsJqR.svg",
+      "bytes": 3821,
+      "sha256": "32d6cbbd53dde1894a04a3f9084eb0686fca5a460349fdf080ebd7da71f34452"
+    },
+    "/static3/media/ai-assistant-close-DVw5_sC-Dapd1fYz.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/ai-assistant-close-DVw5_sC-Dapd1fYz.svg",
+      "bytes": 841,
+      "sha256": "fa1211422e17232c9da671ad33a68c4cadc7181526f7f20633e25f0f8060e7c5"
+    },
+    "/static3/media/ai-assistant-reset-bJgPq1gF-DFn_ygn.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/ai-assistant-reset-bJgPq1gF-DFn_ygn.svg",
+      "bytes": 1701,
+      "sha256": "4fdc94007ba5e27769d2d45cc130b9486319bf7a595e1c8bdfb7753d78928dcd"
+    },
+    "/static3/media/ai-assistant-thumbs-down-CNNQ5MoFrruyeSXu.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/ai-assistant-thumbs-down-CNNQ5MoFrruyeSXu.svg",
+      "bytes": 4469,
+      "sha256": "c2a1fc26814a903697d7fdd920dcabe945ff7cbead23e023a78013f2f51d823d"
+    },
+    "/static3/media/ai-assistant-thumbs-down-filled-DCJdAFRiqrewKQUw.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/ai-assistant-thumbs-down-filled-DCJdAFRiqrewKQUw.svg",
+      "bytes": 2137,
+      "sha256": "fb8168fd4756f06611f5a0a0be8b9a129180fcb169d06b76c72378e35fccfb9f"
+    },
+    "/static3/media/ai-assistant-thumbs-up-C7g2Tw_pX03SOcNS.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/ai-assistant-thumbs-up-C7g2Tw_pX03SOcNS.svg",
+      "bytes": 4348,
+      "sha256": "a64a01b8f2af76191cb575e7b58e6014a7b36d2381163299beffc6d524fb0d43"
+    },
+    "/static3/media/ai-assistant-thumbs-up-filled-CzMi2Fwnhy0FdGJD.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/ai-assistant-thumbs-up-filled-CzMi2Fwnhy0FdGJD.svg",
+      "bytes": 2130,
+      "sha256": "1d92b6269190f1138ceb5efe648c2ae3959c04f49a32ee6369a0ad67517025cf"
+    },
+    "/static3/media/aiIconTab-3Tr0f2WqsArSwQFv.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/aiIconTab-3Tr0f2WqsArSwQFv.svg",
+      "bytes": 48190,
+      "sha256": "9444872a3f1bee76053a6765c5c2666ecd6b857688420598c9cee93893814bf2"
+    },
+    "/static3/media/aiIconYT-Biq7GrovMvfkpm51.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/aiIconYT-Biq7GrovMvfkpm51.svg",
+      "bytes": 2024,
+      "sha256": "64a3d14b3b63ae81ea1ecd1220951b0aee09e67f55ab67505f911c26847531aa"
+    },
+    "/static3/media/aiIconYTAi-BMgUmJROsIH-5El4.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/aiIconYTAi-BMgUmJROsIH-5El4.svg",
+      "bytes": 4640,
+      "sha256": "0efb20072b68a3d292200a00fe115dedc4935de74de8badc55b1c8f134111fd1"
+    },
+    "/static3/media/aiicon-n_OfxIL8MM28LYFv.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/aiicon-n_OfxIL8MM28LYFv.svg",
+      "bytes": 51981,
+      "sha256": "20326de7f54711cc89192f09bb338b6efb85572721763e357e8312615cb522c7"
+    },
+    "/static3/media/aiiconsmall-Bkbc1dS7QRHeUAxD.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/aiiconsmall-Bkbc1dS7QRHeUAxD.svg",
+      "bytes": 77527,
+      "sha256": "09624c89c88127284d35593bb2d854cb82918c0985b79297b5127dfade39c4fa"
+    },
+    "/static3/media/alternate-endings-Dpm0QNNEG9wARBgq.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/alternate-endings-Dpm0QNNEG9wARBgq.svg",
+      "bytes": 2114,
+      "sha256": "e33a00bcbb64a91c84ac4862c3da60147b158445ca353486c85c09560f7df2e5"
+    },
+    "/static3/media/alternate-endings-dark-BRfyRzPKFZj6oFlj.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/alternate-endings-dark-BRfyRzPKFZj6oFlj.svg",
+      "bytes": 2115,
+      "sha256": "977ca9a0ee42bef957b1ffea01361e2dd8e7b4bd21002cc3f10d492886976bce"
+    },
+    "/static3/media/appstore-BK5i40goT2s0t0ay.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/appstore-BK5i40goT2s0t0ay.svg",
+      "bytes": 5823,
+      "sha256": "840a0bfcc2e391cf685da473c6e4e38738c9ade53f8118e9411d17ebf70c3207"
+    },
+    "/static3/media/appstorenobg-CQyHd_N2C1HUzeQt.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/appstorenobg-CQyHd_N2C1HUzeQt.svg",
+      "bytes": 6637,
+      "sha256": "343d82b0ef95f72d9da2aaa5d2b94a28a338a7b687eb0ecbcddc9aeb539cee2d"
+    },
+    "/static3/media/artwork-128x128-DrQryfq4YxCUGV_O.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/artwork-128x128-DrQryfq4YxCUGV_O.png",
+      "bytes": 15232,
+      "sha256": "5723b2d4a0fe4176fba112dc59087b7c7449fd20c5ae1d100efa6d34651c97be"
+    },
+    "/static3/media/artwork-192x192-Cb8EFDv8Ac2xOd7j.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/artwork-192x192-Cb8EFDv8Ac2xOd7j.png",
+      "bytes": 26829,
+      "sha256": "b95863baf8dc8df8428ea132a5152faea3b57acd7edcca1bad990bc60fcc72e7"
+    },
+    "/static3/media/artwork-256x256-oIpZk1-0FKvlvlBs.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/artwork-256x256-oIpZk1-0FKvlvlBs.png",
+      "bytes": 50544,
+      "sha256": "e12ddf8015923f58e6b03b3f436724df2662eac8aa771d09bee8fcd33051d0b1"
+    },
+    "/static3/media/artwork-384x384-DkPobrDWV0VK7YmB.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/artwork-384x384-DkPobrDWV0VK7YmB.png",
+      "bytes": 66585,
+      "sha256": "0ba8004c9bec2fb6b05b06aafc45471244a252098fa324684a5010b40d170f86"
+    },
+    "/static3/media/artwork-512x512-DEcwD8N0jk7ODGqC.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/artwork-512x512-DEcwD8N0jk7ODGqC.png",
+      "bytes": 50312,
+      "sha256": "a1dafd1a3207018dd6ee022b288d67d386774436f896e296908bb6bcbf6b9e40"
+    },
+    "/static3/media/artwork-96x96-Czch-S_MALbz5UMb.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/artwork-96x96-Czch-S_MALbz5UMb.png",
+      "bytes": 11065,
+      "sha256": "92b76be0ccfebdbc950e47853f92ad34c1947ea444763304070131757bce89b3"
+    },
+    "/static3/media/attach-hVBOX__nBQDz9gcL.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/attach-hVBOX__nBQDz9gcL.svg",
+      "bytes": 961,
+      "sha256": "ebd13459953f606391603127dbe76368572c44d9bdc812066bd9cb4acd6d5abd"
+    },
+    "/static3/media/bars-CYHWkWf7T_4B0IoQ.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/bars-CYHWkWf7T_4B0IoQ.svg",
+      "bytes": 9145,
+      "sha256": "a4b8245f354fd621ed9eeece6d0501191590bb1dde7d032d836b8e355a2b08fa"
+    },
+    "/static3/media/bars-dark-C-4yPh-EjpiyAKw2.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/bars-dark-C-4yPh-EjpiyAKw2.svg",
+      "bytes": 9145,
+      "sha256": "7caf43ea0ba7cbe9abcce03a49c4e657a3b1ef919a2f253ca672ca55367b6252"
+    },
+    "/static3/media/beams-BcJSeeKI26_YRDOz.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/beams-BcJSeeKI26_YRDOz.svg",
+      "bytes": 805,
+      "sha256": "c20da7de4f33f0b6646e7db25b0a5a2a83e8baf72a8f703f1b34acb883b86739"
+    },
+    "/static3/media/beams-dark-XKMVfBGWbGbJcran.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/beams-dark-XKMVfBGWbGbJcran.svg",
+      "bytes": 805,
+      "sha256": "453a79e9b67d929f91def62335208c2353acfac097794ddeef25b151f54923d0"
+    },
+    "/static3/media/before-1-laptop-Dx9rjn2x0TutDngS.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/before-1-laptop-Dx9rjn2x0TutDngS.svg",
+      "bytes": 540100,
+      "sha256": "51e9b5fcb7992828db882d367f16094222679b0b909218dd2c852ffae9663d3a"
+    },
+    "/static3/media/before-1-laptop-dark-ylxZJpG4jwZXlD5L.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/before-1-laptop-dark-ylxZJpG4jwZXlD5L.svg",
+      "bytes": 426662,
+      "sha256": "959445b9c19c00df399d6e4a234c5da40862a6bbb7a6f720726621ee13ba1c3b"
+    },
+    "/static3/media/before-2-speed-5qXN5i5C3EKqPE8T.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/before-2-speed-5qXN5i5C3EKqPE8T.svg",
+      "bytes": 27016,
+      "sha256": "90df43f54f4967500b61dcedafce50097a3bfa179565ef8fdf5547207d836f45"
+    },
+    "/static3/media/before-2-speed-dark-yGDp8W1QQcgOgB1g.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/before-2-speed-dark-yGDp8W1QQcgOgB1g.svg",
+      "bytes": 27016,
+      "sha256": "82af5a989ed117e762ca150ecc09bd8910db3d9710fddefb521a0e86b6f05c43"
+    },
+    "/static3/media/before-3-loop-Dg582AS8DHR5TcVo.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/before-3-loop-Dg582AS8DHR5TcVo.svg",
+      "bytes": 57808,
+      "sha256": "17b74a35677f5bcc6378b3e17046061af606c1a41484f0fdbf5775627224f483"
+    },
+    "/static3/media/before-3-loop-dark-B-XOdkSS7iHX7WXA.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/before-3-loop-dark-B-XOdkSS7iHX7WXA.svg",
+      "bytes": 57477,
+      "sha256": "3cd903b4a6c52340961ed68a524e99eb79d9b54c95a7720fc34fd2d341fc323f"
+    },
+    "/static3/media/before-4-sad-dark-TXgBmtCsnmkcADZg.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/before-4-sad-dark-TXgBmtCsnmkcADZg.svg",
+      "bytes": 9951,
+      "sha256": "a46bd38f7cdedddf1a5fe6c2bc9ff26c0d2dee879f7f2a7836930ee38185bd4e"
+    },
+    "/static3/media/before-4-sad-j5y8o9n82ZWUnfWT.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/before-4-sad-j5y8o9n82ZWUnfWT.svg",
+      "bytes": 8666,
+      "sha256": "2b283536ab23b3e9725ee7878eb6748bfc1fb618cdfa36682c3d4d6add4b07d7"
+    },
+    "/static3/media/bend-CxN5cVSN3G-UekEC.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/bend-CxN5cVSN3G-UekEC.svg",
+      "bytes": 1192,
+      "sha256": "e885ffda268dba9c076047b25010e8846b5542d3688126ff8c5af2ef76195c82"
+    },
+    "/static3/media/bend-dark-5WmHbq3DedSiY2sg.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/bend-dark-5WmHbq3DedSiY2sg.svg",
+      "bytes": 1192,
+      "sha256": "c342af97f7f8e202db8a0fe29271cde36a00f84d84ed558f0456dc79f0068799"
+    },
+    "/static3/media/bendCanvas-sprite-CcgEUbvdeNjc6qaD.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/bendCanvas-sprite-CcgEUbvdeNjc6qaD.svg",
+      "bytes": 19731,
+      "sha256": "f14ca056990a8f530e8671bd713d0271f345373d82bd64a661f181c85b376103"
+    },
+    "/static3/media/chords-sprite-B32oAfpPcli20z-V.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/chords-sprite-B32oAfpPcli20z-V.svg",
+      "bytes": 575,
+      "sha256": "a1440a2df64c23511be20c108e78d42f8ae050a365fa85ca8ec6f83a75730fec"
+    },
+    "/static3/media/click-yaPq9WhhLTRixauv.opus": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/click-yaPq9WhhLTRixauv.opus",
+      "bytes": 1007,
+      "sha256": "f80e829d70864956f4fb580425daa64f867ba64f6ced68fb5d3add7bd7335b8b"
+    },
+    "/static3/media/clickAccent-D7kb9AUJniekCKB0.opus": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/clickAccent-D7kb9AUJniekCKB0.opus",
+      "bytes": 2149,
+      "sha256": "ff80b9a91736753abaa3fb5d514b44f1166256bb62cb714d531adb7c6f6c48b5"
+    },
+    "/static3/media/close-button-BWaNEX-9XUdahRp7.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/close-button-BWaNEX-9XUdahRp7.svg",
+      "bytes": 264,
+      "sha256": "d666040bfd5412d67a550e9fc7f206219464b1fdde5c96412118f4f7f7d7a07b"
+    },
+    "/static3/media/controls-sprite-9qKGNVYAMQJgtOjr.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/controls-sprite-9qKGNVYAMQJgtOjr.svg",
+      "bytes": 37308,
+      "sha256": "b513ae104f05d220225bbbdb4c16662c34c1aa27430dbd6b0445fda0e00b3f7c"
+    },
+    "/static3/media/crescendo-BcRdqZ0UYhBqU3QT.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/crescendo-BcRdqZ0UYhBqU3QT.svg",
+      "bytes": 10265,
+      "sha256": "cec281e8c71c570515bb79254e6a3db0695683b9682666755893518499a793a1"
+    },
+    "/static3/media/crescendo-dark-GWoX7Iuh9-WoS7J3.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/crescendo-dark-GWoX7Iuh9-WoS7J3.svg",
+      "bytes": 10230,
+      "sha256": "668f56b894239881ca8444d755b691978c783b63122c48bc014962e325cdd6a3"
+    },
+    "/static3/media/dead-note-D4LdNXf-lQvPoBUk.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/dead-note-D4LdNXf-lQvPoBUk.svg",
+      "bytes": 4752,
+      "sha256": "a5f76cdaddff7594035e96e648e63ea4c8c9f48f6e46569568e0d901d33d2635"
+    },
+    "/static3/media/dead-note-dark-TT2RkLY-iemakxUk.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/dead-note-dark-TT2RkLY-iemakxUk.svg",
+      "bytes": 4752,
+      "sha256": "96d11fd6236639c2bd38198dac460e16f13905678f0a970ceb3fe5567094ee5b"
+    },
+    "/static3/media/dead-slap-dark-Dt_xnPRtwpk0aQEE.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/dead-slap-dark-Dt_xnPRtwpk0aQEE.svg",
+      "bytes": 580,
+      "sha256": "13bad963898b131444650a532a2c45e201e3f877ff29f7cd11d68f4558e7a58e"
+    },
+    "/static3/media/dead-slap-tkjwFwfAVf-9rBrl.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/dead-slap-tkjwFwfAVf-9rBrl.svg",
+      "bytes": 580,
+      "sha256": "ed84be3eafeae3c0e6d2bb0aa8d7cb81d1b9cb105d686e8bc9c1b854de18ab52"
+    },
+    "/static3/media/diminuendo-dark-B_blzsUPI5LQP9QF.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/diminuendo-dark-B_blzsUPI5LQP9QF.svg",
+      "bytes": 8140,
+      "sha256": "0fb18e6ef378891596e4881c48f053f41ec83cc5d0d4d932526bc867e828ce14"
+    },
+    "/static3/media/diminuendo-jyvzGH_cwNcyI_H0.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/diminuendo-jyvzGH_cwNcyI_H0.svg",
+      "bytes": 8191,
+      "sha256": "b2f64aec62c9e3217dec5e9de5dd80f2774c0bae4247a37bffe7778ab6161284"
+    },
+    "/static3/media/dots-DdKDucpE6irzzh22.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/dots-DdKDucpE6irzzh22.svg",
+      "bytes": 1130,
+      "sha256": "7159abf7a55b5530609a54c50b35bb67ee91579a7c9ccb500039303f969c282a"
+    },
+    "/static3/media/dots-dark-BwZpZu7bGc0DsOT6.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/dots-dark-BwZpZu7bGc0DsOT6.svg",
+      "bytes": 1130,
+      "sha256": "3392f04f42fb985fbd5e1dc058856708d4593650154a42ed2461dde274b8aea5"
+    },
+    "/static3/media/double-dots-CvUg2-AMj3ARWipm.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/double-dots-CvUg2-AMj3ARWipm.svg",
+      "bytes": 1076,
+      "sha256": "fedbac3ce00019571e9ef99ee79d4f4d29881c766307efceca4b1fd9ad4961c8"
+    },
+    "/static3/media/double-dots-dark-iF1qwmm1Tqbq_iPQ.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/double-dots-dark-iF1qwmm1Tqbq_iPQ.svg",
+      "bytes": 1076,
+      "sha256": "00bfd8f641248cd13188f7e317325d004d073ae1b5c01f9788de9aea0aa77015"
+    },
+    "/static3/media/download375-DewZiNVu6t1HVCBT.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/download375-DewZiNVu6t1HVCBT.svg",
+      "bytes": 12256,
+      "sha256": "0f6fecb114acb6d3f026c5a5169b4c41f38e582b9d8d38654e8664e36f98f8b5"
+    },
+    "/static3/media/dynamics-ahlHbG4e0B9x6E4J.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/dynamics-ahlHbG4e0B9x6E4J.svg",
+      "bytes": 16424,
+      "sha256": "81aff7d4193e6329684ecc4d1121b6d26c29c41ecb471c947a6037f53017814c"
+    },
+    "/static3/media/dynamics-dark-D-GcJiB85sZ310SC.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/dynamics-dark-D-GcJiB85sZ310SC.svg",
+      "bytes": 16424,
+      "sha256": "77c8b50ac7dcc22aab41bd6ff1c530e12a10f1842802bcd98d73dfc1738dfd65"
+    },
+    "/static3/media/edits-sprite-BfTXwQquAn0BzpM7.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/edits-sprite-BfTXwQquAn0BzpM7.svg",
+      "bytes": 1288,
+      "sha256": "00e74c2649608120bb1fbbf67318bb83c1a0fa9f396762fef912e0d63760afed"
+    },
+    "/static3/media/et640en-CvR9LypzrZH8LHKk.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/et640en-CvR9LypzrZH8LHKk.png",
+      "bytes": 18258,
+      "sha256": "746163ede4aa944ef4ebe0c26dd8b26ffd253c062e256c221d8a403671829dd7"
+    },
+    "/static3/media/et640ru-CpIhpiVhgJhfZBqP.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/et640ru-CpIhpiVhgJhfZBqP.png",
+      "bytes": 20533,
+      "sha256": "875012f4d5ef4185e6bb1f5ce67a514f9b24e8bade1c1df63c8a4cabb7d3f8d8"
+    },
+    "/static3/media/ghost-note-BdHlnneFopZePY_Y.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/ghost-note-BdHlnneFopZePY_Y.svg",
+      "bytes": 1489,
+      "sha256": "524606e94c722bb30312905c78d9f260771f02f1830f280c3a4a21dc3561273e"
+    },
+    "/static3/media/ghost-note-dark-DoP5ipTrYvkdumLR.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/ghost-note-dark-DoP5ipTrYvkdumLR.svg",
+      "bytes": 1489,
+      "sha256": "b6cb89f8307fe2e4a31b1ddf108cff25ab83598f726de5454989e35f7b901317"
+    },
+    "/static3/media/golpe-example-0dn5tycBi-Ij1LMt.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/golpe-example-0dn5tycBi-Ij1LMt.svg",
+      "bytes": 5299,
+      "sha256": "649b490f3943ad9eec480aa705c9717d1017b51240053e6b8d50fb8b525e96e3"
+    },
+    "/static3/media/golpe-example-dark-DcTr4krpflpclGVf.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/golpe-example-dark-DcTr4krpflpclGVf.svg",
+      "bytes": 5304,
+      "sha256": "c38960a92e5dae2b35ffa56b922fffd2012a6f3463130299beb494552d9ef60c"
+    },
+    "/static3/media/googleplaynobg-Ja3NiJKXeHAVQ6z3.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/googleplaynobg-Ja3NiJKXeHAVQ6z3.svg",
+      "bytes": 8117,
+      "sha256": "e9d2b98888b52f2859244fb0cf72e0cb737897caf060003af0f831bee9e670ab"
+    },
+    "/static3/media/gplay-TbFGEBzXEJ9oy5wm.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/gplay-TbFGEBzXEJ9oy5wm.svg",
+      "bytes": 6641,
+      "sha256": "ffb4025535d6e2ecf0ee2421df5404cee4c3f7954ff95147de32e28389753ca8"
+    },
+    "/static3/media/grace-note-before-BGe2QomKjsb_d6R8.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/grace-note-before-BGe2QomKjsb_d6R8.svg",
+      "bytes": 6711,
+      "sha256": "ad9e1643fa4418a33337af8b9fd3aeaf17c5d4bb653fa586cf67824dd706f8d5"
+    },
+    "/static3/media/grace-note-before-dark-9oGRYNtnHb7JkXnU.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/grace-note-before-dark-9oGRYNtnHb7JkXnU.svg",
+      "bytes": 6705,
+      "sha256": "5d7d00f4d653526aa2e59b0cab10bb86dd46eb25b418f5bf8f565c22b2958a7d"
+    },
+    "/static3/media/grace-note-on-C82_xk3yrkof2Bgr.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/grace-note-on-C82_xk3yrkof2Bgr.svg",
+      "bytes": 6540,
+      "sha256": "9267d52d99c6bc4e0214121c03170bcd8dbd7b1583f70cc71b6216da53b78e97"
+    },
+    "/static3/media/grace-note-on-dark-BYBnMFw-A-0dZflT.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/grace-note-on-dark-BYBnMFw-A-0dZflT.svg",
+      "bytes": 6324,
+      "sha256": "89cf203f2f118f17affb44ba8008e5543dae8fe9f9ee5ad9f9c922e054182f9e"
+    },
+    "/static3/media/guitar-bg-dark-CtmiqNY8lObMaitk.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/guitar-bg-dark-CtmiqNY8lObMaitk.svg",
+      "bytes": 15764,
+      "sha256": "29331eaaf909c1970eb6224c20b8aa977a26b41659052966810887bd4b87183e"
+    },
+    "/static3/media/guitar-bg-mazdNz6t-v0NoZmS.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/guitar-bg-mazdNz6t-v0NoZmS.svg",
+      "bytes": 15681,
+      "sha256": "e3265158de793cb2598dfaa6f9b6a2243d19899b2ea081755453faa2f67ea63a"
+    },
+    "/static3/media/guitar-chords-1-AqHzDM3ob2FhM3s3.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/guitar-chords-1-AqHzDM3ob2FhM3s3.svg",
+      "bytes": 3308,
+      "sha256": "6a6d62bfb56d4164c9da71746f1d3d13abfddf07a4e3f67f910c47866eae5033"
+    },
+    "/static3/media/guitar-chords-1-dark-CmaxGZWhL91At2Ap.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/guitar-chords-1-dark-CmaxGZWhL91At2Ap.svg",
+      "bytes": 3308,
+      "sha256": "b348276e3012b2dae8db2ce8b5ae37cbdb74b6cc270c77517609c168198e491b"
+    },
+    "/static3/media/guitar-chords-2-BD_ZfnUCkDkEzV7N.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/guitar-chords-2-BD_ZfnUCkDkEzV7N.svg",
+      "bytes": 6301,
+      "sha256": "fc95db4143e71576479cd006187b8eb18b44e678580ac59e7523c7f421d58444"
+    },
+    "/static3/media/guitar-chords-2-dark-bN2hUWOwoeluGR7x.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/guitar-chords-2-dark-bN2hUWOwoeluGR7x.svg",
+      "bytes": 6301,
+      "sha256": "f640f5f6162aaad2897a57089550e6ab356a0dbf98091dd768ec40e0bc04ddd3"
+    },
+    "/static3/media/guitar-neck-D8RJ1SEyTWdEFQeP.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/guitar-neck-D8RJ1SEyTWdEFQeP.svg",
+      "bytes": 21732,
+      "sha256": "cba1ae0afbb8fea876998bf33ef0731005e62f80ed7acee52916028111244d39"
+    },
+    "/static3/media/guitar-neck-classic-dark-BfQK0sBlZB1uBwa9.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/guitar-neck-classic-dark-BfQK0sBlZB1uBwa9.svg",
+      "bytes": 9784,
+      "sha256": "a5e1678efd01b2639ebc49c45c5b749e857507f1db4b22bec21fc903203ea511"
+    },
+    "/static3/media/guitar-neck-classic-gxHHDBGsdBCpO5e0.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/guitar-neck-classic-gxHHDBGsdBCpO5e0.svg",
+      "bytes": 5829,
+      "sha256": "c24bbeaee9177ba1e2e2c5491ff4befc07cd08e277d2dd86fe4571b4b0829c7d"
+    },
+    "/static3/media/guitar-neck-dark-DzmNFSvoRoWRiG71.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/guitar-neck-dark-DzmNFSvoRoWRiG71.svg",
+      "bytes": 21733,
+      "sha256": "a4ec1269ae174d9512e1d5669839f068edd4e94ea913f6e23bb793d463f8d5ab"
+    },
+    "/static3/media/hammer-on-B0JntQfgfNhdgptO.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/hammer-on-B0JntQfgfNhdgptO.svg",
+      "bytes": 1044,
+      "sha256": "bb386c8357e352b4669870a3b33e648a1d706594e68a636010f5046348779cd1"
+    },
+    "/static3/media/hammer-on-dark-DKUU4XeCqOcSuWDU.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/hammer-on-dark-DKUU4XeCqOcSuWDU.svg",
+      "bytes": 1044,
+      "sha256": "22ad1e4993f65fe4fe08adb2b1281b0c0e0b4ef42e7fee3c672e4461baa5becc"
+    },
+    "/static3/media/handle-DeVo9u8xm667LWWG.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/handle-DeVo9u8xm667LWWG.svg",
+      "bytes": 629,
+      "sha256": "5cd47b740a3b799e2970c4030f55fc0d56c9271964a2c2bc1c8c1abf1b24d603"
+    },
+    "/static3/media/handleActive-BJhvUmWIIPXcOfvc.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/handleActive-BJhvUmWIIPXcOfvc.svg",
+      "bytes": 626,
+      "sha256": "8bc1579d02a4bf1dbcfb52fdcf7f2d325462c41b8d82219376304be24444653c"
+    },
+    "/static3/media/header-filter-sprite-CUcYz1lZYYKI6tT8.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/header-filter-sprite-CUcYz1lZYYKI6tT8.svg",
+      "bytes": 7905,
+      "sha256": "48b9451dfd2121345b648a05555f62cd72d34e24ac404efcbdbff0db2514e091"
+    },
+    "/static3/media/headphones-DVONoZMh83FKSQtE.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/headphones-DVONoZMh83FKSQtE.svg",
+      "bytes": 4871,
+      "sha256": "0856de10e61489e25467b92bd2c17a1d84972902d38efb3aa5603f2388607596"
+    },
+    "/static3/media/headphonesDark-DzoO1dl8V3cCoeaZ.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/headphonesDark-DzoO1dl8V3cCoeaZ.svg",
+      "bytes": 4874,
+      "sha256": "052d4df4f2208ba5e9fdfa8f4771eeca92ec532a95d83fe05fb46bb90d71a238"
+    },
+    "/static3/media/heavilyAccented-DRcUW5nCaph7vsET.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/heavilyAccented-DRcUW5nCaph7vsET.svg",
+      "bytes": 1162,
+      "sha256": "7a6339a4512be543b570a67fea87f312eafaf1b34a6927ba9449738806740b99"
+    },
+    "/static3/media/heavilyAccented-dark-BxyV_-b_CyNrzdRR.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/heavilyAccented-dark-BxyV_-b_CyNrzdRR.svg",
+      "bytes": 1164,
+      "sha256": "44ed50a591db7d8167c790709b2b8246a26aadb7e3f30f6600a852468817bec0"
+    },
+    "/static3/media/help-panel-pointer-sprite-CZpjssra-i1wxs8I.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/help-panel-pointer-sprite-CZpjssra-i1wxs8I.svg",
+      "bytes": 732,
+      "sha256": "cedc69a5aabda1d32edfd3038152b94b3786887b256c01f30a708e684b8179f3"
+    },
+    "/static3/media/htrgt-1-C4_DZnV137-_lPMp.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/htrgt-1-C4_DZnV137-_lPMp.svg",
+      "bytes": 2260,
+      "sha256": "49ea6053bd382a5ae5fc459298f4d6fc8c2f1828bf3d9607ceb1f227f56b2e7b"
+    },
+    "/static3/media/htrgt-1-dark-BASN0Ud6bhzWIDNR.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/htrgt-1-dark-BASN0Ud6bhzWIDNR.svg",
+      "bytes": 2260,
+      "sha256": "7d993e1c84085dea2dd24d773156e8fe1de81691d97868e381997b249ae54510"
+    },
+    "/static3/media/htrgt-2-BNSo-lMqJD27KdfY.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/htrgt-2-BNSo-lMqJD27KdfY.svg",
+      "bytes": 2915,
+      "sha256": "1480b94306b7e42b3f3587b508609577ef921d861a96606d9e1c0bfe6d58a568"
+    },
+    "/static3/media/htrgt-2-dark-CFMOPzLfy5EyDzec.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/htrgt-2-dark-CFMOPzLfy5EyDzec.svg",
+      "bytes": 2915,
+      "sha256": "7ce71ee0b3aa927b3dbc7d36157ae6e5ce9a288047da656740f3981dead1c6d8"
+    },
+    "/static3/media/icon-change-arrow-symbol-CFb81-vACMhoZQHt.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icon-change-arrow-symbol-CFb81-vACMhoZQHt.svg",
+      "bytes": 407,
+      "sha256": "3c28eafac6d1a8f3dae54cd24cf4afc04b1b775da8fc11252a1446b93e6564f1"
+    },
+    "/static3/media/icon-diff-sprite-CvNchOnULkiiCZxT.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icon-diff-sprite-CvNchOnULkiiCZxT.svg",
+      "bytes": 2071,
+      "sha256": "529b2e2701b761bfc805e811d4a0ace24aff684f0942f8ffed2e1098d856b8ec"
+    },
+    "/static3/media/icon-ia-symbol-DIDZ4bAL2rqVOaio.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icon-ia-symbol-DIDZ4bAL2rqVOaio.svg",
+      "bytes": 5438,
+      "sha256": "dc4ac1562269625a47fb7203cd858dded33abf8dd9acbf340cec27409fadb15d"
+    },
+    "/static3/media/icon-reset-DMAJYW8oapVh6uO7.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icon-reset-DMAJYW8oapVh6uO7.svg",
+      "bytes": 552,
+      "sha256": "dec05010203deb51a7297d7062202f29bd84ad9b8b7bc4fce49849ab8582e090"
+    },
+    "/static3/media/icon-star-symbol-BBQJiLnfrLvsIyee.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icon-star-symbol-BBQJiLnfrLvsIyee.svg",
+      "bytes": 544,
+      "sha256": "38ed61afb274000d3dd275f78a606a96e67f6f77a36da781d99f5ca85db92a5d"
+    },
+    "/static3/media/icons-sprite-B2wW1zEVflcQQpy_.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icons-sprite-B2wW1zEVflcQQpy_.svg",
+      "bytes": 272,
+      "sha256": "4644605989b0a2b96176b3052d26e488d51e6af86a8e29dd41da0729bbd3bfc2"
+    },
+    "/static3/media/icons-sprite-Bf-XuiW32RUeigbE.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icons-sprite-Bf-XuiW32RUeigbE.svg",
+      "bytes": 362,
+      "sha256": "d2107f4acffa2eb10444096adc719dd1d00b6f06942fd32e4475f51eb8c7f7ac"
+    },
+    "/static3/media/icons-sprite-C9PULvxCc5G89d9y.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icons-sprite-C9PULvxCc5G89d9y.svg",
+      "bytes": 12109,
+      "sha256": "0467a257352046ff61d136bf1dea06b65c92884cefae7d865e570d87db1124ec"
+    },
+    "/static3/media/icons-sprite-Cf81jc3zKk6_faB0.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icons-sprite-Cf81jc3zKk6_faB0.svg",
+      "bytes": 6283,
+      "sha256": "99d3d22be0919c60dcb7dfc875b9a88ab7e052b54b8f061f797a7202a465a7c3"
+    },
+    "/static3/media/icons-sprite-Cz8KGUnOReQc5azW.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icons-sprite-Cz8KGUnOReQc5azW.svg",
+      "bytes": 683,
+      "sha256": "f034dc8f037f16b11c1361b233472a86ba0d9d7453325fe8331c50e564b14b6a"
+    },
+    "/static3/media/icons-sprite-D0YUI83g4EqeOVgA.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icons-sprite-D0YUI83g4EqeOVgA.svg",
+      "bytes": 863,
+      "sha256": "602b43625e9acbceee7c0603078d9fc9b4e895ced24d7a9876c4e430337a2cf7"
+    },
+    "/static3/media/icons-sprite-D1xGbVsMrbDwSr_O.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icons-sprite-D1xGbVsMrbDwSr_O.svg",
+      "bytes": 282,
+      "sha256": "e7dd71ef7807f1eaaa7b5bec572c6edaddb4d7f4f4a3d807e1c5d8d16e0187e3"
+    },
+    "/static3/media/icons-sprite-D44sgIReARBCSzTL.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icons-sprite-D44sgIReARBCSzTL.svg",
+      "bytes": 4463,
+      "sha256": "927ca6a77d34984c300d8a420a9a22691511959682027f254db317c708ab7a85"
+    },
+    "/static3/media/icons-sprite-DhRkTb84pD1jX04q.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icons-sprite-DhRkTb84pD1jX04q.svg",
+      "bytes": 2721,
+      "sha256": "7078ab8c0b423a2b10ebf2f3efb95c76c682ab212f4763cc65a1a971aabea123"
+    },
+    "/static3/media/icons-sprite-DrUXAnR-YujjCtoM.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icons-sprite-DrUXAnR-YujjCtoM.svg",
+      "bytes": 1548,
+      "sha256": "091c2e4f35164ce5cc8cb9ecf8c5d5fab67ee62e464540c29c38afa3122b803d"
+    },
+    "/static3/media/icons-sprite-DtFgjI7MQUuhqXth.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icons-sprite-DtFgjI7MQUuhqXth.svg",
+      "bytes": 415,
+      "sha256": "e803a2ca7fa9b292c6b3b12bb1b35d5e229e2d5ed5b518d747ceee1f14607ba9"
+    },
+    "/static3/media/icons-sprite-DygrtxANZSmtcYmX.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icons-sprite-DygrtxANZSmtcYmX.svg",
+      "bytes": 3411,
+      "sha256": "4c691fe1457c79279b5b93a886bc6ed7985df2e7047ba50d3c5e7e58a07b6e64"
+    },
+    "/static3/media/icons-sprite-GbLKRpP4no_8Y1r7.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/icons-sprite-GbLKRpP4no_8Y1r7.svg",
+      "bytes": 477,
+      "sha256": "fce20577d18006c84c80676c5036f81363d4ac8a843c1e7193e4622725ce3022"
+    },
+    "/static3/media/iconsignup-B5D9MrcQSXDYNmkP.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/iconsignup-B5D9MrcQSXDYNmkP.svg",
+      "bytes": 2261,
+      "sha256": "9c1e91eb575cc324d1946d94735aa79529018e4cc55ccbf5b9985c22ec54d5c6"
+    },
+    "/static3/media/inbox-empty-dark-DCDYgiP7zSF5W_Sa.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/inbox-empty-dark-DCDYgiP7zSF5W_Sa.svg",
+      "bytes": 2893,
+      "sha256": "076dee2cb47534d0cfd0d7b7a32b345e0f1606d56ed9fa886eb04f79cffc8891"
+    },
+    "/static3/media/inbox-empty-light-Cub7LXxFo6wYsulr.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/inbox-empty-light-Cub7LXxFo6wYsulr.svg",
+      "bytes": 2892,
+      "sha256": "28e0f67f9976185e73d218327548adb12886c1f80d9f537ea5261f33ee57daee"
+    },
+    "/static3/media/instruments-sprite-DC89cddCJ3oKMAGH.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/instruments-sprite-DC89cddCJ3oKMAGH.svg",
+      "bytes": 27301,
+      "sha256": "fa46399001fad8b7cbb92c5410c698d45612882377285e95aba68e569f239093"
+    },
+    "/static3/media/legato-slide-C2qRDp_I6JmlAFjZ.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/legato-slide-C2qRDp_I6JmlAFjZ.svg",
+      "bytes": 2170,
+      "sha256": "195c03d5b61455e5d7d374ff81b62596801da8e36f43e9a6cedf7254ee221100"
+    },
+    "/static3/media/legato-slide-dark-xr8pFJE0Br-eqKf_.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/legato-slide-dark-xr8pFJE0Br-eqKf_.svg",
+      "bytes": 2170,
+      "sha256": "395153c27d96d63b81cdef2229c0bd9cd77112421d7e1918fe277e9b460d9bcd"
+    },
+    "/static3/media/let-ring-FoD-gOsrbW5pzUbj.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/let-ring-FoD-gOsrbW5pzUbj.svg",
+      "bytes": 4463,
+      "sha256": "fb3006f41cf269be494f05ce5ed1f92a67d2f27d93e368cd77bb879850e04d6c"
+    },
+    "/static3/media/let-ring-dark-BYpAx2mwQQtOMFoZ.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/let-ring-dark-BYpAx2mwQQtOMFoZ.svg",
+      "bytes": 4466,
+      "sha256": "aa8ceb461a4f39b8dfd12907921d2c83730ce13aa2cd74841fb810864377256e"
+    },
+    "/static3/media/libfluidsynth-2.3.0-sf3-BpUBOql-REtp17MJ.wasm": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/libfluidsynth-2.3.0-sf3-BpUBOql-REtp17MJ.wasm",
+      "bytes": 1778987,
+      "sha256": "69bdbea881f6223e6f4e3852fb5480ab70cf54c005d7ff34b6673369af1cc2a5"
+    },
+    "/static3/media/logo-small-CP3vBkCqsC6MY1vx.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/logo-small-CP3vBkCqsC6MY1vx.svg",
+      "bytes": 2094,
+      "sha256": "c8cfc29ed8ea3d7377e9e7424885c94272ca37afb5f9dd88ec29aa5f5c6775da"
+    },
+    "/static3/media/mock-CiQ5-9Nb6SurF7dj.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/mock-CiQ5-9Nb6SurF7dj.svg",
+      "bytes": 5858,
+      "sha256": "1c30e1d52bd19d8df856406dc009e523de4b9811c5695eb9335383fdbb89599b"
+    },
+    "/static3/media/mock-dark-y-5SBSp7KIkUBVBG.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/mock-dark-y-5SBSp7KIkUBVBG.svg",
+      "bytes": 5858,
+      "sha256": "eb719b304a82c0524ca288bc13abd62535b4c95f43e68a6725bc5bf36ac9abc4"
+    },
+    "/static3/media/moderation-button-sprite-B2Qd05qxVlqijf8o.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/moderation-button-sprite-B2Qd05qxVlqijf8o.svg",
+      "bytes": 3104,
+      "sha256": "f50e059824295414b2a322998fb35b8685e4bc95f705cc7efc65c3501642f34b"
+    },
+    "/static3/media/natural-harmonics-BRJFAvXXBduDtAJl.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/natural-harmonics-BRJFAvXXBduDtAJl.svg",
+      "bytes": 1404,
+      "sha256": "f03a76e8e0a2bd687e4e1a6791025cb8f66faf8fed419fc73c1ab57761bf71cd"
+    },
+    "/static3/media/natural-harmonics-dark-CtjRBsfFm1tTyx7m.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/natural-harmonics-dark-CtjRBsfFm1tTyx7m.svg",
+      "bytes": 1404,
+      "sha256": "6bb50bfe055a81d5861261001ad007c1842dd8adcc8c6dd1ceae313c3b50d842"
+    },
+    "/static3/media/negativeMarker-CYe97S7keI-U6Jnj.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/negativeMarker-CYe97S7keI-U6Jnj.svg",
+      "bytes": 344,
+      "sha256": "50879a924d319be24499554595cdacf9bfdc73df0d34ba00a305716ba33645b9"
+    },
+    "/static3/media/no-favorites-symbol-BR8PfsVUXwcdaUAl.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/no-favorites-symbol-BR8PfsVUXwcdaUAl.svg",
+      "bytes": 10181,
+      "sha256": "42d9d122c6f747250e3121512476240c545604f0785a2c9e1766a042aca2f791"
+    },
+    "/static3/media/no-results-symbol-DqiJfNTfext6e5bK.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/no-results-symbol-DqiJfNTfext6e5bK.svg",
+      "bytes": 5998,
+      "sha256": "f692f16478dec946be126df85fa7ad7f7fd88552c6734c36512113c7ef8f8503"
+    },
+    "/static3/media/not-found-sprite-Bjlgt-s_gHkm68z9.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/not-found-sprite-Bjlgt-s_gHkm68z9.svg",
+      "bytes": 2068,
+      "sha256": "d2447247f638e217010b3a62886bb61946c03dcd7a5f8071f818292f33360346"
+    },
+    "/static3/media/notesRest-1-BmPQ2QR8X-y_JQTK.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/notesRest-1-BmPQ2QR8X-y_JQTK.svg",
+      "bytes": 19603,
+      "sha256": "bcaa0db8e7acce34da97cf2b1fc72a4b1f60c6cd51b8922e8756c1ae3d8e9c21"
+    },
+    "/static3/media/notesRest-1-dark-DOrPrqeoQQmu95Po.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/notesRest-1-dark-DOrPrqeoQQmu95Po.svg",
+      "bytes": 19636,
+      "sha256": "ddb938977dee1370db83f906c860623c9218f22636070cdbf508e9bea3192311"
+    },
+    "/static3/media/notesRest-2-DpX_--svgLRiXSBh.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/notesRest-2-DpX_--svgLRiXSBh.svg",
+      "bytes": 1658,
+      "sha256": "a64f16f325636c41b59011ab6d4045b0bf0254a378fd17274a15dfe4ad2b50c5"
+    },
+    "/static3/media/notesRest-2-dark-0cHXK-yM81y76Gve.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/notesRest-2-dark-0cHXK-yM81y76Gve.svg",
+      "bytes": 1658,
+      "sha256": "1168a89375e88d2f8fa612b8911f49f9cc00e4e2fc514951a608f6ae36b6c7dc"
+    },
+    "/static3/media/notesRest-3-C78fzdIITCFF2Wpy.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/notesRest-3-C78fzdIITCFF2Wpy.svg",
+      "bytes": 5358,
+      "sha256": "cef594e2e181440cb97cce7e48adf11ff0e6fd0414dd741fb8ef8e9ebbd2a5b1"
+    },
+    "/static3/media/notesRest-3-dark-CWGogDCNnZob9G7C.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/notesRest-3-dark-CWGogDCNnZob9G7C.svg",
+      "bytes": 5358,
+      "sha256": "57d982dd4de4c69ea7246eef4e56b3f4c66a708e4ce4b73f9cf2c7716bbea081"
+    },
+    "/static3/media/notesRest-4-CWQY0TlceMgiMfZU.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/notesRest-4-CWQY0TlceMgiMfZU.svg",
+      "bytes": 14804,
+      "sha256": "28ea5223959ae12ab3ece186f9b0db177f00fef548b1db324302e775f9170d58"
+    },
+    "/static3/media/notesRest-4-dark-DxMoaATUGyDnUbzv.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/notesRest-4-dark-DxMoaATUGyDnUbzv.svg",
+      "bytes": 14704,
+      "sha256": "d0322d361b2d4adb1c75a39272935e1bf0e3830da9b656676a32dc780b6a1066"
+    },
+    "/static3/media/oa-popup-picks-DnLbujAAoIVaR-Eg.webp": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/oa-popup-picks-DnLbujAAoIVaR-Eg.webp",
+      "bytes": 26842,
+      "sha256": "14b052647c2a3b408f4cbd32444feec2b578a613eec12af0a8c55a0a23918cee"
+    },
+    "/static3/media/pages-sprite-B0wsPQ1gEVe5XQB3.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/pages-sprite-B0wsPQ1gEVe5XQB3.svg",
+      "bytes": 12646,
+      "sha256": "50900635169b51e5319e0bea5061858966fe99be6a67e09dbb593d1a046ae51c"
+    },
+    "/static3/media/palm-mute-D17gQklLfEt5RGXa.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/palm-mute-D17gQklLfEt5RGXa.svg",
+      "bytes": 4706,
+      "sha256": "40fc5afc82d047d1b6f9035e48c7269cd78cb749ce1cae85d5a4172b2cc598a4"
+    },
+    "/static3/media/palm-mute-dark-D2aDvLXE3ySVAwru.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/palm-mute-dark-D2aDvLXE3ySVAwru.svg",
+      "bytes": 4708,
+      "sha256": "fc31f11c1cc87e6d226f3e169b28bd491ada8e79d4ce99d0ea0835a8c185dace"
+    },
+    "/static3/media/pickstroke-down-Bj89jxT04nCbiM_e.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/pickstroke-down-Bj89jxT04nCbiM_e.svg",
+      "bytes": 2663,
+      "sha256": "8d539a6a0067bf1dc6b73fe51304e003314d626cc0e039a21123ee894d346c99"
+    },
+    "/static3/media/pickstroke-down-dark-muNNMrhHzRPHMwCG.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/pickstroke-down-dark-muNNMrhHzRPHMwCG.svg",
+      "bytes": 2663,
+      "sha256": "dcaf771fd1d25beca5d3c061c4e0710bc7a043232f26299fd4daa727518312a6"
+    },
+    "/static3/media/pickstroke-up-DCrIlKZn3Yk8syEU.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/pickstroke-up-DCrIlKZn3Yk8syEU.svg",
+      "bytes": 2268,
+      "sha256": "8fb24454d75e967cd0396f013b1412c910c53491fc7ed5d173a9539710e2316f"
+    },
+    "/static3/media/pickstroke-up-dark-CCXSZbAoWH7IWyI8.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/pickstroke-up-dark-CCXSZbAoWH7IWyI8.svg",
+      "bytes": 2272,
+      "sha256": "022bb7b67c27046dbdbf468b67faa6ae9e3bad973241b7f8ee7344176cf85def"
+    },
+    "/static3/media/pickup-bar-C8ut88yHcAm56lyc.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/pickup-bar-C8ut88yHcAm56lyc.svg",
+      "bytes": 32399,
+      "sha256": "c2e830fd5f5e6717846cd0518222900cce3815610ab4377f33dba4ae0502e5a4"
+    },
+    "/static3/media/pickup-bar-dark-DBLrysvOKRgcOjoY.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/pickup-bar-dark-DBLrysvOKRgcOjoY.svg",
+      "bytes": 32560,
+      "sha256": "c533eef3c7d2156de1b548fe68e2de6fa3717a5f092019972283a8640d9578f4"
+    },
+    "/static3/media/pinchHarmonic-BqLdDXFDGGivi90E.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/pinchHarmonic-BqLdDXFDGGivi90E.svg",
+      "bytes": 3276,
+      "sha256": "6aac7007e0b4a42ab792e35e6aa9ef300016c058d2e69ce3758f92bb11374dc7"
+    },
+    "/static3/media/pinchHarmonic-dark-BwKZJMJ5Qi1l_VGg.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/pinchHarmonic-dark-BwKZJMJ5Qi1l_VGg.svg",
+      "bytes": 3279,
+      "sha256": "758c144117de49d979214da7d5db687271e500b40a01d372de462a48fd1afbfb"
+    },
+    "/static3/media/play-sprite-QLtt0nwPcNuIPSDH.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/play-sprite-QLtt0nwPcNuIPSDH.svg",
+      "bytes": 8562,
+      "sha256": "9a985522f0456b815ee1f7942d105fedf0f0dab608c4d3d865f5f03fb7ecd02c"
+    },
+    "/static3/media/plus-showroom-panel-lf-redes-COsqrp2eWLyZ6uWM.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/plus-showroom-panel-lf-redes-COsqrp2eWLyZ6uWM.png",
+      "bytes": 68547,
+      "sha256": "81873afea7056e0eb5439faa62345569537b8fb9f56a971772e25787feab26ad"
+    },
+    "/static3/media/plus-showroom-panel-lf-redes-dark-Cq8kc1_CE7NfR5dL.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/plus-showroom-panel-lf-redes-dark-Cq8kc1_CE7NfR5dL.png",
+      "bytes": 71815,
+      "sha256": "70f03fe2c0273f696725ec4f70dc987fe2ec3f8b59cc7b0b068e609e364be9a7"
+    },
+    "/static3/media/plus-showroom-panel-ls-redes-DZUAIAN0AvTHaetH.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/plus-showroom-panel-ls-redes-DZUAIAN0AvTHaetH.png",
+      "bytes": 63947,
+      "sha256": "4bd5359616d8ba1771e4f3ef26605c532f9776ef549e727a029eae56bff2503f"
+    },
+    "/static3/media/plus-showroom-panel-ls-redes-dark-1OUNf6t9cN5qiMsh.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/plus-showroom-panel-ls-redes-dark-1OUNf6t9cN5qiMsh.png",
+      "bytes": 63640,
+      "sha256": "ca2b835fb56985780342bd7f867d744c4732ce307f0df441d4b83b6c99708679"
+    },
+    "/static3/media/plus-showroom-panel-oa-redes-B1SR2NxY081WVR37.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/plus-showroom-panel-oa-redes-B1SR2NxY081WVR37.png",
+      "bytes": 96770,
+      "sha256": "9c4733806324f5f54fd8a8c9b193343894ba7c380af009027f9018e08df7dcc3"
+    },
+    "/static3/media/plus-showroom-panel-oa-redes-dark-DXWFdS6X0aSJz-kq.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/plus-showroom-panel-oa-redes-dark-DXWFdS6X0aSJz-kq.png",
+      "bytes": 89342,
+      "sha256": "66e267c692d292849571960059dbc864f8860319cb2672d2f378ecca24f92823"
+    },
+    "/static3/media/plus-showroom-panel-po-redes-dark-DXGc6bvIKg1f2nPO.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/plus-showroom-panel-po-redes-dark-DXGc6bvIKg1f2nPO.png",
+      "bytes": 78619,
+      "sha256": "02355af38f227849cad539ffc49ff054bd8184f459d06b52dbd5cbdec20a7ef1"
+    },
+    "/static3/media/plus-showroom-panel-po-redes-tHp4_VK6b6XCT_IS.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/plus-showroom-panel-po-redes-tHp4_VK6b6XCT_IS.png",
+      "bytes": 79582,
+      "sha256": "e28b3fa19b3dde1df28ff7351269dc0ddf6017b858146fd78bd3d952f362d82b"
+    },
+    "/static3/media/plusBigMock-CQZcomKip6WOuzat.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/plusBigMock-CQZcomKip6WOuzat.svg",
+      "bytes": 17315,
+      "sha256": "d8f4a0bce197fdf610b7411f2f1a9183af793da76309fd89ce7d2e10aee0dc37"
+    },
+    "/static3/media/plusSmallMock-DcmcGeS_LYoKS-W0.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/plusSmallMock-DcmcGeS_LYoKS-W0.svg",
+      "bytes": 7173,
+      "sha256": "7b1e6a3a23460b80999752a20502f71ac8e27626f1b6d22379ff410b84412256"
+    },
+    "/static3/media/plustabletrow-sprite-B3WRqmzWgIPnTRDg.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/plustabletrow-sprite-B3WRqmzWgIPnTRDg.svg",
+      "bytes": 11584,
+      "sha256": "e7f2709cfd52f14d2c7930edef91e3750881b6c94408e8440671feb71060623e"
+    },
+    "/static3/media/polyphony-CRF_BKMBwYBP54xb.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/polyphony-CRF_BKMBwYBP54xb.svg",
+      "bytes": 2677,
+      "sha256": "aa1455f30fad8ff59cb0391aaaa7b78ef7036817a79e09bbbf486fec34f7ce79"
+    },
+    "/static3/media/polyphony-dark-CA3rgOUVpyr_OwMy.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/polyphony-dark-CA3rgOUVpyr_OwMy.svg",
+      "bytes": 2677,
+      "sha256": "8d2e6c854464556e244aa928a73c6e9ecd87ec5fc26068e4efdef14f8a9c8241"
+    },
+    "/static3/media/popping-CzR2JkQUJshOTqKm.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/popping-CzR2JkQUJshOTqKm.svg",
+      "bytes": 5893,
+      "sha256": "a4320bca7221ab681a83b39699ce0541f3d899ceb94d2af176b5bdb5ab2c01fd"
+    },
+    "/static3/media/popping-dark-ByksyLnq3uMSHLJI.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/popping-dark-ByksyLnq3uMSHLJI.svg",
+      "bytes": 5945,
+      "sha256": "bc8f2aee971b79079d1019a2bbdca2dbbaedb2e0536eb012a619b14565e27668"
+    },
+    "/static3/media/popups-sprite-DaA3P7A2qQDl2gZX.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/popups-sprite-DaA3P7A2qQDl2gZX.svg",
+      "bytes": 2551,
+      "sha256": "b99767136dc258adfc542b8219de5b2d99d9900802a417d2cfb3eaa505cf0b1b"
+    },
+    "/static3/media/positiveMarker-HU_DXaQ3KZc-OCAq.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/positiveMarker-HU_DXaQ3KZc-OCAq.svg",
+      "bytes": 433,
+      "sha256": "bc2476887b002a873ef0e0da868b478df2837dff60e0232ce3bd61be8d2a5de3"
+    },
+    "/static3/media/profile-Jjw7wA-p5nD7uMwW.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/profile-Jjw7wA-p5nD7uMwW.svg",
+      "bytes": 694,
+      "sha256": "9a4d9faca02a57e21089d76db90e5e2d41178f3a41c1761a0597e36ca6da1481"
+    },
+    "/static3/media/publish-button-symbol-CqVCYtO7LKN0XcXx.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/publish-button-symbol-CqVCYtO7LKN0XcXx.svg",
+      "bytes": 848,
+      "sha256": "03d8f1a34ce6138b309342e972df1ae26ee50f69364605ba0be736ac7e67f1fa"
+    },
+    "/static3/media/pull-off-D5gaTKOgfQ428GmX.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/pull-off-D5gaTKOgfQ428GmX.svg",
+      "bytes": 1049,
+      "sha256": "27860e8c145a9777773a0d09a0dfc4d59ee07fa9031ee79d77bcb9d04a23e726"
+    },
+    "/static3/media/pull-off-dark-Xz9VXuzpSCjh9Bgo.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/pull-off-dark-Xz9VXuzpSCjh9Bgo.svg",
+      "bytes": 1049,
+      "sha256": "e9d872bc0c834007013d5a35ccb3c732bdc8518a633815389f1d5d2faf231313"
+    },
+    "/static3/media/rasgueado-B4xqTNPNzC5yhdOy.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/rasgueado-B4xqTNPNzC5yhdOy.svg",
+      "bytes": 11405,
+      "sha256": "3144c8175544f2edc2217d6e6841864efcf5c7796332c867e64b44db0cf3d3e7"
+    },
+    "/static3/media/rasgueado-dark-DlYtRdPce96t7bCq.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/rasgueado-dark-DlYtRdPce96t7bCq.svg",
+      "bytes": 11128,
+      "sha256": "9b4dca280ef725f98360aa4d7472b01861dcaf776b6e364d4b1f3b30cf8ca40c"
+    },
+    "/static3/media/release-bend-C-3qyd4s05Ff1zfu.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/release-bend-C-3qyd4s05Ff1zfu.svg",
+      "bytes": 1382,
+      "sha256": "c973b1564b1a4d79e61689dd154f68406f85a06ab87fb884574d4fee22df3fae"
+    },
+    "/static3/media/release-bend-dark-CExlpia8_sD5MeYF.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/release-bend-dark-CExlpia8_sD5MeYF.svg",
+      "bytes": 1382,
+      "sha256": "35e37e67263b0fc692fe29c9f5e65d8ebb14f8f65d02673885b42f6ce64f6c0f"
+    },
+    "/static3/media/repeats-BvVeY_TpqpXcqxLe.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/repeats-BvVeY_TpqpXcqxLe.svg",
+      "bytes": 11689,
+      "sha256": "b6fb89960f530c82b1247377d4d290775fc1502f90221444132c6fdd4f89849a"
+    },
+    "/static3/media/repeats-dark-DrjaI5M_6TbpzZCJ.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/repeats-dark-DrjaI5M_6TbpzZCJ.svg",
+      "bytes": 11689,
+      "sha256": "dbefec3efc2eedab0c771d5a56f6b14c7ad93d98d9bed521d21ddeb61b587fc0"
+    },
+    "/static3/media/rra640en-C9VbVxcVdjNBKGWX.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/rra640en-C9VbVxcVdjNBKGWX.png",
+      "bytes": 75911,
+      "sha256": "4edf9663b1321092f86bb47574f8a465b1b898d77b23ad5210a434a18ff0e11d"
+    },
+    "/static3/media/rra640ru-C954Sj5Lw1LfyG6w.png": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/rra640ru-C954Sj5Lw1LfyG6w.png",
+      "bytes": 74596,
+      "sha256": "60c1c5e40b55c8f89c1a920491aacb073a319eb976cc1f4de47edb4d3a842278"
+    },
+    "/static3/media/runningman-dark-a5WNbF9VYrjceOlK.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/runningman-dark-a5WNbF9VYrjceOlK.svg",
+      "bytes": 59436,
+      "sha256": "c6181a2c9a575c8a4677e766e14607935d2c8802f2c2aacff756bb52071ce6e4"
+    },
+    "/static3/media/runningman-light-BlgMWKBoXOtEw0N2.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/runningman-light-BlgMWKBoXOtEw0N2.svg",
+      "bytes": 58667,
+      "sha256": "51b35f780bbdd4ce3df292569f8ed0eff6248392b8bfdcaf1207348677325f31"
+    },
+    "/static3/media/signature-Da9b15ay095Qgb4l.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/signature-Da9b15ay095Qgb4l.svg",
+      "bytes": 3467,
+      "sha256": "630f66a53754f0f828587b64cc9bb9dc330c43cc936c2f4bbb462a9acee391eb"
+    },
+    "/static3/media/signup-sprite-WEBF6YN9jMhOUmEJ.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/signup-sprite-WEBF6YN9jMhOUmEJ.svg",
+      "bytes": 853,
+      "sha256": "9f8d0d2c2c3e76d9724400c3591cf103254389a322bb743e6820e09a9fbc8944"
+    },
+    "/static3/media/slapping-C06AoDR84MXFFK-r.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/slapping-C06AoDR84MXFFK-r.svg",
+      "bytes": 6633,
+      "sha256": "917e5a2d7cf116bd104b226a1bb6d1703a129ef508e6e6e04d5b7841e89026e8"
+    },
+    "/static3/media/slapping-dark--4XrUNOs7S2q779T.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/slapping-dark--4XrUNOs7S2q779T.svg",
+      "bytes": 6011,
+      "sha256": "3895fb86ecb303f6e0b8f840bb3b2fd6bcec03c9c9957b50d79372305269e603"
+    },
+    "/static3/media/slide-in-CX0yuix8h5qFH7lO.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/slide-in-CX0yuix8h5qFH7lO.svg",
+      "bytes": 2504,
+      "sha256": "caead2bf4ae8d6cb45c51f5ca47f7d694b851f9830f82248be11a8a6f2aa4e4e"
+    },
+    "/static3/media/slide-in-dark-Dh4aoIyOjDECGAdp.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/slide-in-dark-Dh4aoIyOjDECGAdp.svg",
+      "bytes": 2516,
+      "sha256": "d42fdef3f412f530185fb9683d6e190bf704cac63a2c26ab4f03cc88d285cd33"
+    },
+    "/static3/media/slide-out-C-FqCTuvbhvrRWNb.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/slide-out-C-FqCTuvbhvrRWNb.svg",
+      "bytes": 2502,
+      "sha256": "87539072df363a529ef428376af21b41651133f82cfb80dc694b0654912c24a6"
+    },
+    "/static3/media/slide-out-dark-BvSQgDgXGyGEGGPi.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/slide-out-dark-BvSQgDgXGyGEGGPi.svg",
+      "bytes": 2517,
+      "sha256": "3b3354399d08d5682c7d9647e44eec4df41c06d74e8f683a3c09df5aa5e32669"
+    },
+    "/static3/media/slide_a-CX0Q4ByyHF9NVW5h.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/slide_a-CX0Q4ByyHF9NVW5h.svg",
+      "bytes": 1390,
+      "sha256": "d45055e46047c50a8197d5e6fc248af97d3f3266cca27bb47dc891af2490c759"
+    },
+    "/static3/media/slide_a_dark-Blp8xts1USxVmNgw.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/slide_a_dark-Blp8xts1USxVmNgw.svg",
+      "bytes": 1389,
+      "sha256": "b52518c3e51b34d5ac123358f8c83dde31b8e3bdeadf79ad358484338d70eff8"
+    },
+    "/static3/media/slide_b-4B6C5IloO1xUbsyj.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/slide_b-4B6C5IloO1xUbsyj.svg",
+      "bytes": 1309,
+      "sha256": "5831da1c8c35c0a5147616e6d98ddd533a456f0555f5ffeec92643bfccf278f3"
+    },
+    "/static3/media/slide_b_dark-CWtONJ4S6MpfNikV.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/slide_b_dark-CWtONJ4S6MpfNikV.svg",
+      "bytes": 1309,
+      "sha256": "5be8fd443e991910a295c611e5d5c4ee0dfe4a43ca3bbbe121d751e720fb59f2"
+    },
+    "/static3/media/songsterr-symbol-0huTohfd6XUSq2QN.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/songsterr-symbol-0huTohfd6XUSq2QN.svg",
+      "bytes": 1317,
+      "sha256": "e02d7234aff880e548da51a825a15d039f3e490df8a8dcd489a94a4493628f09"
+    },
+    "/static3/media/songsterr-text-symbol-CrSbx5UVzjv_AEA5.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/songsterr-text-symbol-CrSbx5UVzjv_AEA5.svg",
+      "bytes": 8746,
+      "sha256": "b41d2ebfb3035f363873e856dfed3edfdec4d490551443ca6736292e7676b069"
+    },
+    "/static3/media/sound-value-sprite-Bd0hTweUKWqz2STF.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/sound-value-sprite-Bd0hTweUKWqz2STF.svg",
+      "bytes": 2674,
+      "sha256": "a3579afc18ebb3e80ae7fb508d96e1affdc80ba1e9408a71bfd98786b7ab1af4"
+    },
+    "/static3/media/ssllock-C4lTDf7NGw9ljpuI.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/ssllock-C4lTDf7NGw9ljpuI.svg",
+      "bytes": 886,
+      "sha256": "47b41ea436edb8fc8c0da640e48e1d0f4b31b879cbe2d74accbdc70bb37e053e"
+    },
+    "/static3/media/staccato-dark-DHjHKYNqrRvRB9TE.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/staccato-dark-DHjHKYNqrRvRB9TE.svg",
+      "bytes": 1227,
+      "sha256": "6182686529fd00dd8619c337ad563e572669519f78e950e748fca9e7c9313447"
+    },
+    "/static3/media/staccato-eKBNsdwEKcuzRzA1.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/staccato-eKBNsdwEKcuzRzA1.svg",
+      "bytes": 1236,
+      "sha256": "8e01834638c0dd711ab58a78706c0872c5be5a804693aa5bf629c876a8d40abd"
+    },
+    "/static3/media/submit-duplicate-BoBb0p3ymIemOd57.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/submit-duplicate-BoBb0p3ymIemOd57.svg",
+      "bytes": 1376,
+      "sha256": "71a522b3d5326f1d2307c830f3378308d5f2c2b640828c7d77e9e37726c9142a"
+    },
+    "/static3/media/sustain-pedal-C6ZxkKq6zIbTMTWq.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/sustain-pedal-C6ZxkKq6zIbTMTWq.svg",
+      "bytes": 8722,
+      "sha256": "4640356c991bf586177b6f910837cbac8bf2cb83280cb34ab4c9185c77316a16"
+    },
+    "/static3/media/sustain-pedal-dark-BVDsEU7BeJ7clTfw.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/sustain-pedal-dark-BVDsEU7BeJ7clTfw.svg",
+      "bytes": 8728,
+      "sha256": "e76c927ca0bbedf760dc88bc6ffcba0cba5fbe00adcc5cc3adbc20882c75df88"
+    },
+    "/static3/media/swingRhythm-CWeDCIySO4uvA0Ek.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/swingRhythm-CWeDCIySO4uvA0Ek.svg",
+      "bytes": 5719,
+      "sha256": "25e7da067892696ad02fc96a4573dd2769d450f9d632aa7095adab989ee09c93"
+    },
+    "/static3/media/swingRhythm-dark--0hoRPwq0iU3TrZc.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/swingRhythm-dark--0hoRPwq0iU3TrZc.svg",
+      "bytes": 5580,
+      "sha256": "1bf974baee8d1cce18a1ed9efe591a5409b0c08cb186dcb4b73c71f9cf86dce9"
+    },
+    "/static3/media/tab-header-sprite-CLKNW5Y5aypb3mEE.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/tab-header-sprite-CLKNW5Y5aypb3mEE.svg",
+      "bytes": 4162,
+      "sha256": "986af891c0ab8fbfa5182d39b891dbc6889182d389664d3b0049a91bdc3fb080"
+    },
+    "/static3/media/tapping-CxvCnwIlN5tcAni2.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/tapping-CxvCnwIlN5tcAni2.svg",
+      "bytes": 3779,
+      "sha256": "242929f9e6aa8a4d75a208b24eb32870a31bd3fc120372bde6176b564e5dd838"
+    },
+    "/static3/media/tapping-dark-vMlfT1RMI04qMuHL.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/tapping-dark-vMlfT1RMI04qMuHL.svg",
+      "bytes": 3847,
+      "sha256": "b5699aa8f2738aa4d59356f4fb6ee0b035e74f68a98934e44134aef5cbb3630f"
+    },
+    "/static3/media/ties-DCku433iXpUFSTyp.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/ties-DCku433iXpUFSTyp.svg",
+      "bytes": 1952,
+      "sha256": "063b154a8c00287c71ef999b186ed305be7d5d3a9f90b285523b4f3b0a37a852"
+    },
+    "/static3/media/ties-dark-B3je4nkSExAuxINU.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/ties-dark-B3je4nkSExAuxINU.svg",
+      "bytes": 1948,
+      "sha256": "ddbd972194d13fb662c5e6d06b75519f55228676fffbc630ce946eda4558aab1"
+    },
+    "/static3/media/time-signature-B7bBKd5lRcTjy8nU.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/time-signature-B7bBKd5lRcTjy8nU.svg",
+      "bytes": 547,
+      "sha256": "ddefaa661de76896f9154d2799bb02901f3ba0e3ff07b1c7f1d64b1be1e02229"
+    },
+    "/static3/media/time-signature-dark-5wXilmrB0qWent8H.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/time-signature-dark-5wXilmrB0qWent8H.svg",
+      "bytes": 547,
+      "sha256": "2d7e60b045e0e58cfa37624aabc25ed36063d4b70a62801b78033a86474215ed"
+    },
+    "/static3/media/topbar-sprite-GNognFOIDju2pd08.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/topbar-sprite-GNognFOIDju2pd08.svg",
+      "bytes": 8662,
+      "sha256": "afc9f852067203ccd5796dcb5746170beda487ec3119073088911eb1576fc57d"
+    },
+    "/static3/media/tremolo-C2EPqt0WeI8Foe5U.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/tremolo-C2EPqt0WeI8Foe5U.svg",
+      "bytes": 3548,
+      "sha256": "a79318f7c6fc45b71c0b54fb239fe4463d2a10dfa78bf294a7677466832a5f69"
+    },
+    "/static3/media/tremolo-dark-D6HHPU9R-cA59y_Z.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/tremolo-dark-D6HHPU9R-cA59y_Z.svg",
+      "bytes": 3560,
+      "sha256": "4f8f74e91448e7cd2abae1d9b541b1afda22950fa89de15055cf01e686ee5416"
+    },
+    "/static3/media/triplets-3K3Y3q4HZnNEz5xH.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/triplets-3K3Y3q4HZnNEz5xH.svg",
+      "bytes": 1267,
+      "sha256": "6c81545c65ad84d616615db79af390cae021b969d037a9ac1af958a2dec155b5"
+    },
+    "/static3/media/triplets-dark-CGJR8Z12sus71uJc.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/triplets-dark-CGJR8Z12sus71uJc.svg",
+      "bytes": 1254,
+      "sha256": "a7fd2209db5d5f237242bee71f5ced7813f7dd2837b0fc560c9a2a068fee1879"
+    },
+    "/static3/media/up-down-arpeggio-BUv-CkywvTa26f4w.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/up-down-arpeggio-BUv-CkywvTa26f4w.svg",
+      "bytes": 16203,
+      "sha256": "78806d062a11019381b36e7938429b697c5aaabeac21a33c471a095b008a044b"
+    },
+    "/static3/media/up-down-arpeggio-dark-BvI7pUq39zwMTj8J.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/up-down-arpeggio-dark-BvI7pUq39zwMTj8J.svg",
+      "bytes": 16203,
+      "sha256": "6d47e242fee96b9cafc6a9f425aeba3fc83f5b047477427df8239b16589b57ce"
+    },
+    "/static3/media/up-down-stroke-BBWZ9V2BssddTrE1.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/up-down-stroke-BBWZ9V2BssddTrE1.svg",
+      "bytes": 3566,
+      "sha256": "71fdd023122aea34b89b4a61bcd04e08e7a9652727b2a656cf2b6e6fa0da66f2"
+    },
+    "/static3/media/up-down-stroke-dark-CQQal6FSq1M3a__S.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/up-down-stroke-dark-CQQal6FSq1M3a__S.svg",
+      "bytes": 3566,
+      "sha256": "9a0ac7f6af277f1d213b7418cff7da8f661e209ae61f532ebe5e2e8b018ce73c"
+    },
+    "/static3/media/vibrato-CqPZir6ZXHdsGCpC.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/vibrato-CqPZir6ZXHdsGCpC.svg",
+      "bytes": 3557,
+      "sha256": "7c4038c4004c9195ff45e1cd8893c4105cf3a68b994975eb59efdbf63af73a94"
+    },
+    "/static3/media/vibrato-dark-C2UiLdEGdltBntXY.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/vibrato-dark-C2UiLdEGdltBntXY.svg",
+      "bytes": 3551,
+      "sha256": "f3bd70568feccf37ff6e8f6d5af28a437cb3dba688518b538457520487592766"
+    },
+    "/static3/media/vibrato-tremolo-BPj0ayzFA88A3mkP.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/vibrato-tremolo-BPj0ayzFA88A3mkP.svg",
+      "bytes": 3978,
+      "sha256": "c35e94ff83b0ff6157480a2a671774819ed3ca2c791b40d5b67b7b53fafcd33d"
+    },
+    "/static3/media/vibrato-tremolo-dark-Bm2fwWiDKNWv4iMF.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/vibrato-tremolo-dark-Bm2fwWiDKNWv4iMF.svg",
+      "bytes": 4105,
+      "sha256": "c251ed5919c75765b3ac052ae7fc8f4fcf49a127179f2f8c05a0767f86ee18d9"
+    },
+    "/static3/media/wah-wah-DOyYbn08fikzl-k3.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/wah-wah-DOyYbn08fikzl-k3.svg",
+      "bytes": 2625,
+      "sha256": "cf4989dc6dd4da0a8826ff071da110f1e12b925cc645e4eb7e0b8da0bf9d5fef"
+    },
+    "/static3/media/wah-wah-dark-Cqyhi7H9lQIJUlSa.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/wah-wah-dark-Cqyhi7H9lQIJUlSa.svg",
+      "bytes": 2613,
+      "sha256": "6886277664665f59ea6ca3840b0128efdb5fde766195ec4b01b5589d318de23a"
+    },
+    "/static3/media/wide-vibrato-D3SjAKJpo8q1Je2t.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/wide-vibrato-D3SjAKJpo8q1Je2t.svg",
+      "bytes": 4734,
+      "sha256": "20bf79a687d7010157770aec7f85ce2cdc170c9d3f648333cd3afc7dda6ee2b3"
+    },
+    "/static3/media/wide-vibrato-dark-DpO4vT_6B3TisGvG.svg": {
+      "url": "https://static3.songsterr.com/production-main/static3/media/wide-vibrato-dark-DpO4vT_6B3TisGvG.svg",
+      "bytes": 4728,
+      "sha256": "a8bd7e529c7243a1723ee79831566537257e5ab83a6b1c55a64a99311cd9137c"
+    }
+  },
+  "errors": {},
+  "scope": "Literal /static3/media paths; excludes song audio and dynamically constructed resources"
+}

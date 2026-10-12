@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "Songsterr Classic — July preview",
-  "version": "0.1.0",
-  "description": "Opt into the archived July interface on one Songsterr tab. Experimental read-only compatibility preview.",
+  "name": "Songsterr Classic — local compatibility build",
+  "version": "0.2.0",
+  "description": "Locally packaged July frontend with live Songsterr data. Experimental compatibility build.",
   "permissions": ["activeTab", "declarativeNetRequestWithHostAccess"],
   "host_permissions": ["https://www.songsterr.com/*", "https://*.songsterr.com/*"],
   "background": {"service_worker": "background.js", "type": "module"},
   "action": {"default_popup": "popup.html", "default_title": "Songsterr Classic"},
   "web_accessible_resources": [{
-    "resources": ["bootstrap.mjs", "compat.mjs", "vendor/*"],
+    "resources": ["bootstrap.mjs", "bootstrap-edit.mjs", "compat.mjs", "local-sprites.mjs", "media-assets.json", "vendor/*", "media/*"],
     "matches": ["https://www.songsterr.com/*", "https://static3.songsterr.com/*"]
   }]
 }
