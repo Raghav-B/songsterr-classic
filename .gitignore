@@ -1,0 +1,4 @@
+extension/vendor/
+artifacts/
+__pycache__/
+node_modules/
