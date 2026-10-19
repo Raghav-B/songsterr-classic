@@ -5,7 +5,10 @@
   "description": "Locally packaged July frontend with live Songsterr data. Experimental compatibility build.",
   "permissions": [
     "activeTab",
-    "declarativeNetRequestWithHostAccess"
+    "declarativeNetRequestWithHostAccess",
+    "storage",
+    "webNavigation",
+    "scripting"
   ],
   "host_permissions": [
     "https://www.songsterr.com/*",
@@ -18,6 +21,10 @@
   "action": {
     "default_popup": "popup.html",
     "default_title": "Songsterr Classic"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
   },
   "web_accessible_resources": [
     {

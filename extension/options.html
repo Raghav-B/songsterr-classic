@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Songsterr Classic settings</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+<body>
+<main>
+    <h1>Songsterr <strong>Classic</strong> <span>Settings</span></h1>
+
+    <section class="setting">
+        <div class="text">
+            <h2 id="every-tab-label">Keep Classic on in new tabs</h2>
+            <p id="every-tab-help">
+                Every Songsterr song you open starts in Classic, including new tabs and
+                after restarting your browser. Switching Classic off in the popup turns
+                it off for new tabs too, and switching it back on turns it back on.
+            </p>
+            <p class="fine">
+                Classic still only starts on song pages, never on account or payment pages.
+                Song tabs that are already open switch over the next time you reload them.
+            </p>
+        </div>
+        <button id="every-tab" class="switch" type="button" role="switch" aria-checked="false"
+                aria-labelledby="every-tab-label" aria-describedby="every-tab-help" disabled>
+            <span class="thumb"><span class="thumb-mark"></span></span>
+        </button>
+    </section>
+
+    <p id="saved" role="status" aria-live="polite"></p>
+    <p id="error" role="alert" hidden></p>
+</main>
+<script src="options.js"></script>
+</body>
+</html>

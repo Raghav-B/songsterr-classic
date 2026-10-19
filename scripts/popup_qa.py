@@ -22,9 +22,10 @@ async def main():
             globalThis.popupQA = {enabled:false,legacyPreview:false,fail:false,url:'https://www.songsterr.com/a/wsa/test-tab-s439',calls:[]};
             globalThis.chrome = {
                 tabs:{query:async()=>[{id:1,url:popupQA.url}]},
-                runtime:{getManifest:()=>({version:'0.3.1'}),sendMessage:async message=>{
+                runtime:{openOptionsPage:()=>{},getManifest:()=>({version:'0.3.1'}),sendMessage:async message=>{
                     popupQA.calls.push(message);
                     if(message.action === 'status')return {enabled:popupQA.enabled,legacyPreview:popupQA.legacyPreview};
+                    if(message.action === 'getSettings')return {everyTab:false,classicOn:false};
                     await new Promise(resolve=>setTimeout(resolve,400));
                     if(popupQA.fail)return {error:'Could not reload this tab. Try again.'};
                     popupQA.enabled=message.action==='enable';popupQA.legacyPreview=false;
