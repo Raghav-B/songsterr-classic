@@ -24,18 +24,28 @@ export function adaptState(state) {
             },
         };
     }
-    // Newer server bootstraps omit the mixer's solo/mute selections. July
-    // reads their lengths while rendering the top bar, so a missing list
-    // unmounts the whole app. Fill only absent lists; keep any real selection.
+    // November's bootstrap reduced the player to loading flags. July reads the
+    // mixer, speed and metronome fields while rendering and while restoring
+    // saved per-song settings, so a missing one unmounts the whole app. Fill
+    // only absent fields with July's neutral defaults; keep any real value.
     for (const key of ["player", "playerDiffBefore", "playerDiffAfter"]) {
         const player = state[key];
         if (!player || typeof player !== "object") continue;
-        for (const list of PLAYER_LISTS) {
-            if (!Array.isArray(player[list])) player[list] = [];
+        for (const [field, value] of Object.entries(PLAYER_DEFAULTS)) {
+            if (Array.isArray(value) ? !Array.isArray(player[field]) : player[field] === undefined) {
+                player[field] = structuredClone(value);
+            }
         }
-        if (player.type === undefined) player.type = "focus";
     }
     return state;
 }
 
-const PLAYER_LISTS = ["partsToPlay", "partsSolo", "partsMute", "partsToPlayPrev", "partsSoloPrev", "partsMutePrev"];
+const PLAYER_DEFAULTS = {
+    partsToPlay: [], partsSolo: [], partsMute: [],
+    partsToPlayPrev: [], partsSoloPrev: [], partsMutePrev: [],
+    type: "focus", speed: 100, soundVolume: 100, muteSound: false,
+    pitchShift: 0, transposeNotation: 0,
+    isMetronome: false, metronomeType: "regular", metronomeVolume: 100,
+    isCountin: false, isCountinBetweenLoops: false,
+    videoOpened: false, userAudioSelected: false, separatedAudioSelected: false,
+};
