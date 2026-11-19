@@ -4,6 +4,7 @@ const notice = document.getElementById("notice");
 const errorNotice = document.getElementById("error");
 let tabId;
 let enabled = false;
+let everyTab = false;
 
 function show(result) {
     if (result.error) throw new Error(result.error);
@@ -15,7 +16,8 @@ function show(result) {
     toggle.removeAttribute("aria-busy");
     toggle.disabled = false;
     status.textContent = enabled ? "Classic on" : "Classic off";
-    notice.hidden = !result.legacyPreview;
+    notice.hidden = !result.legacyPreview && !everyTab;
+    if (everyTab) notice.textContent = enabled ? "Also on for new song tabs." : "New song tabs stay off.";
     if (result.legacyPreview) {
         notice.textContent = "Turn on to update the older preview.";
         status.textContent = "Turn on to enable Classic with editing";
@@ -37,6 +39,8 @@ async function start() {
         status.textContent = notice.textContent;
         return;
     }
+    const prefs = await chrome.runtime.sendMessage({ action: "getSettings" });
+    everyTab = Boolean(prefs?.everyTab);
     const result = await chrome.runtime.sendMessage({ action: "status", tabId });
     if (result.error) throw new Error(result.error);
     // Active Classic tabs can navigate to My tabs/search. They must still be
@@ -73,6 +77,13 @@ toggle.addEventListener("click", async () => {
         errorNotice.textContent = error.message;
         errorNotice.hidden = false;
     }
+});
+
+// Open the settings page as a proper extension page instead of a popup link.
+document.getElementById("settings").addEventListener("click", event => {
+    event.preventDefault();
+    chrome.runtime.openOptionsPage();
+    window.close();
 });
 
 start().catch(error => {

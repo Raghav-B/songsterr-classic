@@ -13,7 +13,9 @@ account connected to Songsterr.
 <img src="docs/images/popup.png" alt="Songsterr Classic popup with the switch on, version number and GitHub and X links" width="300">
 
 **On** brings back Classic. **Off** returns to the current interface.
-The setting applies to one tab and resets when you restart the browser.
+By default the setting applies to one tab and resets when you restart the browser.
+To keep Classic on in new tabs and across restarts, open **Settings** (the gear
+in the popup) and turn on **Keep Classic on in new tabs**.
 Switching reloads the tab, so save your edits first.
 
 ## Install
