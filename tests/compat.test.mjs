@@ -55,3 +55,20 @@ test("October's nested search state produces an independent July artist list", (
     assert.deepEqual(state.songs, original);
     assert.equal(artist.filters.tunings.GUITAR, undefined);
 });
+
+test("missing mixer selections become empty lists without touching real ones", () => {
+    // November's bootstrap dropped partsSolo/partsMute. July's top bar reads
+    // their length on first render and the whole app unmounted to a blank page.
+    const state = {
+        artist: {},
+        player: { speed: 100, partsSolo: [2] },
+        playerDiffBefore: { partsMute: null },
+    };
+    const { player, playerDiffBefore } = adaptState(state);
+    assert.deepEqual(player.partsSolo, [2]);
+    assert.deepEqual(player.partsMute, []);
+    assert.deepEqual(player.partsSoloPrev, []);
+    assert.equal(player.type, "focus");
+    assert.equal(player.speed, 100);
+    assert.deepEqual(playerDiffBefore.partsMute, []);
+});

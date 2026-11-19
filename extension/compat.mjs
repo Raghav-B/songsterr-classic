@@ -24,5 +24,18 @@ export function adaptState(state) {
             },
         };
     }
+    // Newer server bootstraps omit the mixer's solo/mute selections. July
+    // reads their lengths while rendering the top bar, so a missing list
+    // unmounts the whole app. Fill only absent lists; keep any real selection.
+    for (const key of ["player", "playerDiffBefore", "playerDiffAfter"]) {
+        const player = state[key];
+        if (!player || typeof player !== "object") continue;
+        for (const list of PLAYER_LISTS) {
+            if (!Array.isArray(player[list])) player[list] = [];
+        }
+        if (player.type === undefined) player.type = "focus";
+    }
     return state;
 }
+
+const PLAYER_LISTS = ["partsToPlay", "partsSolo", "partsMute", "partsToPlayPrev", "partsSoloPrev", "partsMutePrev"];
