@@ -55,3 +55,35 @@ test("October's nested search state produces an independent July artist list", (
     assert.deepEqual(state.songs, original);
     assert.equal(artist.filters.tunings.GUITAR, undefined);
 });
+
+test("missing mixer selections become empty lists without touching real ones", () => {
+    // November's bootstrap dropped partsSolo/partsMute. July's top bar reads
+    // their length on first render and the whole app unmounted to a blank page.
+    const state = {
+        artist: {},
+        player: { speed: 100, partsSolo: [2] },
+        playerDiffBefore: { partsMute: null },
+    };
+    const { player, playerDiffBefore } = adaptState(state);
+    assert.deepEqual(player.partsSolo, [2]);
+    assert.deepEqual(player.partsMute, []);
+    assert.deepEqual(player.partsSoloPrev, []);
+    assert.equal(player.type, "focus");
+    assert.equal(player.speed, 100);
+    assert.deepEqual(playerDiffBefore.partsMute, []);
+});
+
+test("November's reduced player bootstrap gets July's playback defaults", () => {
+    // Keys observed on a live November song page.
+    const live = ["shouldPlay", "canPlay", "quickPlay", "songId", "plusSettingsLoaded", "isLoopChanging",
+        "voiceMetronomeAvailable", "constraints", "locks", "playbackAvailable", "webworkerOperational",
+        "previousMixer", "isLoading", "previousPlayer", "currentRawParts", "currentPart"];
+    const player = Object.fromEntries(live.map(key => [key, key === "shouldPlay" ? true : null]));
+    const result = adaptState({ artist: {}, player: { ...player, speed: 75 } }).player;
+    assert.equal(result.speed, 75);
+    assert.equal(result.shouldPlay, true);
+    assert.equal(result.soundVolume, 100);
+    assert.equal(result.isCountin, false);
+    assert.equal(result.metronomeType, "regular");
+    assert.equal(result.videoOpened, false);
+});
