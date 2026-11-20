@@ -42,54 +42,74 @@ function assertSongUrl(href) {
     }
 }
 
-async function installRules(tabId) {
-    const owned = await tabRules(tabId);
-    const removeRuleIds = owned.map(rule => rule.id);
-    const assets = await (await fetch(chrome.runtime.getURL("asset-list.json"))).json();
+// Chrome caps session rules at 5,000 for the whole extension, and Classic
+// needs over a thousand redirects. One copy per tab hit that cap at the
+// fifth tab, so every Classic tab shares a single rule set via tabIds.
+const isTabRule = rule => Array.isArray(rule.condition.tabIds);
+
+async function writeClassicTabs(update) {
     const allRules = await chrome.declarativeNetRequest.getSessionRules();
-    let id = Math.max(0, ...allRules.map(rule => rule.id)) + 1;
+    const current = new Set(allRules.filter(isTabRule).flatMap(rule => rule.condition.tabIds));
+    // Drop tabs Chrome has closed or replaced, so their rules cannot pile up.
+    try {
+        const open = new Set((await chrome.tabs.query({})).map(tab => tab.id));
+        for (const tabId of current) if (!open.has(tabId)) current.delete(tabId);
+    } catch {}
+    update(current);
+    const tabIds = [...current];
+    // Removing the old set also clears preview blocks left by a 0.2.x installation.
+    const removeRuleIds = allRules.filter(isTabRule).map(rule => rule.id);
+    const kept = allRules.filter(rule => !isTabRule(rule));
+    let id = Math.max(0, ...kept.map(rule => rule.id)) + 1;
     const addRules = [];
-    const redirect = (condition, path, priority = 1) => addRules.push({
-        id: id++, priority,
-        action: { type: "redirect", redirect: { extensionPath: path } },
-        condition: { ...condition, tabIds: [tabId] },
-    });
+    if (tabIds.length > 0) {
+        const assets = await (await fetch(chrome.runtime.getURL("asset-list.json"))).json();
+        const media = await (await fetch(chrome.runtime.getURL("media-assets.json"))).json();
+        const redirect = (condition, path, priority = 1) => addRules.push({
+            id: id++, priority,
+            action: { type: "redirect", redirect: { extensionPath: path } },
+            condition: { ...condition, tabIds },
+        });
 
-    redirect({regexFilter: "^https://static3\\.songsterr\\.com/production-main/static3/latest/appClient-[A-Za-z0-9_-]+\\.js$", resourceTypes: ["script"]}, "/bootstrap.mjs", 10);
-    redirect({regexFilter: "^https://static3\\.songsterr\\.com/production-main/static3/latest/appClient-[A-Za-z0-9_-]+\\.css$", resourceTypes: ["stylesheet"]}, "/vendor/appClient-442d1888c9.css", 10);
-    redirect({regexFilter: "^https://static3\\.songsterr\\.com/production-main/static3/latest/common-[A-Za-z0-9_-]+\\.css$", resourceTypes: ["stylesheet"]}, "/vendor/common-7b4ff45b27.css", 10);
-    for (const name of assets) {
-        for (const base of [CDN, "https://www.songsterr.com/static3/latest/"]) {
-            redirect({urlFilter: "|" + base + name + "|"}, "/vendor/" + name, 20);
+        redirect({regexFilter: "^https://static3\\.songsterr\\.com/production-main/static3/latest/appClient-[A-Za-z0-9_-]+\\.js$", resourceTypes: ["script"]}, "/bootstrap.mjs", 10);
+        redirect({regexFilter: "^https://static3\\.songsterr\\.com/production-main/static3/latest/appClient-[A-Za-z0-9_-]+\\.css$", resourceTypes: ["stylesheet"]}, "/vendor/appClient-442d1888c9.css", 10);
+        redirect({regexFilter: "^https://static3\\.songsterr\\.com/production-main/static3/latest/common-[A-Za-z0-9_-]+\\.css$", resourceTypes: ["stylesheet"]}, "/vendor/common-7b4ff45b27.css", 10);
+        for (const name of assets) {
+            for (const base of [CDN, "https://www.songsterr.com/static3/latest/"]) {
+                redirect({urlFilter: "|" + base + name + "|"}, "/vendor/" + name, 20);
+            }
+        }
+        for (const path of media) {
+            const name = path.split("/").pop();
+            for (const origin of ["https://www.songsterr.com", "https://static3.songsterr.com/production-main"]) {
+                redirect({urlFilter: "|" + origin + path + "|"}, "/media/" + name, 5);
+            }
+        }
+
+        // Songsterr's service worker serves the current frontend from its own
+        // cache, outside any tab, where per-tab redirects cannot reach. Keep it
+        // from installing or updating while Classic is in use.
+        if (!kept.some(isWorkerBlock)) {
+            addRules.push({ id: id++, priority: 1, action: { type: "block" }, condition: { regexFilter: SW_SCRIPT } });
         }
     }
-
-    const media = await (await fetch(chrome.runtime.getURL("media-assets.json"))).json();
-    for (const path of media) {
-        const name = path.split("/").pop();
-        for (const origin of ["https://www.songsterr.com", "https://static3.songsterr.com/production-main"]) {
-            redirect({urlFilter: "|" + origin + path + "|"}, "/media/" + name, 5);
-        }
-    }
-
-    // Songsterr's service worker serves the current frontend from its own
-    // cache, outside any tab, where per-tab redirects cannot reach. Keep it
-    // from installing or updating while Classic is in use.
-    if (!allRules.some(isWorkerBlock)) {
-        addRules.push({ id: id++, priority: 1, action: { type: "block" }, condition: { regexFilter: SW_SCRIPT } });
-    }
-
-    // Classic changes frontend assets, never blocks API writes. Removing the
-    // tab's old rules also clears preview blocks left by a 0.2.x installation.
+    // Classic changes frontend assets, never blocks API writes.
     await chrome.declarativeNetRequest.updateSessionRules({ removeRuleIds, addRules });
+}
+
+async function installRules(tabId) {
+    await writeClassicTabs(tabs => tabs.add(tabId));
     await chrome.action.setBadgeBackgroundColor({ tabId, color: "#2876f9" });
     await chrome.action.setBadgeText({ tabId, text: "ON" });
 }
 
+function removeTab(tabId) {
+    return writeClassicTabs(tabs => tabs.delete(tabId));
+}
+
 async function applyTabState(tabId, enable) {
     if (!enable) {
-        const removeRuleIds = (await tabRules(tabId)).map(rule => rule.id);
-        await chrome.declarativeNetRequest.updateSessionRules({ removeRuleIds });
+        await removeTab(tabId);
         await chrome.action.setBadgeText({ tabId, text: "" });
         await chrome.tabs.reload(tabId, { bypassCache: true });
         return;
@@ -212,6 +232,5 @@ chrome.tabs.onRemoved.addListener(async tabId => {
     commits.get(tabId)?.resolve();
     commits.delete(tabId);
     autoReloading.delete(tabId);
-    const rules = await tabRules(tabId);
-    await chrome.declarativeNetRequest.updateSessionRules({ removeRuleIds: rules.map(rule => rule.id) });
+    if ((await tabRules(tabId)).length > 0) await queue(() => removeTab(tabId));
 });

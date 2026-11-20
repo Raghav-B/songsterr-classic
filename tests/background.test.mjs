@@ -3,7 +3,7 @@ import {readFile} from "node:fs/promises";
 import vm from "node:vm";
 import test from "node:test";
 
-async function loadBackground(initialRules = [], initialStorage = {}, workerControlled = false) {
+async function loadBackground(initialRules = [], initialStorage = {}, workerControlled = false, openTabs = null) {
     let rules = structuredClone(initialRules);
     const storage = structuredClone(initialStorage);
     const reloads = [];
@@ -23,6 +23,7 @@ async function loadBackground(initialRules = [], initialStorage = {}, workerCont
         tabs:{
             get:async id => ({url:id === 3 ? "https://www.songsterr.com/account" : "https://www.songsterr.com/a/wsa/test-tab-s1"}),
             reload:async id => reloads.push(id), onRemoved:{addListener:() => {}},
+            query:async () => { if (!openTabs) throw new Error("no tab list"); return openTabs.map(id => ({id})); },
         },
         runtime:{getURL:path => "chrome-extension://test/" + path,onMessage:{addListener:value => { listener = value; }}},
         action:{setBadgeText:async () => {},setBadgeBackgroundColor:async () => {}},
@@ -60,12 +61,14 @@ test("Classic allows editing and restoration leaves other tabs unchanged", async
     const harness = await loadBackground();
     await harness.context.changeTab(1, true);
     await harness.context.changeTab(2, true);
-    const other = harness.tabRules().filter(rule => rule.condition.tabIds.includes(2));
+    const count = harness.tabRules().length;
     assert.ok(harness.tabRules().every(rule => rule.action.type === "redirect"));
     assert.ok(harness.rules().some(rule => rule.action.redirect?.extensionPath === "/bootstrap.mjs"));
     assert.ok(harness.rules().every(rule => rule.action.redirect?.extensionPath !== "/bootstrap-edit.mjs"));
     await harness.context.changeTab(1, false);
-    assert.deepEqual(harness.tabRules(), other);
+    const other = harness.tabRules();
+    assert.equal(other.length, count);
+    assert.ok(other.every(rule => rule.condition.tabIds.length === 1 && rule.condition.tabIds[0] === 2));
     assert.deepEqual(harness.reloads, [1, 2, 1]);
     await assert.rejects(harness.context.changeTab(3, true), /song page/);
     assert.deepEqual(harness.tabRules(), other);
@@ -207,4 +210,26 @@ test("tabs without Classic are never scripted or reloaded by the worker check", 
     await harness.settle();
     assert.deepEqual(harness.scripted, []);
     assert.deepEqual(harness.reloads, []);
+});
+
+test("many Classic tabs share one rule set instead of hitting Chrome's session rule cap", async () => {
+    // Chrome allows 5,000 session rules. Per-tab copies of over a thousand
+    // redirects failed at the fifth tab with "Session rule count exceeded".
+    const harness = await loadBackground();
+    await harness.context.changeTab(1, true);
+    const one = harness.rules().length;
+    for (let tabId = 10; tabId < 40; tabId++) await harness.context.changeTab(tabId, true);
+    assert.equal(harness.rules().length, one);
+    assert.equal((await harness.message({action:"status",tabId:25})).enabled, true);
+    for (let tabId = 10; tabId < 40; tabId++) await harness.context.changeTab(tabId, false);
+    await harness.context.changeTab(1, false);
+    assert.deepEqual(harness.tabRules(), []);
+});
+
+test("rules for tabs Chrome already closed are dropped on the next change", async () => {
+    // Closed or replaced tabs can miss onRemoved; their IDs must not linger.
+    const stale = [{id:7,priority:1,action:{type:"redirect",redirect:{extensionPath:"/bootstrap.mjs"}},condition:{urlFilter:"|x|",tabIds:[99]}}];
+    const harness = await loadBackground(stale, {}, false, [1]);
+    await harness.context.changeTab(1, true);
+    assert.ok(harness.tabRules().every(rule => rule.condition.tabIds.length === 1 && rule.condition.tabIds[0] === 1));
 });
